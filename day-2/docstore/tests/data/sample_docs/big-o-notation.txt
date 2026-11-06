@@ -1,0 +1,5 @@
+Big O Notation
+
+Big O notation describes how the running time or memory use of an algorithm grows as the input gets larger.
+
+O(1) is constant time, such as looking up a key in a dictionary. O(log n) is logarithmic, such as binary search. O(n) is linear, such as scanning a list. O(n log n) is typical of good sorting algorithms, and O(n^2) appears in nested loops over the same data.

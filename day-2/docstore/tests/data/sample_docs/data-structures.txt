@@ -1,0 +1,9 @@
+Common Data Structures
+
+An array or list stores items in order and gives fast access by index.
+A hash table, such as a Python dictionary, gives fast lookup by key.
+A stack is last in, first out, and a queue is first in, first out.
+A tree stores data in a hierarchy, and a binary search tree keeps it sorted.
+A graph represents connections, such as roads between cities or links between web pages.
+
+Choosing the right data structure often matters more than optimising code.

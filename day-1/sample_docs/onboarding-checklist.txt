@@ -1,0 +1,11 @@
+New Developer Onboarding Checklist
+
+Day one:
+- Get access to the code repository, chat and issue tracker.
+- Install Python, Docker and the project's dependencies.
+- Run the project locally and make sure all tests pass.
+
+First week:
+- Read the architecture overview and the decisions log.
+- Fix one small bug and open your first pull request.
+- Pair with a teammate on a code review.

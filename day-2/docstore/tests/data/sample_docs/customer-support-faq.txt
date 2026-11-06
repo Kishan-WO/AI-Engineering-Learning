@@ -1,0 +1,10 @@
+Customer Support FAQ
+
+How do I reset my password?
+Click "Forgot password" on the login page and follow the link we email you. The link expires after one hour.
+
+Can I export my documents?
+Yes. Go to Settings, then Export, and choose JSON or CSV.
+
+How do I contact support?
+Email the support team or use the chat button in the app. We reply within one business day.

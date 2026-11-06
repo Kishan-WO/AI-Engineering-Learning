@@ -1,0 +1,9 @@
+Regular Expressions
+
+A regular expression, or regex, is a pattern for matching text.
+
+\d matches a digit, \w matches a letter, digit or underscore, and \s matches whitespace.
++ means one or more, * means zero or more, and ? means optional.
+^ matches the start of a line and $ matches the end.
+
+In Python, the re module provides re.search, re.findall and re.sub. Compile a pattern once with re.compile if you use it many times.

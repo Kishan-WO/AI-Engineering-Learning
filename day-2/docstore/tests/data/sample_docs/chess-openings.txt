@@ -1,0 +1,5 @@
+Chess Openings
+
+The opening is the first stage of a chess game. Good openings control the centre of the board, develop the knights and bishops quickly, and get the king to safety by castling.
+
+Popular openings include the Italian Game, the Sicilian Defence, the Queen's Gambit and the French Defence. Beginners should learn the ideas behind an opening rather than memorising long sequences of moves.

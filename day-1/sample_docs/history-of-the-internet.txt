@@ -1,0 +1,5 @@
+A Short History of the Internet
+
+The internet began as ARPANET, a US research network, in 1969. In the 1970s, the TCP/IP protocols were designed so that different networks could connect to each other.
+
+In 1989, Tim Berners-Lee proposed the World Wide Web, which made the internet easy to use with web pages and links. Since then, the internet has grown to connect billions of people and devices.

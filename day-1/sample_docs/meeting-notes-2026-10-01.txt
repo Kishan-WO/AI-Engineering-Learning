@@ -1,0 +1,11 @@
+Meeting Notes - 1 October 2026
+
+Attendees: product, backend and support teams.
+
+Decisions:
+- Move the document search feature to the next sprint.
+- Add rate limiting to the public API, returning 429 when the limit is exceeded.
+
+Action items:
+- Backend team to add a Redis cache in front of the search endpoint.
+- Support team to collect the ten most common customer questions.

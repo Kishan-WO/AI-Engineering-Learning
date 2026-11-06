@@ -1,0 +1,5 @@
+How Batteries Work
+
+A battery stores chemical energy and releases it as electricity. It has two electrodes, an anode and a cathode, separated by an electrolyte.
+
+When a device is connected, a chemical reaction moves electrons from the anode to the cathode through the device, which powers it. In a rechargeable lithium-ion battery, charging pushes the lithium ions back to where they started.

@@ -1,0 +1,11 @@
+Meeting Notes - 8 October 2026
+
+Attendees: product and backend teams.
+
+Updates:
+- The Redis cache cut average search latency from 800 ms to 120 ms.
+- Rate limiting is live; no customer complaints so far.
+
+Next steps:
+- Start a prototype of semantic search using embeddings.
+- Write a test set of twenty real search queries to measure quality.
