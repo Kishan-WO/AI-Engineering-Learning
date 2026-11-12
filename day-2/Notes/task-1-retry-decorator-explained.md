@@ -2,7 +2,7 @@
 
 Question: what is `retry_if`, why was `on_retry` and `jitter` removed, and how does `@RETRY` work together with the client, threads and semaphore in the fetcher?
 
-File: `day-2/retry_tools.py`.
+File: `day-2/tasks/task1_retry.py`.
 
 ## 1. What it does
 `@retry(...)` re-runs a function when it fails with one of the listed exceptions, waits between tries, and after the last try raises the last error.

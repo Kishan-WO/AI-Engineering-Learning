@@ -15,7 +15,7 @@
 
 **Common mistake:** calling `.split()` when you meant to work character by character.
 In my palindrome attempt, `filter(str.isalnum, text.split())` threw away whole words like `"man,"`.
-**My code:** `excercises.py` #1 and #2, `chunking.py`.
+**My code:** `task1_exercises.py` #1 and #2, `task2_chunk_words.py`.
 
 ---
 
@@ -27,7 +27,7 @@ can only hold one expression.)
 
 **Common mistake:** computing the value and forgetting `return`, or using `print`
 instead of `return`. The `-> str` hint doesn't stop it at runtime; a type checker like mypy does.
-**My code:** `excercises.py` #1, #3, #14, #15 (first versions).
+**My code:** `task1_exercises.py` #1, #3, #14, #15 (first versions).
 
 ---
 
@@ -39,7 +39,7 @@ There is no `===`; `==` is the normal equality check.
 
 **Common mistake:** `if x == None`. Ruff flags it (E711).
 Also: `if not x` is not the same as `if x is None`, because `0`, `""` and `[]` are falsy too.
-**My code:** `docstore/store.py` (`if doc is None`), `excercises.py` #12 (first version used `== None`).
+**My code:** `docstore/store.py` (`if doc is None`), `task1_exercises.py` #12 (first version used `== None`).
 
 ---
 
@@ -60,7 +60,7 @@ Dataclasses use `field(default_factory=list)` and refuse a plain `= []`.
 The same "evaluated once" trap hits `created_at: datetime = datetime.now()`.
 
 **Common mistake:** `def f(items=[])` or `def f(config={})`.
-**My code:** `bugs.py` (bug 1), `docstore/models.py` (`id`, `tags`, `created_at`).
+**My code:** `task4_bugs.py` (bug 1), `docstore/models.py` (`id`, `tags`, `created_at`).
 
 ---
 
@@ -76,7 +76,7 @@ grid[0][0] = 1         # [[1, 0, 0], [1, 0, 0], [1, 0, 0]]
 ```
 
 **Common mistake:** changing a nested value in a "copy" and changing the original.
-**My code:** `bugs.py` (bug 2), `excercises.py` #9 (`merge_settings` is a shallow merge).
+**My code:** `task4_bugs.py` (bug 2), `task1_exercises.py` #9 (`merge_settings` is a shallow merge).
 
 ---
 
@@ -94,7 +94,7 @@ Python's `%` takes the sign of the divisor; JS's takes the sign of the dividend.
 Python also has `//` (floor division), and `/` always returns a float: `7 / 2 == 3.5`, `7 // 2 == 3`.
 
 **Common mistake:** porting JS code that adds `+ n` to "fix" negative remainders, which isn't needed.
-**My code:** `excercises.py` #10 (`rotate`).
+**My code:** `task1_exercises.py` #10 (`rotate`).
 
 ---
 
@@ -110,7 +110,7 @@ several lines. For anything bigger, write a `def`. A comprehension usually repla
 A method can be passed directly instead of wrapped: `filter(str.isalnum, text)`.
 
 **Common mistake:** `lambda x: True if x.isalnum() else False`, which is just `x.isalnum()`.
-**My code:** `excercises.py` #2, #11, #13.
+**My code:** `task1_exercises.py` #2, #11, #13.
 
 ---
 
@@ -122,7 +122,7 @@ A `for` / `while` loop can also have an `else` that runs only if the loop didn't
 
 **Common mistake:** 2-space indentation copied from JS style, mixed with 4-space code.
 **Fix:** Ruff extension with format on save.
-**My code:** `excercises.py` (still mixed 2 and 4 spaces).
+**My code:** `task1_exercises.py` (still mixed 2 and 4 spaces).
 
 ---
 
@@ -139,7 +139,7 @@ In JS, `[]` and `{}` are truthy.
 Python has no `??`; write `x if x is not None else default`.
 
 **Common mistake:** `name = user_name or "anon"` replaces a legitimate `""` or `0`.
-**My code:** `chunking.py` (`if not words`), `docstore/storage.py` (`if not content.strip()`).
+**My code:** `task2_chunk_words.py` (`if not words`), `docstore/storage.py` (`if not content.strip()`).
 
 ---
 

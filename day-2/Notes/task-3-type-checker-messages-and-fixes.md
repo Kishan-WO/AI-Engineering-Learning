@@ -26,9 +26,9 @@ General rule: a name first assigned inside `try`, `if` or `with ... as` may not 
 ## 2. "Cannot find type stubs for module `retry` ... install `types-retry`"
 My file was called `retry.py`. A well-known library on PyPI is also called `retry`, and it has a stub package `types-retry`. The checker matched my import to that library.
 
-Fix: rename my module to something unique (`retry_tools.py`). Do **not** install `types-retry`.
+Fix: rename my module to something unique (`task1_retry.py`). Do **not** install `types-retry`.
 
-Rule: never name my own module like a real library (`retry`, `json`, `types`, `email`, `test`, `requests`). Python or a tool may import the wrong one. (More: `import-name-vs-package-name.md`.)
+Rule: never name my own module like a real library (`retry`, `json`, `types`, `email`, `test`, `requests`). Python or a tool may import the wrong one. (More: `task-3-import-name-vs-package-name.md`.)
 
 ## 3. "Call to deprecated overload `contextlib.asynccontextmanager`"
 ```python
@@ -43,7 +43,7 @@ from collections.abc import AsyncGenerator
 async def lifespan(app) -> AsyncGenerator[None]:
 ```
 
-## 4. `bugs.py` had many errors
+## 4. `task4_bugs.py` had many errors
 | Message | Cause | Fix |
 |---|---|---|
 | "Object of type None is not subscriptable" on `add_tag_buggy.__defaults__[0]` | A function's `__defaults__` is `None` when it has no defaults | `defaults_tuple: tuple[Any, ...] = f.__defaults__ or ()` |

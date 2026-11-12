@@ -1,11 +1,11 @@
-# `fetcher.py`, part by part
+# `task5_fetcher.py`, part by part
 
-Question: explain `fetcher.py` one line at a time. The task: fetch 100+ Wikipedia summaries three ways (one by one, with threads, with asyncio) and compare.
+Question: explain `task5_fetcher.py` one line at a time. The task: fetch 100+ Wikipedia summaries three ways (one by one, with threads, with asyncio) and compare.
 
-How `@RETRY` fits in is in `retry-decorator-explained.md`; the `*` in `gather` is in `day-1/learning/star-and-double-star-unpacking.md`.
+How `@RETRY` fits in is in `task-1-retry-decorator-explained.md`; the `*` in `gather` is in `day-1/learning/star-and-double-star-unpacking.md`.
 
 ## 1. Imports
-`asyncio` (event loop, semaphore, gather), `json` (titles cache), `os` (environment variable), `time` (timing), `Callable` (type hint), `ThreadPoolExecutor` (threads), `Path` (file paths), `Any` (type hint), `quote` (URL-encode a title), `httpx` (HTTP client), `load_dotenv` (reads `.env`), and my own `retry` from `retry_tools.py`.
+`asyncio` (event loop, semaphore, gather), `json` (titles cache), `os` (environment variable), `time` (timing), `Callable` (type hint), `ThreadPoolExecutor` (threads), `Path` (file paths), `Any` (type hint), `quote` (URL-encode a title), `httpx` (HTTP client), `load_dotenv` (reads `.env`), and my own `retry` from `task1_retry.py`.
 
 ## 2. Settings
 ```python
@@ -18,7 +18,7 @@ CONCURRENCY = 10
 TITLES_FILE = Path(__file__).with_name("titles.json")
 Record = dict[str, Any]
 ```
-- `load_dotenv()` reads `.env` into environment variables. Wikimedia blocks anonymous clients (403), so a contact goes in the `User-Agent`; it lives in `.env`, not in the code (see `dotenv-and-environment-variables.md`).
+- `load_dotenv()` reads `.env` into environment variables. Wikimedia blocks anonymous clients (403), so a contact goes in the `User-Agent`; it lives in `.env`, not in the code (see `task-5-dotenv-and-environment-variables.md`).
 - `TIMEOUT`: 10 s for each phase, 5 s to connect.
 - `CONCURRENCY = 10` is used for both the thread pool and the semaphore.
 - `TITLES_FILE`: `titles.json` next to this file (`__file__` is this file's path).

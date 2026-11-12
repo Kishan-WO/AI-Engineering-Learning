@@ -13,7 +13,7 @@ day-2/docstore/
   src/docstore/       __init__, exceptions, models, storage, store, loader, cli, py.typed
   tests/              conftest + 5 test files, and data/sample_docs (the 50 files)
 ```
-- **`src/` layout**: the package is in `src/docstore/`, not at the project root, so tests import the *installed* package, as a user would (see `import-name-vs-package-name.md`).
+- **`src/` layout**: the package is in `src/docstore/`, not at the project root, so tests import the *installed* package, as a user would (see `task-3-import-name-vs-package-name.md`).
 - **`py.typed`**: an empty marker file that tells type checkers "this package has type hints".
 - **`[project.scripts]`**: `docstore = "docstore.cli:app"` creates a command called `docstore`.
 
@@ -30,7 +30,7 @@ The **logic is the same**. The changes are style and packaging.
 | New `cli.py` | A `typer` command-line interface | Use the library from the terminal |
 | Tests | One `assert` script → 42 `pytest` tests | `tmp_path`, `parametrize`, `pytest.raises`, `monkeypatch`, `caplog`, `CliRunner` |
 | Checks | `mypy --strict`, `ruff`, coverage minimum 85% in `pyproject.toml` | Quality gates; coverage is 100% |
-| Packaging | Own `pyproject.toml`, `uv.lock`, `.venv` | See `uv-projects-and-virtual-environments.md` |
+| Packaging | Own `pyproject.toml`, `uv.lock`, `.venv` | See `task-3-uv-projects-and-virtual-environments.md` |
 
 ## 3. The CLI commands
 From `day-2/docstore`:

@@ -1,6 +1,6 @@
 # The `timer` context manager
 
-File: `day-2/timing.py`.
+File: `day-2/tasks/task2_timing.py`.
 
 ## The code
 ```python
@@ -121,7 +121,7 @@ It is a clock made for measuring short durations, with high resolution. `time.ti
 | Using `time.time()` | The clock can jump |
 | Reading `t.elapsed` inside the block | It is still `0.0` because `__exit__` has not run |
 | Writing `t = timer("x")` without `with` | Nothing starts; `elapsed` stays `0.0` |
-| Using `t` in an `except` after `with ... as t` inside `try` | The checker says "possibly unbound"; create the object before the `try` (see `type-checker-messages-and-fixes.md`) |
+| Using `t` in an `except` after `with ... as t` inside `try` | The checker says "possibly unbound"; create the object before the `try` (see `task-3-type-checker-messages-and-fixes.md`) |
 
 ## Quick check
 Answer in my own words:

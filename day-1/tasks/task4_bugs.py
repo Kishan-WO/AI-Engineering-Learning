@@ -1,6 +1,6 @@
 """Day 1, task 4: reproduce the mutable-default bug and a shallow-copy bug, then fix both.
 
-Run from the day-1 folder:  python bugs.py
+Run from the day-1 folder:  uv run python tasks/task4_bugs.py
 Every section prints what happens, and the asserts prove the bug and the fix.
 """
 

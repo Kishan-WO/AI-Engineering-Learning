@@ -78,8 +78,8 @@ Imports the public names and lists them in `__all__`, so users write `from docst
 ## 7. How to run it
 From the `day-1` folder:
 ```bash
-uv run python test_docstore.py      # all the checks; prints "all docstore tests passed"
-uv run python save_docs.py          # loads sample_docs/ into docs.json and searches "python"
+uv run python tasks/task3_test_docstore.py      # all the checks; prints "all docstore tests passed"
+uv run python tasks/task3_save_docs.py          # loads sample_docs/ into docs.json and searches "python"
 ```
 
 ## 8. See the JSON file

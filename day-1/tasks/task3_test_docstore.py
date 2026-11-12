@@ -84,7 +84,8 @@ with tempfile.TemporaryDirectory() as tmp:
     assert len(store) == 3
 
 # --- Document requires a source ---
-expect_raises(TypeError, lambda: Document(title="t", text="x"))
+# on purpose: the call has no `source`, and the test proves it raises TypeError (so the checker's warning is expected)
+expect_raises(TypeError, lambda: Document(title="t", text="x"))  # type: ignore[call-arg]
 
 # --- `in` with a non-string never crashes ---
 assert 5 not in DocumentStore(InMemoryStorage())
@@ -97,7 +98,7 @@ with tempfile.TemporaryDirectory() as tmp:
 
 # --- the 50 sample documents ---
 sample = DocumentStore(InMemoryStorage())
-assert load_folder(Path(__file__).parent / "sample_docs", sample) == 50
+assert load_folder(Path(__file__).parent.parent / "data" / "sample_docs", sample) == 50
 titles = {Path(d.source).name: d.title for d in sample}
 assert titles["code-review-checklist.md"] == "code-review-checklist"   # only ## headings
 assert titles["healthy-sleep.md"] == "Healthy Sleep Habits"            # blank lines before heading

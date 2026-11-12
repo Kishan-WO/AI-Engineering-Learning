@@ -29,7 +29,7 @@ uv init --bare --name day-2 --python 3.14   # create pyproject.toml only
 uv add pydantic httpx python-dotenv         # add packages (edits pyproject.toml and uv.lock, installs)
 uv add --dev pytest ruff mypy               # development-only packages
 uv sync                                     # (re)build .venv from the lock file
-uv run python timing.py                     # run inside the project's environment
+uv run python tasks/task2_timing.py                     # run inside the project's environment
 ```
 `uv run` finds the project's `.venv` itself; no activation needed.
 

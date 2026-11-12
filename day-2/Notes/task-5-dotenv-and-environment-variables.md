@@ -21,7 +21,7 @@ contact = os.environ.get("WIKI_CONTACT", "")     # "" if it is not set
 | Where | Command | How long it lasts |
 |---|---|---|
 | PowerShell, this window | `$env:WIKI_CONTACT = "you@example.com"` | until the window closes |
-| Git Bash, one command | `WIKI_CONTACT="you@example.com" uv run python fetcher.py` | that command only |
+| Git Bash, one command | `WIKI_CONTACT="you@example.com" uv run python tasks/task5_fetcher.py` | that command only |
 | Windows, permanent | `setx WIKI_CONTACT "you@example.com"` | new windows only |
 
 Check: `echo $env:WIKI_CONTACT` in PowerShell.

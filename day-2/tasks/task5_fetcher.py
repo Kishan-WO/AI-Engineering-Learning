@@ -13,7 +13,7 @@ from urllib.parse import quote
 import httpx
 from dotenv import load_dotenv
 
-from retry_tools import retry
+from task1_retry import retry
 
 BASE_URL = "https://en.wikipedia.org"
 load_dotenv()
@@ -21,7 +21,7 @@ CONTACT = os.environ.get("WIKI_CONTACT", "")
 HEADERS = {"User-Agent": f"ai-eng-learning/0.1 ({CONTACT})"}
 TIMEOUT = httpx.Timeout(10.0, connect=5.0)
 CONCURRENCY = 10
-TITLES_FILE = Path(__file__).with_name("titles.json")  # cached so every run (and every version) uses the same pages
+TITLES_FILE = Path(__file__).parent.parent / "data" / "titles.json"  # cached so every run (and every version) uses the same pages
 
 Record = dict[str, Any]
 

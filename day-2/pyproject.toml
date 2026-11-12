@@ -16,3 +16,14 @@ dev = [
     "respx>=0.23.1",
     "ruff>=0.17.3",
 ]
+
+# The scripts live in tasks/ and import each other. Python finds them because the script's own folder is on the
+# import path; these settings tell the editor and the checkers the same thing.
+[tool.pyright]
+extraPaths = ["tasks"]
+
+[tool.mypy]
+mypy_path = "tasks"
+
+[tool.ruff]
+src = ["tasks"]
