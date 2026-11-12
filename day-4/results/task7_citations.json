@@ -1,0 +1,502 @@
+{
+  "topic": "tokenization efficiency of Gujarati text in multilingual large language models",
+  "runs": [
+    {
+      "model": "local:gemma3:270m",
+      "prompt": "plain",
+      "reply": "```json\n[\n  {\n    \"authors\": [\"A.K. Sharma\"],\n    \"year\": 2023,\n    \"title\": \"Tokenization Efficiency of Gujarati Text in Multilingual Large Language Models\",\n    \"venue\": \"The International Conference on Artificial Intelligence and NLP\",\n    \"doi\": \"10.1007/s42844-020-02777-0\"\n  },\n  {\n    \"authors\": [\"B.C. Patel\"],\n    \"year\": 2022,\n    \"title\": \"The Impact of Language Modeling on the Performance of Large Language Models\",\n    \"venue\": \"The International Conference on Artificial Intelligence and NLP\",\n    \"doi\": \"10.1007/s42844-020-02777-0\"\n  },\n  {\n    \"authors\": [\"D.E. Verma\"],\n    \"year\": 2021,\n    \"title\": \"Challenges in Handling Multilingual Text in Large Language Models\",\n    \"venue\": \"The International Conference on Artificial Intelligence and NLP\",\n    \"doi\": \"10.1007/s42844-020-02777-0\"\n  }\n]\n```",
+      "verdicts": [
+        {
+          "citation": {
+            "authors": [
+              "A.K. Sharma"
+            ],
+            "year": 2023,
+            "title": "Tokenization Efficiency of Gujarati Text in Multilingual Large Language Models",
+            "venue": "The International Conference on Artificial Intelligence and NLP",
+            "doi": "10.1007/s42844-020-02777-0"
+          },
+          "verdict": "NOT FOUND",
+          "similarity": 0.6551724137931034,
+          "reasons": [
+            "no paper with a similar title in Crossref or OpenAlex",
+            "the DOI 10.1007/s42844-020-02777-0 does not exist"
+          ],
+          "match": {
+            "source": "Crossref",
+            "title": "Tokenization efficiency of current foundational large language models for the Ukrainian language",
+            "year": 2025,
+            "authors": [
+              "Maksymenko",
+              "Turuta"
+            ],
+            "doi": "10.3389/frai.2025.1538165"
+          }
+        },
+        {
+          "citation": {
+            "authors": [
+              "B.C. Patel"
+            ],
+            "year": 2022,
+            "title": "The Impact of Language Modeling on the Performance of Large Language Models",
+            "venue": "The International Conference on Artificial Intelligence and NLP",
+            "doi": "10.1007/s42844-020-02777-0"
+          },
+          "verdict": "NOT FOUND",
+          "similarity": 0.8456375838926175,
+          "reasons": [
+            "no paper with a similar title in Crossref or OpenAlex",
+            "the DOI 10.1007/s42844-020-02777-0 does not exist"
+          ],
+          "match": {
+            "source": "OpenAlex",
+            "title": "On the Impact of Anonymization on the Performance of Large Language Models",
+            "year": 2026,
+            "authors": [
+              "Deußer",
+              "Hahnbück",
+              "Sparrenberg",
+              "Uelwer",
+              "Bauckhage",
+              "Sifa"
+            ],
+            "doi": "10.48550/arxiv.2609.11335"
+          }
+        },
+        {
+          "citation": {
+            "authors": [
+              "D.E. Verma"
+            ],
+            "year": 2021,
+            "title": "Challenges in Handling Multilingual Text in Large Language Models",
+            "venue": "The International Conference on Artificial Intelligence and NLP",
+            "doi": "10.1007/s42844-020-02777-0"
+          },
+          "verdict": "NOT FOUND",
+          "similarity": 0.6846846846846847,
+          "reasons": [
+            "no paper with a similar title in Crossref or OpenAlex",
+            "the DOI 10.1007/s42844-020-02777-0 does not exist"
+          ],
+          "match": {
+            "source": "OpenAlex",
+            "title": "A survey of multilingual large language models",
+            "year": 2025,
+            "authors": [
+              "Qin",
+              "Chen",
+              "Zhou",
+              "Zhi",
+              "Li",
+              "Liao",
+              "Li",
+              "Che",
+              "Yu"
+            ],
+            "doi": "10.1016/j.patter.2024.101118"
+          }
+        }
+      ]
+    },
+    {
+      "model": "local:gemma3:270m",
+      "prompt": "careful",
+      "reply": "```json\n[\n  {\n    \"authors\": [\"A.K. Sharma\"],\n    \"year\": 2023,\n    \"title\": \"Tokenization Efficiency of Gujarati Text in Multilingual Large Language Models\",\n    \"venue\": \"The University of California, Berkeley\",\n    \"doi\": \"10.1007/jnh147878\"\n  },\n  {\n    \"authors\": [\"A.K. Sharma\"],\n    \"year\": 2022,\n    \"title\": \"Challenges in Tokenization of Gujarati Text in Multilingual Large Language Models\",\n    \"venue\": \"The University of California, Berkeley\",\n    \"doi\": \"10.1007/jnh147878\"\n  },\n  {\n    \"authors\": [\"A.K. Sharma\"],\n    \"year\": 2021,\n    \"title\": \"The Impact of Tokenization on Text Comprehension and Language Understanding\",\n    \"venue\": \"The University of California, Berkeley\",\n    \"doi\": \"10.1007/jnh147878\"\n  }\n]\n```",
+      "verdicts": [
+        {
+          "citation": {
+            "authors": [
+              "A.K. Sharma"
+            ],
+            "year": 2023,
+            "title": "Tokenization Efficiency of Gujarati Text in Multilingual Large Language Models",
+            "venue": "The University of California, Berkeley",
+            "doi": "10.1007/jnh147878"
+          },
+          "verdict": "NOT FOUND",
+          "similarity": 0.6551724137931034,
+          "reasons": [
+            "no paper with a similar title in Crossref or OpenAlex",
+            "the DOI 10.1007/jnh147878 does not exist"
+          ],
+          "match": {
+            "source": "Crossref",
+            "title": "Tokenization efficiency of current foundational large language models for the Ukrainian language",
+            "year": 2025,
+            "authors": [
+              "Maksymenko",
+              "Turuta"
+            ],
+            "doi": "10.3389/frai.2025.1538165"
+          }
+        },
+        {
+          "citation": {
+            "authors": [
+              "A.K. Sharma"
+            ],
+            "year": 2022,
+            "title": "Challenges in Tokenization of Gujarati Text in Multilingual Large Language Models",
+            "venue": "The University of California, Berkeley",
+            "doi": "10.1007/jnh147878"
+          },
+          "verdict": "NOT FOUND",
+          "similarity": 0.6016260162601627,
+          "reasons": [
+            "no paper with a similar title in Crossref or OpenAlex",
+            "the DOI 10.1007/jnh147878 does not exist"
+          ],
+          "match": {
+            "source": "Crossref",
+            "title": "Tokenization in Large Language Models (LLMs)",
+            "year": 2026,
+            "authors": [
+              "Tripathi"
+            ],
+            "doi": "10.2174/9798898813604126010004"
+          }
+        },
+        {
+          "citation": {
+            "authors": [
+              "A.K. Sharma"
+            ],
+            "year": 2021,
+            "title": "The Impact of Tokenization on Text Comprehension and Language Understanding",
+            "venue": "The University of California, Berkeley",
+            "doi": "10.1007/jnh147878"
+          },
+          "verdict": "NOT FOUND",
+          "similarity": 0.608,
+          "reasons": [
+            "no paper with a similar title in Crossref or OpenAlex",
+            "the DOI 10.1007/jnh147878 does not exist"
+          ],
+          "match": {
+            "source": "Crossref",
+            "title": "Language (Discourse) Comprehension and Understanding",
+            "year": null,
+            "authors": [],
+            "doi": "10.1007/springerreference_301748"
+          }
+        }
+      ]
+    },
+    {
+      "model": "gemini:gemini-3.1-flash-lite",
+      "prompt": "plain",
+      "reply": "[\n  {\n    \"authors\": [\"Rudra Murthy\", \"Anoop Kunchukuttan\", \"Pushpak Bhattacharyya\"],\n    \"year\": 2018,\n    \"title\": \"IndicNLP Suite: Multilingual Resources for Indian Languages\",\n    \"venue\": \"Proceedings of the 27th International Conference on Computational Linguistics\",\n    \"doi\": \"\"\n  },\n  {\n    \"authors\": [\"Mitesh M. Khapra\", \"Anoop Kunchukuttan\", \"Pratyush Kumar\", \"Manish Shrivastava\"],\n    \"year\": 2020,\n    \"title\": \"AI4Bharat: Building Datasets and Models for Indian Languages\",\n    \"venue\": \"Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing\",\n    \"doi\": \"10.18653/v1/2020.emnlp-main.350\"\n  },\n  {\n    \"authors\": [\"Sumanth Doddapaneni\", \"Gowtham Ramesh\", \"Anoop Kunchukuttan\", \"Pratyush Kumar\", \"Mitesh M. Khapra\"],\n    \"year\": 2023,\n    \"title\": \"Towards Building Large Language Models for Indian Languages\",\n    \"venue\": \"Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics\",\n    \"doi\": \"10.18653/v1/2023.acl-long.535\"\n  }\n]",
+      "verdicts": [
+        {
+          "citation": {
+            "authors": [
+              "Rudra Murthy",
+              "Anoop Kunchukuttan",
+              "Pushpak Bhattacharyya"
+            ],
+            "year": 2018,
+            "title": "IndicNLP Suite: Multilingual Resources for Indian Languages",
+            "venue": "Proceedings of the 27th International Conference on Computational Linguistics",
+            "doi": ""
+          },
+          "verdict": "NOT FOUND",
+          "similarity": 0.6268656716417911,
+          "reasons": [
+            "no paper with a similar title in Crossref or OpenAlex"
+          ],
+          "match": {
+            "source": "Crossref",
+            "title": "Kren-NE: A Multilingual Tokenization Framework for Northeast Indian Languages",
+            "year": 2025,
+            "authors": [
+              "Nyalang"
+            ],
+            "doi": "10.36227/techrxiv.176184636.69664258/v1"
+          }
+        },
+        {
+          "citation": {
+            "authors": [
+              "Mitesh M. Khapra",
+              "Anoop Kunchukuttan",
+              "Pratyush Kumar",
+              "Manish Shrivastava"
+            ],
+            "year": 2020,
+            "title": "AI4Bharat: Building Datasets and Models for Indian Languages",
+            "venue": "Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing",
+            "doi": "10.18653/v1/2020.emnlp-main.350"
+          },
+          "verdict": "DOI IS A DIFFERENT PAPER",
+          "similarity": 0.6818181818181818,
+          "reasons": [
+            "the DOI belongs to 'Do sequence-to-sequence VAEs learn global features of sentences?' (2020)"
+          ],
+          "match": {
+            "source": "Crossref",
+            "title": "Do sequence-to-sequence VAEs learn global features of sentences?",
+            "year": 2020,
+            "authors": [
+              "Bosc",
+              "Vincent"
+            ],
+            "doi": "10.18653/v1/2020.emnlp-main.350"
+          }
+        },
+        {
+          "citation": {
+            "authors": [
+              "Sumanth Doddapaneni",
+              "Gowtham Ramesh",
+              "Anoop Kunchukuttan",
+              "Pratyush Kumar",
+              "Mitesh M. Khapra"
+            ],
+            "year": 2023,
+            "title": "Towards Building Large Language Models for Indian Languages",
+            "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics",
+            "doi": "10.18653/v1/2023.acl-long.535"
+          },
+          "verdict": "DOI IS A DIFFERENT PAPER",
+          "similarity": 0.6711409395973155,
+          "reasons": [
+            "the DOI belongs to 'I2D2: Inductive Knowledge Distillation with NeuroLogic and Self-Imitation' (2023)"
+          ],
+          "match": {
+            "source": "Crossref",
+            "title": "I2D2: Inductive Knowledge Distillation with NeuroLogic and Self-Imitation",
+            "year": 2023,
+            "authors": [
+              "Bhagavatula",
+              "Hwang",
+              "Downey",
+              "Le Bras",
+              "Lu",
+              "Qin",
+              "Sakaguchi",
+              "Swayamdipta",
+              "West",
+              "Choi"
+            ],
+            "doi": "10.18653/v1/2023.acl-long.535"
+          }
+        }
+      ]
+    },
+    {
+      "model": "gemini:gemini-3.1-flash-lite",
+      "prompt": "careful",
+      "reply": "[\n  {\n    \"authors\": [\"Ritesh Kumar\", \"Bornini Lahiri\", \"Atul Kr. Ojha\", \"Deepak Kumar\"],\n    \"year\": 2022,\n    \"title\": \"Challenges in Tokenization for Indian Languages: A Case Study of Gujarati\",\n    \"venue\": \"Proceedings of the 19th International Conference on Natural Language Processing (ICON)\",\n    \"doi\": \"\"\n  },\n  {\n    \"authors\": [\"Mitesh M. Khapra\", \"Anoop Kunchukuttan\", \"Pratyush Kumar\", \"Manish Shrivastava\"],\n    \"year\": 2020,\n    \"title\": \"IndicNLP Suite: Multilingual Resources for Indian Languages\",\n    \"venue\": \"Proceedings of the 28th International Conference on Computational Linguistics\",\n    \"doi\": \"10.18653/v1/2020.coling-main.272\"\n  },\n  {\n    \"authors\": [\"Sumanth Doddapaneni\", \"Gowtham Ramesh\", \"Aparna Rani Krishnan\", \"Suraj Nair\", \"Mitesh M. Khapra\"],\n    \"year\": 2023,\n    \"title\": \"Towards Building Large Language Models for Indic Languages\",\n    \"venue\": \"arXiv preprint arXiv:2305.15733\",\n    \"doi\": \"\"\n  }\n]",
+      "verdicts": [
+        {
+          "citation": {
+            "authors": [
+              "Ritesh Kumar",
+              "Bornini Lahiri",
+              "Atul Kr. Ojha",
+              "Deepak Kumar"
+            ],
+            "year": 2022,
+            "title": "Challenges in Tokenization for Indian Languages: A Case Study of Gujarati",
+            "venue": "Proceedings of the 19th International Conference on Natural Language Processing (ICON)",
+            "doi": ""
+          },
+          "verdict": "NOT FOUND",
+          "similarity": 0.5063291139240507,
+          "reasons": [
+            "no paper with a similar title in Crossref or OpenAlex"
+          ],
+          "match": {
+            "source": "Crossref",
+            "title": "Multilingual Tokenization through the Lens of Indian Languages: Challenges and Insights",
+            "year": 2026,
+            "authors": [
+              "Brahma",
+              "Karthika",
+              "Verma",
+              "Naidu",
+              "Saluja",
+              "Desarkar",
+              "Ramakrishnan"
+            ],
+            "doi": "10.18653/v1/2026.findings-acl.1632"
+          }
+        },
+        {
+          "citation": {
+            "authors": [
+              "Mitesh M. Khapra",
+              "Anoop Kunchukuttan",
+              "Pratyush Kumar",
+              "Manish Shrivastava"
+            ],
+            "year": 2020,
+            "title": "IndicNLP Suite: Multilingual Resources for Indian Languages",
+            "venue": "Proceedings of the 28th International Conference on Computational Linguistics",
+            "doi": "10.18653/v1/2020.coling-main.272"
+          },
+          "verdict": "DOI IS A DIFFERENT PAPER",
+          "similarity": 0.6268656716417911,
+          "reasons": [
+            "the DOI belongs to 'Learning Semantic Correspondences from Noisy Data-text Pairs by Local-to-Global Alignments' (2020)"
+          ],
+          "match": {
+            "source": "Crossref",
+            "title": "Learning Semantic Correspondences from Noisy Data-text Pairs by Local-to-Global Alignments",
+            "year": 2020,
+            "authors": [
+              "Nie",
+              "Wang",
+              "Lin"
+            ],
+            "doi": "10.18653/v1/2020.coling-main.272"
+          }
+        },
+        {
+          "citation": {
+            "authors": [
+              "Sumanth Doddapaneni",
+              "Gowtham Ramesh",
+              "Aparna Rani Krishnan",
+              "Suraj Nair",
+              "Mitesh M. Khapra"
+            ],
+            "year": 2023,
+            "title": "Towards Building Large Language Models for Indic Languages",
+            "venue": "arXiv preprint arXiv:2305.15733",
+            "doi": ""
+          },
+          "verdict": "NOT FOUND",
+          "similarity": 0.6712328767123288,
+          "reasons": [
+            "no paper with a similar title in Crossref or OpenAlex"
+          ],
+          "match": {
+            "source": "OpenAlex",
+            "title": "Examine the Opportunities and Challenges of Large Language Model (LLM) For Indic Languages",
+            "year": 2024,
+            "authors": [
+              "Panchal"
+            ],
+            "doi": "10.52783/jisem.v9i4s.11887"
+          }
+        }
+      ]
+    },
+    {
+      "model": "gemini:gemini-3.6-flash",
+      "prompt": "plain",
+      "reply": "[\n  {\n    \"authors\": [\n      \"Orevaoghene Ahia\",\n      \"Luisa Marchio\",\n      \"Julia Kreutzer\",\n      \"Colin Cherry\"\n    ],\n    \"year\": 2023,\n    \"title\": \"Do All Languages Cost the Same? Tokenization in the Era of Commercial Language Models\",\n    \"venue\": \"Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing\",\n    \"doi\": \"10.18653/v1/2023.emnlp-main.621\"\n  },\n  {\n    \"authors\": [\n      \"Mohammed Safi Ur Rahman Khan\",\n      \"Abhishek Shah\",\n      \"Nikhil Kumar\",\n      \"Anoop Kunchukuttan\",\n      \"Raj Dabre\",\n      \"Mitesh M. Khapra\",\n      \"Pratyush Kumar\"\n    ],\n    \"year\": 2024,\n    \"title\": \"IndicLLMSuite: In-Domain Pre-trained Models and Datasets for Indian Languages\",\n    \"venue\": \"Transactions of the Association for Computational Linguistics\",\n    \"doi\": \"10.1162/tacl_a_00672\"\n  },\n  {\n    \"authors\": [\n      \"Sumanth Doddapaneni\",\n      \"Rahul Aralikatte\",\n      \"Gowtham Ramesh\",\n      \"Shayne Longpre\",\n      \"Anoop Kunchukuttan\",\n      \"Mitesh M. Khapra\",\n      \"Pratyush Kumar\"\n    ],\n    \"year\": 2023,\n    \"title\": \"Towards Leaving No Indic Language Behind: Analyzing Tokenization and Modeling Inefficiencies in Multilingual Language Models\",\n    \"venue\": \"Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics\",\n    \"doi\": \"10.18653/v1/2023.acl-long.682\"\n  }\n]",
+      "verdicts": [
+        {
+          "citation": {
+            "authors": [
+              "Orevaoghene Ahia",
+              "Luisa Marchio",
+              "Julia Kreutzer",
+              "Colin Cherry"
+            ],
+            "year": 2023,
+            "title": "Do All Languages Cost the Same? Tokenization in the Era of Commercial Language Models",
+            "venue": "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing",
+            "doi": "10.18653/v1/2023.emnlp-main.621"
+          },
+          "verdict": "REAL",
+          "similarity": 1.0,
+          "reasons": [],
+          "match": {
+            "source": "Crossref",
+            "title": "Do All Languages Cost the Same? Tokenization in the Era of Commercial Language Models",
+            "year": 2023,
+            "authors": [
+              "Ahia",
+              "Kumar",
+              "Gonen",
+              "Kasai",
+              "Mortensen",
+              "Smith",
+              "Tsvetkov"
+            ],
+            "doi": "10.18653/v1/2023.emnlp-main.614"
+          }
+        },
+        {
+          "citation": {
+            "authors": [
+              "Mohammed Safi Ur Rahman Khan",
+              "Abhishek Shah",
+              "Nikhil Kumar",
+              "Anoop Kunchukuttan",
+              "Raj Dabre",
+              "Mitesh M. Khapra",
+              "Pratyush Kumar"
+            ],
+            "year": 2024,
+            "title": "IndicLLMSuite: In-Domain Pre-trained Models and Datasets for Indian Languages",
+            "venue": "Transactions of the Association for Computational Linguistics",
+            "doi": "10.1162/tacl_a_00672"
+          },
+          "verdict": "DOI IS A DIFFERENT PAPER",
+          "similarity": 0.7514450867052023,
+          "reasons": [
+            "the DOI belongs to 'Visually Grounded Speech Models Have a Mutual Exclusivity Bias' (2024)"
+          ],
+          "match": {
+            "source": "Crossref",
+            "title": "Visually Grounded Speech Models Have a Mutual Exclusivity Bias",
+            "year": 2024,
+            "authors": [
+              "Nortje",
+              "Oneaţă",
+              "Matusevych",
+              "Kamper"
+            ],
+            "doi": "10.1162/tacl_a_00672"
+          }
+        },
+        {
+          "citation": {
+            "authors": [
+              "Sumanth Doddapaneni",
+              "Rahul Aralikatte",
+              "Gowtham Ramesh",
+              "Shayne Longpre",
+              "Anoop Kunchukuttan",
+              "Mitesh M. Khapra",
+              "Pratyush Kumar"
+            ],
+            "year": 2023,
+            "title": "Towards Leaving No Indic Language Behind: Analyzing Tokenization and Modeling Inefficiencies in Multilingual Language Models",
+            "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics",
+            "doi": "10.18653/v1/2023.acl-long.682"
+          },
+          "verdict": "DOI IS A DIFFERENT PAPER",
+          "similarity": 0.6437768240343348,
+          "reasons": [
+            "the DOI belongs to 'Downstream Datasets Make Surprisingly Good Pretraining Corpora' (2023)"
+          ],
+          "match": {
+            "source": "Crossref",
+            "title": "Downstream Datasets Make Surprisingly Good Pretraining Corpora",
+            "year": 2023,
+            "authors": [
+              "Krishna",
+              "Garg",
+              "Bigham",
+              "Lipton"
+            ],
+            "doi": "10.18653/v1/2023.acl-long.682"
+          }
+        }
+      ]
+    },
+    {
+      "model": "gemini:gemini-3.6-flash",
+      "prompt": "careful",
+      "reply": "[]",
+      "verdicts": []
+    }
+  ]
+}

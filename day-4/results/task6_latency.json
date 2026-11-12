@@ -1,0 +1,101 @@
+{
+  "prompt": "Explain in about 100 words what an API rate limit is and why services use it.",
+  "models": {
+    "local:gemma3:270m": [
+      {
+        "ttft": 2.310162200126797,
+        "total": 5.890862199943513,
+        "completion_tokens": 65,
+        "characters": 349
+      },
+      {
+        "ttft": 2.1987672997638583,
+        "total": 5.788716400042176,
+        "completion_tokens": 65,
+        "characters": 349
+      },
+      {
+        "ttft": 2.2036791001446545,
+        "total": 5.791085199918598,
+        "completion_tokens": 65,
+        "characters": 349
+      },
+      {
+        "ttft": 2.2035993998870254,
+        "total": 5.778954499866813,
+        "completion_tokens": 65,
+        "characters": 349
+      },
+      {
+        "ttft": 2.196650399826467,
+        "total": 5.776342699769884,
+        "completion_tokens": 65,
+        "characters": 349
+      }
+    ],
+    "gemini:gemini-3.1-flash-lite": [
+      {
+        "ttft": 0.8332269000820816,
+        "total": 1.1792667000554502,
+        "completion_tokens": 118,
+        "characters": 668
+      },
+      {
+        "ttft": 0.638578400015831,
+        "total": 1.0245974999852479,
+        "completion_tokens": 118,
+        "characters": 668
+      },
+      {
+        "ttft": 44.46341799991205,
+        "total": 44.90279889991507,
+        "completion_tokens": 118,
+        "characters": 668
+      },
+      {
+        "ttft": 1.0020185001194477,
+        "total": 1.347444700077176,
+        "completion_tokens": 118,
+        "characters": 668
+      },
+      {
+        "ttft": 0.9273604000918567,
+        "total": 1.2818263000808656,
+        "completion_tokens": 118,
+        "characters": 668
+      }
+    ],
+    "gemini:gemini-3.6-flash": [
+      {
+        "ttft": 4.251144300214946,
+        "total": 5.000693700276315,
+        "completion_tokens": 148,
+        "characters": 712
+      },
+      {
+        "ttft": 7.988669500220567,
+        "total": 8.628787900321186,
+        "completion_tokens": 123,
+        "characters": 670
+      },
+      {
+        "ttft": 4.89357990026474,
+        "total": 5.665191000327468,
+        "completion_tokens": 145,
+        "characters": 700
+      },
+      {
+        "ttft": 3.834374699741602,
+        "total": 4.469307699706405,
+        "completion_tokens": 142,
+        "characters": 685
+      },
+      {
+        "ttft": 4.647795499768108,
+        "total": 5.299453599844128,
+        "completion_tokens": 141,
+        "characters": 670
+      }
+    ]
+  }
+}

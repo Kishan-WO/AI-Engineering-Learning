@@ -1,0 +1,111 @@
+{
+  "model": "gemma3:270m",
+  "prompt": "What is the capital of Australia? Answer with one word.",
+  "answers": [
+    {
+      "temperature": 0.0,
+      "run": 1,
+      "text": "Canberra",
+      "completion_tokens": 3,
+      "seconds": 0.3409659001044929
+    },
+    {
+      "temperature": 0.0,
+      "run": 2,
+      "text": "Canberra",
+      "completion_tokens": 3,
+      "seconds": 0.2396199000068009
+    },
+    {
+      "temperature": 0.0,
+      "run": 3,
+      "text": "Canberra",
+      "completion_tokens": 3,
+      "seconds": 0.2397859999909997
+    },
+    {
+      "temperature": 0.0,
+      "run": 4,
+      "text": "Canberra",
+      "completion_tokens": 3,
+      "seconds": 0.23901409981772304
+    },
+    {
+      "temperature": 0.0,
+      "run": 5,
+      "text": "Canberra",
+      "completion_tokens": 3,
+      "seconds": 0.2377869002521038
+    },
+    {
+      "temperature": 0.7,
+      "run": 1,
+      "text": "Sydney",
+      "completion_tokens": 2,
+      "seconds": 0.17939359974116087
+    },
+    {
+      "temperature": 0.7,
+      "run": 2,
+      "text": "Canberra",
+      "completion_tokens": 3,
+      "seconds": 0.23581589991226792
+    },
+    {
+      "temperature": 0.7,
+      "run": 3,
+      "text": "Canberra",
+      "completion_tokens": 4,
+      "seconds": 0.2956918003037572
+    },
+    {
+      "temperature": 0.7,
+      "run": 4,
+      "text": "Canberra",
+      "completion_tokens": 3,
+      "seconds": 0.25417060032486916
+    },
+    {
+      "temperature": 0.7,
+      "run": 5,
+      "text": "Canberra",
+      "completion_tokens": 3,
+      "seconds": 0.24886679975315928
+    },
+    {
+      "temperature": 1.4,
+      "run": 1,
+      "text": "Sydney",
+      "completion_tokens": 3,
+      "seconds": 0.23792959982529283
+    },
+    {
+      "temperature": 1.4,
+      "run": 2,
+      "text": "Canes Island",
+      "completion_tokens": 5,
+      "seconds": 0.37307019997388124
+    },
+    {
+      "temperature": 1.4,
+      "run": 3,
+      "text": "New Southport",
+      "completion_tokens": 5,
+      "seconds": 0.35472430009394884
+    },
+    {
+      "temperature": 1.4,
+      "run": 4,
+      "text": "Canberra",
+      "completion_tokens": 4,
+      "seconds": 0.31123089976608753
+    },
+    {
+      "temperature": 1.4,
+      "run": 5,
+      "text": "Canberra",
+      "completion_tokens": 4,
+      "seconds": 0.2965114996768534
+    }
+  ]
+}

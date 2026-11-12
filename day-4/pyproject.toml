@@ -1,0 +1,28 @@
+[project]
+name = "day-4"
+version = "0.1.0"
+requires-python = ">=3.14"
+dependencies = [
+    "httpx>=0.28.1",
+    "openai>=3.49.0",
+    "python-dotenv>=1.2.4",
+    "tiktoken>=0.14.0",
+    "transformers>=5.22.2",
+]
+
+[dependency-groups]
+dev = [
+    "mypy>=2.4.1",
+    "ruff>=0.17.4",
+]
+
+# The scripts live in tasks/ and import each other (for example `from llm_client import ...`).
+# Python finds them because the script's own folder is on the import path; these settings tell the tools too.
+[tool.pyright]
+extraPaths = ["tasks"]
+
+[tool.mypy]
+mypy_path = "tasks"
+
+[tool.ruff]
+src = ["tasks"]
