@@ -29,7 +29,7 @@ day-5/
 | **5** | The same `/extract` with a local model through Ollama; compare | done | `ai-service/scripts/compare_extract.py`; results in the Notes file, section 5 |
 | Notes | The message-array diagram | done | `learning/1.messages-api.md`, section 3 |
 
-Note with all outputs and results: `Notes/tasks-1-5-chat-and-extract.md`. Project-level notes: `ai-service/notes/19-day-5-chat-and-extract.md`, `decisions.md` (16 to 24), `gotchas.md`.
+Note with all outputs and results: `Notes/tasks-1-5-chat-and-extract.md`. Project-level notes: `ai-service/notes/day-5/01-chat-and-extract.md`, `decisions.md` (16 to 24), `gotchas.md`.
 
 ## Results in one line each
 - `/chat` streams over SSE, remembers the conversation, and stores both messages with token counts.

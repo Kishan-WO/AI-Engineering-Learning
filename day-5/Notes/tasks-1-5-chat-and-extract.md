@@ -1,6 +1,6 @@
 # Day 5 tasks 1 to 5: `/chat` and `/extract` built into `ai-service`
 
-The five tasks are one feature, so I built them as one change in `C:\Projects\ai-eng\ai-service` (not as separate scripts). The code, the migration and 73 tests are there; project-level notes are in `ai-service/notes/19-day-5-chat-and-extract.md`, `decisions.md` (16 to 24) and `gotchas.md`.
+The five tasks are one feature, so I built them as one change in `C:\Projects\ai-eng\ai-service` (not as separate scripts). The code, the migration and 73 tests are there; project-level notes are in `ai-service/notes/day-5/01-chat-and-extract.md`, `decisions.md` (16 to 24) and `gotchas.md`.
 
 | Task | Done in |
 |---|---|

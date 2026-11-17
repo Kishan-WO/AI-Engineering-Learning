@@ -1,6 +1,6 @@
 # Day 6 tasks 1 to 7: reliability, cost and providers built into `ai-service`
 
-As on Day 5, the seven tasks are one feature, so they were built as one change in `C:\Projects\ai-eng\ai-service` (branch `day-6`). The architecture, files and settings are in `ai-service/notes/21-day-6-reliability-cost-and-providers.md`; decisions 25 to 36 are in `decisions.md` and the traps in `gotchas.md`.
+As on Day 5, the seven tasks are one feature, so they were built as one change in `C:\Projects\ai-eng\ai-service` (branch `day-6`). The architecture, files and settings are in `ai-service/notes/day-6/01-reliability-cost-and-providers.md`; decisions 25 to 36 are in `decisions.md` and the traps in `gotchas.md`.
 
 | Task | Done in |
 |---|---|
