@@ -28,9 +28,9 @@ They follow the plan's "Learn" sections, in order:
 | **1** (done) | A router: a small model classifies the user's intent into 4 to 5 categories and dispatches to specialised prompts; unclear intents go to the large model |
 | **2** (done) | Use the Day 7 test set plus 30 new queries; measure router accuracy |
 | **3** | Measure average cost and latency: router against always-large-model. Target: 40% cost reduction without quality loss. **Done:** 53.9% cheaper on a 14-query pilot, router slower (`Notes/task-3-router-cost-and-latency.md`) |
-| **4** | A parallel "summarise 10 documents, then combine" chain with a concurrency limit; make one call fail and handle it |
-| **5** | Rebuild the router flow in LangGraph (or Pydantic AI); compare lines of code, debuggability, latency and the hidden prompts the framework added |
-| Notes | A framework comparison note |
+| **4** (done) | A parallel "summarise 10 documents, then combine" chain with a concurrency limit; make one call fail and handle it. **Done:** 2.5 times faster in parallel, the failure reported (`Notes/task-4-parallel-summarise.md`) |
+| **5** (done) | Rebuild the router flow in LangGraph (or Pydantic AI); compare lines of code, debuggability, latency and the hidden prompts the framework added. **Done:** no hidden prompts, +2 ms per request, 145 against 119 lines (`Notes/task-5-router-in-langgraph-and-comparison.md`) |
+| Notes | A framework comparison note (section 2 of the task 5 note) |
 
 ## What Day 6 and 7 already give me
 - **A classifier and its test sets:** `classify_query` v2 (30/30 on my hard set, about $0.000086 per call) and 60 labelled cases in `scripts/data/` (Day 7). The router will use 4 to 5 intents; the six Day 7 labels (admission, fees, schedule, academic, complaint, other) are the starting point.
