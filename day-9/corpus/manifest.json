@@ -1,0 +1,214 @@
+{
+  "name": "day-9 course corpus (used until Day 21)",
+  "sources": [
+    {
+      "id": "fastapi-docs",
+      "kind": "markdown",
+      "repo": "fastapi/fastapi",
+      "commit": "05e6df7e906c3decba377c37548019973f40bf15",
+      "path_prefix": "docs/en/docs/",
+      "exclude": [
+        "docs/en/docs/release-notes.md"
+      ],
+      "licence": "MIT",
+      "licence_url": "https://github.com/fastapi/fastapi/blob/master/LICENSE",
+      "attribution": "FastAPI documentation, (c) Sebastian Ramirez, MIT licence"
+    },
+    {
+      "id": "pydantic-docs",
+      "kind": "markdown",
+      "repo": "pydantic/pydantic",
+      "commit": "17873f3b65e085aa721a634857ca9fd042e83af4",
+      "path_prefix": "docs/",
+      "exclude": [],
+      "licence": "MIT",
+      "licence_url": "https://github.com/pydantic/pydantic/blob/main/LICENSE",
+      "attribution": "Pydantic documentation, (c) Pydantic Services Inc., MIT licence"
+    },
+    {
+      "id": "openstax-chemistry-2e",
+      "kind": "pdf",
+      "url": "https://assets.openstax.org/oscms-prodcms/media/documents/chemistry-2e_-_WEB.pdf",
+      "size_bytes": 217794376,
+      "licence": "CC BY-NC-SA 4.0",
+      "licence_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "licence_checked": "OpenStax CMS API, https://openstax.org/apps/cms/api/v2/pages/298/ (license_name, license_version); the book's preface page still says CC BY 4.0 and is out of date",
+      "attribution": "Chemistry 2e, OpenStax. Download for free at https://openstax.org/details/books/chemistry-2e",
+      "restrictions": "noncommercial use only; adaptations must carry the same licence; keep the attribution"
+    },
+    {
+      "id": "arxiv-papers",
+      "kind": "arxiv-pdf",
+      "note": "ten papers on embeddings, retrieval and RAG; two-column PDFs with equations and tables. Only papers whose arXiv licence is CC BY 4.0 or CC0 were kept (licence read from arXiv's OAI metadata, 2026-11-19). The licence belongs to each paper, so it is recorded per paper.",
+      "download_note": "arXiv's certificate chain does not verify in Python on this machine, so the PDFs are fetched with curl (certificate checking stays on)",
+      "papers": [
+        {
+          "arxiv_id": "2204.13679",
+          "title": "Curriculum Learning for Dense Retrieval Distillation",
+          "authors": [
+            "Hansi Zeng",
+            "Hamed Zamani",
+            "Vishwa Vinay"
+          ],
+          "published": "2022-04-28",
+          "licence_url": "http://creativecommons.org/licenses/by/4.0/",
+          "licence": "CC BY 4.0",
+          "size_bytes": 1069254,
+          "url": "https://arxiv.org/pdf/2204.13679",
+          "attribution": "Hansi Zeng et al., \"Curriculum Learning for Dense Retrieval Distillation\", arXiv:2204.13679"
+        },
+        {
+          "arxiv_id": "2212.10528",
+          "title": "HYRR: Hybrid Infused Reranking for Passage Retrieval",
+          "authors": [
+            "Jing Lu",
+            "Keith Hall",
+            "Ji Ma",
+            "Jianmo Ni"
+          ],
+          "published": "2022-12-20",
+          "licence_url": "http://creativecommons.org/licenses/by/4.0/",
+          "licence": "CC BY 4.0",
+          "size_bytes": 365944,
+          "url": "https://arxiv.org/pdf/2212.10528",
+          "attribution": "Jing Lu et al., \"HYRR: Hybrid Infused Reranking for Passage Retrieval\", arXiv:2212.10528"
+        },
+        {
+          "arxiv_id": "2309.12871",
+          "title": "AnglE-optimized Text Embeddings",
+          "authors": [
+            "Xianming Li",
+            "Jing Li"
+          ],
+          "published": "2023-09-22",
+          "licence_url": "http://creativecommons.org/licenses/by/4.0/",
+          "licence": "CC BY 4.0",
+          "size_bytes": 677029,
+          "url": "https://arxiv.org/pdf/2309.12871",
+          "attribution": "Xianming Li et al., \"AnglE-optimized Text Embeddings\", arXiv:2309.12871"
+        },
+        {
+          "arxiv_id": "2407.20243",
+          "title": "Matryoshka-Adaptor: Unsupervised and Supervised Tuning for Smaller Embedding Dimensions",
+          "authors": [
+            "Jinsung Yoon",
+            "Raj Sinha",
+            "Sercan O Arik",
+            "Tomas Pfister"
+          ],
+          "published": "2024-07-17",
+          "licence_url": "http://creativecommons.org/licenses/by/4.0/",
+          "licence": "CC BY 4.0",
+          "size_bytes": 2422680,
+          "url": "https://arxiv.org/pdf/2407.20243",
+          "attribution": "Jinsung Yoon et al., \"Matryoshka-Adaptor: Unsupervised and Supervised Tuning for Smaller Embedding Dimensions\", arXiv:2407.20243"
+        },
+        {
+          "arxiv_id": "2411.17299",
+          "title": "2D Matryoshka Training for Information Retrieval",
+          "authors": [
+            "Shuai Wang",
+            "Shengyao Zhuang",
+            "Bevan Koopman",
+            "Guido Zuccon"
+          ],
+          "published": "2024-11-26",
+          "licence_url": "http://creativecommons.org/licenses/by/4.0/",
+          "licence": "CC BY 4.0",
+          "size_bytes": 468172,
+          "url": "https://arxiv.org/pdf/2411.17299",
+          "attribution": "Shuai Wang et al., \"2D Matryoshka Training for Information Retrieval\", arXiv:2411.17299"
+        },
+        {
+          "arxiv_id": "2504.08748",
+          "title": "A Survey of Multimodal Retrieval-Augmented Generation",
+          "authors": [
+            "Lang Mei",
+            "Siyu Mo",
+            "Zhihan Yang",
+            "Chong Chen"
+          ],
+          "published": "2025-03-26",
+          "licence_url": "http://creativecommons.org/licenses/by/4.0/",
+          "licence": "CC BY 4.0",
+          "size_bytes": 2287639,
+          "url": "https://arxiv.org/pdf/2504.08748",
+          "attribution": "Lang Mei et al., \"A Survey of Multimodal Retrieval-Augmented Generation\", arXiv:2504.08748"
+        },
+        {
+          "arxiv_id": "2506.02527",
+          "title": "Multilingual Information Retrieval with a Monolingual Knowledge Base",
+          "authors": [
+            "Yingying Zhuang",
+            "Aman Gupta",
+            "Anurag Beniwal"
+          ],
+          "published": "2025-06-03",
+          "licence_url": "http://creativecommons.org/licenses/by/4.0/",
+          "licence": "CC BY 4.0",
+          "size_bytes": 1340326,
+          "url": "https://arxiv.org/pdf/2506.02527",
+          "attribution": "Yingying Zhuang et al., \"Multilingual Information Retrieval with a Monolingual Knowledge Base\", arXiv:2506.02527"
+        },
+        {
+          "arxiv_id": "2601.05264",
+          "title": "Engineering the RAG Stack: A Comprehensive Review of the Architecture and Trust Frameworks for Retrieval-Augmented Generation Systems",
+          "authors": [
+            "Dean Wampler",
+            "Dave Nielson",
+            "Alireza Seddighi"
+          ],
+          "published": "2025-11-07",
+          "licence_url": "http://creativecommons.org/licenses/by/4.0/",
+          "licence": "CC BY 4.0",
+          "size_bytes": 2917925,
+          "url": "https://arxiv.org/pdf/2601.05264",
+          "attribution": "Dean Wampler et al., \"Engineering the RAG Stack: A Comprehensive Review of the Architecture and Trust Frameworks for Retrieval-Augmented Generation Systems\", arXiv:2601.05264"
+        },
+        {
+          "arxiv_id": "2605.13521",
+          "title": "Granite Embedding Multilingual R2 Models",
+          "authors": [
+            "Parul Awasthy",
+            "Aashka Trivedi",
+            "Yushu Yang",
+            "Ken Barker",
+            "Yulong Li",
+            "Bhavani Iyer",
+            "Martin Franz",
+            "Juergen Bross",
+            "Meet Doshi",
+            "Vignesh P",
+            "Vishwajeet Kumar",
+            "Todd Ward",
+            "Abraham Daniels",
+            "Madison Lee",
+            "Luis Lastras",
+            "Jaydeep Sen",
+            "Radu Florian"
+          ],
+          "published": "2026-05-13",
+          "licence_url": "http://creativecommons.org/licenses/by/4.0/",
+          "licence": "CC BY 4.0",
+          "size_bytes": 573974,
+          "url": "https://arxiv.org/pdf/2605.13521",
+          "attribution": "Parul Awasthy et al., \"Granite Embedding Multilingual R2 Models\", arXiv:2605.13521"
+        },
+        {
+          "arxiv_id": "2607.24767",
+          "title": "The Effect of Text Chunk Size on Retrieval-Augmented Generation Performance",
+          "authors": [
+            "German Garrido-Lestache Belinchon",
+            "Hugo Garrido-Lestache Belinchon"
+          ],
+          "published": "2026-06-08",
+          "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/",
+          "licence": "CC0 1.0",
+          "size_bytes": 744917,
+          "url": "https://arxiv.org/pdf/2607.24767",
+          "attribution": "German Garrido-Lestache Belinchon et al., \"The Effect of Text Chunk Size on Retrieval-Augmented Generation Performance\", arXiv:2607.24767"
+        }
+      ]
+    }
+  ]
+}
