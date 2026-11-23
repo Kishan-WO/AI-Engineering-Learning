@@ -1,0 +1,412 @@
+[
+ {
+  "doc": "fastapi-docs/_llm-test.md",
+  "reason": "internal file (the name starts with an underscore), not documentation"
+ },
+ {
+  "doc": "fastapi-docs/about/index.md",
+  "reason": "stub: 10 words after cleaning",
+  "removed": {}
+ },
+ {
+  "doc": "fastapi-docs/advanced/testing-events.md",
+  "reason": "stub: 57 words after cleaning",
+  "removed": {
+   "code_include": 2
+  }
+ },
+ {
+  "doc": "fastapi-docs/advanced/testing-websockets.md",
+  "reason": "stub: 36 words after cleaning",
+  "removed": {
+   "code_include": 1
+  }
+ },
+ {
+  "doc": "fastapi-docs/agent-banner.md",
+  "reason": "stub: 27 words after cleaning",
+  "removed": {}
+ },
+ {
+  "doc": "fastapi-docs/contributing.md",
+  "reason": "stub: 33 words after cleaning",
+  "removed": {}
+ },
+ {
+  "doc": "fastapi-docs/how-to/testing-database.md",
+  "reason": "stub: 37 words after cleaning",
+  "removed": {}
+ },
+ {
+  "doc": "fastapi-docs/learn/index.md",
+  "reason": "stub: 30 words after cleaning",
+  "removed": {}
+ },
+ {
+  "doc": "fastapi-docs/newsletter.md",
+  "reason": "stub: 21 words after cleaning",
+  "removed": {}
+ },
+ {
+  "doc": "fastapi-docs/reference/apirouter.md",
+  "reason": "stub: 59 words after cleaning",
+  "removed": {
+   "directive": 1
+  }
+ },
+ {
+  "doc": "fastapi-docs/reference/background.md",
+  "reason": "stub: 53 words after cleaning",
+  "removed": {
+   "directive": 1
+  }
+ },
+ {
+  "doc": "fastapi-docs/reference/encoders.md",
+  "reason": "stub: 4 words after cleaning",
+  "removed": {
+   "directive": 1
+  }
+ },
+ {
+  "doc": "fastapi-docs/reference/httpconnection.md",
+  "reason": "stub: 46 words after cleaning",
+  "removed": {
+   "directive": 1
+  }
+ },
+ {
+  "doc": "fastapi-docs/reference/index.md",
+  "reason": "stub: 39 words after cleaning",
+  "removed": {}
+ },
+ {
+  "doc": "fastapi-docs/reference/openapi/docs.md",
+  "reason": "stub: 23 words after cleaning",
+  "removed": {
+   "directive": 4
+  }
+ },
+ {
+  "doc": "fastapi-docs/reference/openapi/index.md",
+  "reason": "stub: 27 words after cleaning",
+  "removed": {}
+ },
+ {
+  "doc": "fastapi-docs/reference/openapi/models.md",
+  "reason": "stub: 14 words after cleaning",
+  "removed": {
+   "directive": 1
+  }
+ },
+ {
+  "doc": "fastapi-docs/reference/staticfiles.md",
+  "reason": "stub: 44 words after cleaning",
+  "removed": {
+   "directive": 1
+  }
+ },
+ {
+  "doc": "fastapi-docs/reference/templating.md",
+  "reason": "stub: 37 words after cleaning",
+  "removed": {
+   "directive": 1
+  }
+ },
+ {
+  "doc": "fastapi-docs/reference/testclient.md",
+  "reason": "stub: 53 words after cleaning",
+  "removed": {
+   "directive": 1
+  }
+ },
+ {
+  "doc": "fastapi-docs/reference/uploadfile.md",
+  "reason": "stub: 55 words after cleaning",
+  "removed": {
+   "directive": 1
+  }
+ },
+ {
+  "doc": "fastapi-docs/resources/index.md",
+  "reason": "stub: 9 words after cleaning",
+  "removed": {}
+ },
+ {
+  "doc": "fastapi-docs/translation-banner.md",
+  "reason": "stub: 46 words after cleaning",
+  "removed": {}
+ },
+ {
+  "doc": "pydantic-docs/api/aliases.md",
+  "reason": "stub: 0 words after cleaning",
+  "removed": {
+   "directive": 1
+  }
+ },
+ {
+  "doc": "pydantic-docs/api/annotated_handlers.md",
+  "reason": "stub: 0 words after cleaning",
+  "removed": {
+   "directive": 1
+  }
+ },
+ {
+  "doc": "pydantic-docs/api/config.md",
+  "reason": "stub: 13 words after cleaning",
+  "removed": {
+   "directive": 2
+  }
+ },
+ {
+  "doc": "pydantic-docs/api/dataclasses.md",
+  "reason": "stub: 0 words after cleaning",
+  "removed": {
+   "directive": 1
+  }
+ },
+ {
+  "doc": "pydantic-docs/api/errors.md",
+  "reason": "stub: 0 words after cleaning",
+  "removed": {
+   "directive": 1
+  }
+ },
+ {
+  "doc": "pydantic-docs/api/experimental.md",
+  "reason": "stub: 18 words after cleaning",
+  "removed": {
+   "directive": 2
+  }
+ },
+ {
+  "doc": "pydantic-docs/api/fields.md",
+  "reason": "stub: 27 words after cleaning",
+  "removed": {
+   "directive": 1
+  }
+ },
+ {
+  "doc": "pydantic-docs/api/functional_serializers.md",
+  "reason": "stub: 0 words after cleaning",
+  "removed": {
+   "directive": 1
+  }
+ },
+ {
+  "doc": "pydantic-docs/api/functional_validators.md",
+  "reason": "stub: 0 words after cleaning",
+  "removed": {
+   "directive": 1
+  }
+ },
+ {
+  "doc": "pydantic-docs/api/json_schema.md",
+  "reason": "stub: 0 words after cleaning",
+  "removed": {
+   "directive": 1
+  }
+ },
+ {
+  "doc": "pydantic-docs/api/networks.md",
+  "reason": "stub: 0 words after cleaning",
+  "removed": {
+   "directive": 1
+  }
+ },
+ {
+  "doc": "pydantic-docs/api/pydantic_core.md",
+  "reason": "stub: 56 words after cleaning",
+  "removed": {
+   "directive": 1
+  }
+ },
+ {
+  "doc": "pydantic-docs/api/pydantic_core_schema.md",
+  "reason": "stub: 0 words after cleaning",
+  "removed": {
+   "directive": 1
+  }
+ },
+ {
+  "doc": "pydantic-docs/api/pydantic_extra_types_color.md",
+  "reason": "stub: 0 words after cleaning",
+  "removed": {
+   "directive": 1
+  }
+ },
+ {
+  "doc": "pydantic-docs/api/pydantic_extra_types_coordinate.md",
+  "reason": "stub: 0 words after cleaning",
+  "removed": {
+   "directive": 1
+  }
+ },
+ {
+  "doc": "pydantic-docs/api/pydantic_extra_types_country.md",
+  "reason": "stub: 0 words after cleaning",
+  "removed": {
+   "directive": 1
+  }
+ },
+ {
+  "doc": "pydantic-docs/api/pydantic_extra_types_currency_code.md",
+  "reason": "stub: 0 words after cleaning",
+  "removed": {
+   "directive": 1
+  }
+ },
+ {
+  "doc": "pydantic-docs/api/pydantic_extra_types_isbn.md",
+  "reason": "stub: 0 words after cleaning",
+  "removed": {
+   "directive": 1
+  }
+ },
+ {
+  "doc": "pydantic-docs/api/pydantic_extra_types_language_code.md",
+  "reason": "stub: 0 words after cleaning",
+  "removed": {
+   "directive": 1
+  }
+ },
+ {
+  "doc": "pydantic-docs/api/pydantic_extra_types_mac_address.md",
+  "reason": "stub: 0 words after cleaning",
+  "removed": {
+   "directive": 1
+  }
+ },
+ {
+  "doc": "pydantic-docs/api/pydantic_extra_types_payment.md",
+  "reason": "stub: 0 words after cleaning",
+  "removed": {
+   "directive": 1
+  }
+ },
+ {
+  "doc": "pydantic-docs/api/pydantic_extra_types_pendulum_dt.md",
+  "reason": "stub: 0 words after cleaning",
+  "removed": {
+   "directive": 1
+  }
+ },
+ {
+  "doc": "pydantic-docs/api/pydantic_extra_types_phone_numbers.md",
+  "reason": "stub: 0 words after cleaning",
+  "removed": {
+   "directive": 1
+  }
+ },
+ {
+  "doc": "pydantic-docs/api/pydantic_extra_types_routing_numbers.md",
+  "reason": "stub: 0 words after cleaning",
+  "removed": {
+   "directive": 1
+  }
+ },
+ {
+  "doc": "pydantic-docs/api/pydantic_extra_types_script_code.md",
+  "reason": "stub: 0 words after cleaning",
+  "removed": {
+   "directive": 1
+  }
+ },
+ {
+  "doc": "pydantic-docs/api/pydantic_extra_types_semantic_version.md",
+  "reason": "stub: 0 words after cleaning",
+  "removed": {
+   "directive": 1
+  }
+ },
+ {
+  "doc": "pydantic-docs/api/pydantic_extra_types_timezone_name.md",
+  "reason": "stub: 0 words after cleaning",
+  "removed": {
+   "directive": 1
+  }
+ },
+ {
+  "doc": "pydantic-docs/api/pydantic_extra_types_ulid.md",
+  "reason": "stub: 0 words after cleaning",
+  "removed": {
+   "directive": 1
+  }
+ },
+ {
+  "doc": "pydantic-docs/api/pydantic_settings.md",
+  "reason": "stub: 0 words after cleaning",
+  "removed": {
+   "directive": 1
+  }
+ },
+ {
+  "doc": "pydantic-docs/api/root_model.md",
+  "reason": "stub: 0 words after cleaning",
+  "removed": {
+   "directive": 1
+  }
+ },
+ {
+  "doc": "pydantic-docs/api/type_adapter.md",
+  "reason": "stub: 0 words after cleaning",
+  "removed": {
+   "directive": 1
+  }
+ },
+ {
+  "doc": "pydantic-docs/api/types.md",
+  "reason": "stub: 5 words after cleaning",
+  "removed": {
+   "directive": 1
+  }
+ },
+ {
+  "doc": "pydantic-docs/api/validate_call.md",
+  "reason": "stub: 0 words after cleaning",
+  "removed": {
+   "directive": 1
+  }
+ },
+ {
+  "doc": "pydantic-docs/api/version.md",
+  "reason": "stub: 6 words after cleaning",
+  "removed": {
+   "directive": 2
+  }
+ },
+ {
+  "doc": "pydantic-docs/integrations/linting.md",
+  "reason": "stub: 55 words after cleaning",
+  "removed": {}
+ },
+ {
+  "doc": "pydantic-docs/integrations/rich.md",
+  "reason": "stub: 37 words after cleaning",
+  "removed": {}
+ },
+ {
+  "doc": "openstax-chemistry-2e/Contents",
+  "reason": "not content (front or back matter)"
+ },
+ {
+  "doc": "openstax-chemistry-2e/Preface",
+  "reason": "not content (front or back matter)"
+ },
+ {
+  "doc": "openstax-chemistry-2e/Answer Key",
+  "reason": "not content (front or back matter)"
+ },
+ {
+  "doc": "openstax-chemistry-2e/Index",
+  "reason": "not content (front or back matter)"
+ },
+ {
+  "doc": "arxiv-papers/2204.13679",
+  "reason": "References section dropped (931 words)"
+ },
+ {
+  "doc": "arxiv-papers/2504.08748",
+  "reason": "References section dropped (17281 words)"
+ }
+]

@@ -1,0 +1,665 @@
+{
+  "summary": {
+    "jina": {
+      "recall@1": 0.7,
+      "recall@3": 0.95,
+      "recall@5": 0.95,
+      "mrr": 0.8083333333333332,
+      "embed_ms_total": 1136,
+      "tokens": 555
+    },
+    "bge": {
+      "recall@1": 0.55,
+      "recall@3": 0.85,
+      "recall@5": 0.9,
+      "mrr": 0.7097222222222221,
+      "embed_ms_total": 875,
+      "tokens": 0
+    }
+  },
+  "per_query": [
+    {
+      "id": 1,
+      "query": "How do I define a path parameter in FastAPI?",
+      "hindi": false,
+      "correct_rows_count": 14,
+      "jina": {
+        "hit@1": false,
+        "hit@3": true,
+        "hit@5": true,
+        "rr": 0.3333,
+        "top5": [
+          707,
+          658,
+          676,
+          493,
+          195
+        ]
+      },
+      "bge": {
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false,
+        "rr": 0.1111,
+        "top5": [
+          525,
+          707,
+          183,
+          752,
+          656
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "query": "How do I validate request body fields with Pydantic?",
+      "hindi": false,
+      "correct_rows_count": 10,
+      "jina": {
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true,
+        "rr": 1.0,
+        "top5": [
+          498,
+          962,
+          719,
+          1242,
+          1240
+        ]
+      },
+      "bge": {
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true,
+        "rr": 1.0,
+        "top5": [
+          498,
+          1242,
+          1240,
+          149,
+          719
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "query": "What is dependency injection in FastAPI?",
+      "hindi": false,
+      "correct_rows_count": 11,
+      "jina": {
+        "hit@1": false,
+        "hit@3": true,
+        "hit@5": true,
+        "rr": 0.5,
+        "top5": [
+          357,
+          571,
+          570,
+          576,
+          458
+        ]
+      },
+      "bge": {
+        "hit@1": false,
+        "hit@3": true,
+        "hit@5": true,
+        "rr": 0.5,
+        "top5": [
+          357,
+          570,
+          571,
+          576,
+          577
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "query": "How do I return a streaming response from a FastAPI route?",
+      "hindi": false,
+      "correct_rows_count": 22,
+      "jina": {
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true,
+        "rr": 1.0,
+        "top5": [
+          170,
+          41,
+          465,
+          128,
+          171
+        ]
+      },
+      "bge": {
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true,
+        "rr": 1.0,
+        "top5": [
+          41,
+          829,
+          803,
+          170,
+          48
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "query": "How do I write an async endpoint in FastAPI?",
+      "hindi": false,
+      "correct_rows_count": 19,
+      "jina": {
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true,
+        "rr": 1.0,
+        "top5": [
+          243,
+          27,
+          432,
+          225,
+          604
+        ]
+      },
+      "bge": {
+        "hit@1": false,
+        "hit@3": true,
+        "hit@5": true,
+        "rr": 0.5,
+        "top5": [
+          432,
+          236,
+          22,
+          829,
+          427
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "query": "How do I add middleware to a FastAPI application?",
+      "hindi": false,
+      "correct_rows_count": 8,
+      "jina": {
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true,
+        "rr": 1.0,
+        "top5": [
+          86,
+          648,
+          461,
+          87,
+          204
+        ]
+      },
+      "bge": {
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true,
+        "rr": 1.0,
+        "top5": [
+          648,
+          86,
+          87,
+          461,
+          181
+        ]
+      }
+    },
+    {
+      "id": 7,
+      "query": "How does Pydantic handle field validation errors?",
+      "hindi": false,
+      "correct_rows_count": 97,
+      "jina": {
+        "hit@1": false,
+        "hit@3": true,
+        "hit@5": true,
+        "rr": 0.3333,
+        "top5": [
+          1074,
+          965,
+          1203,
+          914,
+          1222
+        ]
+      },
+      "bge": {
+        "hit@1": false,
+        "hit@3": true,
+        "hit@5": true,
+        "rr": 0.3333,
+        "top5": [
+          965,
+          1074,
+          1126,
+          1021,
+          1027
+        ]
+      }
+    },
+    {
+      "id": 8,
+      "query": "What is a Pydantic BaseModel and how do I use it?",
+      "hindi": false,
+      "correct_rows_count": 27,
+      "jina": {
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true,
+        "rr": 1.0,
+        "top5": [
+          955,
+          840,
+          956,
+          975,
+          1286
+        ]
+      },
+      "bge": {
+        "hit@1": false,
+        "hit@3": true,
+        "hit@5": true,
+        "rr": 0.5,
+        "top5": [
+          840,
+          955,
+          969,
+          956,
+          1240
+        ]
+      }
+    },
+    {
+      "id": 9,
+      "query": "How do I use computed fields in Pydantic v2?",
+      "hindi": false,
+      "correct_rows_count": 47,
+      "jina": {
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true,
+        "rr": 1.0,
+        "top5": [
+          929,
+          920,
+          498,
+          910,
+          879
+        ]
+      },
+      "bge": {
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": true,
+        "rr": 0.25,
+        "top5": [
+          1026,
+          498,
+          1305,
+          910,
+          929
+        ]
+      }
+    },
+    {
+      "id": 10,
+      "query": "How do I configure Pydantic settings from environment variables?",
+      "hindi": false,
+      "correct_rows_count": 14,
+      "jina": {
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true,
+        "rr": 1.0,
+        "top5": [
+          157,
+          164,
+          159,
+          158,
+          165
+        ]
+      },
+      "bge": {
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true,
+        "rr": 1.0,
+        "top5": [
+          157,
+          991,
+          158,
+          167,
+          1279
+        ]
+      }
+    },
+    {
+      "id": 11,
+      "query": "What is retrieval-augmented generation and why does it reduce hallucinations?",
+      "hindi": false,
+      "correct_rows_count": 152,
+      "jina": {
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true,
+        "rr": 1.0,
+        "top5": [
+          1900,
+          1902,
+          2008,
+          1945,
+          1906
+        ]
+      },
+      "bge": {
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true,
+        "rr": 1.0,
+        "top5": [
+          2022,
+          1968,
+          2018,
+          1900,
+          1945
+        ]
+      }
+    },
+    {
+      "id": 12,
+      "query": "How does the size of a text chunk affect retrieval-augmented generation?",
+      "hindi": false,
+      "correct_rows_count": 5,
+      "jina": {
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true,
+        "rr": 1.0,
+        "top5": [
+          2094,
+          2092,
+          2095,
+          2093,
+          2096
+        ]
+      },
+      "bge": {
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true,
+        "rr": 1.0,
+        "top5": [
+          2092,
+          2093,
+          2095,
+          2096,
+          2094
+        ]
+      }
+    },
+    {
+      "id": 13,
+      "query": "What is the solubility product constant (Ksp) of silver chloride?",
+      "hindi": false,
+      "correct_rows_count": 3,
+      "jina": {
+        "hit@1": false,
+        "hit@3": true,
+        "hit@5": true,
+        "rr": 0.5,
+        "top5": [
+          1650,
+          1814,
+          1813,
+          1651,
+          1812
+        ]
+      },
+      "bge": {
+        "hit@1": false,
+        "hit@3": true,
+        "hit@5": true,
+        "rr": 0.5,
+        "top5": [
+          1650,
+          1813,
+          1651,
+          1814,
+          1812
+        ]
+      }
+    },
+    {
+      "id": 14,
+      "query": "What is the standard enthalpy of formation of liquid water?",
+      "hindi": false,
+      "correct_rows_count": 9,
+      "jina": {
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false,
+        "rr": 0.0,
+        "top5": [
+          1438,
+          1483,
+          1548,
+          1798,
+          1437
+        ]
+      },
+      "bge": {
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false,
+        "rr": 0.0,
+        "top5": [
+          1548,
+          1438,
+          1549,
+          1669,
+          1798
+        ]
+      }
+    },
+    {
+      "id": 15,
+      "query": "FastAPI mein OAuth2 password bearer kaise use karte hain?",
+      "hindi": true,
+      "correct_rows_count": 17,
+      "jina": {
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true,
+        "rr": 1.0,
+        "top5": [
+          793,
+          783,
+          762,
+          763,
+          790
+        ]
+      },
+      "bge": {
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true,
+        "rr": 1.0,
+        "top5": [
+          762,
+          791,
+          790,
+          793,
+          763
+        ]
+      }
+    },
+    {
+      "id": 16,
+      "query": "Pydantic model mein optional field kaise banate hain?",
+      "hindi": true,
+      "correct_rows_count": 34,
+      "jina": {
+        "hit@1": false,
+        "hit@3": true,
+        "hit@5": true,
+        "rr": 0.5,
+        "top5": [
+          1226,
+          524,
+          910,
+          1283,
+          500
+        ]
+      },
+      "bge": {
+        "hit@1": false,
+        "hit@3": true,
+        "hit@5": true,
+        "rr": 0.5,
+        "top5": [
+          1226,
+          972,
+          840,
+          910,
+          995
+        ]
+      }
+    },
+    {
+      "id": 17,
+      "query": "FastAPI ke saath background tasks kaise chalate hain?",
+      "hindi": true,
+      "correct_rows_count": 6,
+      "jina": {
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true,
+        "rr": 1.0,
+        "top5": [
+          478,
+          477,
+          476,
+          20,
+          474
+        ]
+      },
+      "bge": {
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true,
+        "rr": 1.0,
+        "top5": [
+          474,
+          478,
+          477,
+          476,
+          341
+        ]
+      }
+    },
+    {
+      "id": 18,
+      "query": "Le Chatelier ka principle kya hai?",
+      "hindi": true,
+      "correct_rows_count": 16,
+      "jina": {
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true,
+        "rr": 1.0,
+        "top5": [
+          1616,
+          1610,
+          1615,
+          1617,
+          1621
+        ]
+      },
+      "bge": {
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true,
+        "rr": 1.0,
+        "top5": [
+          1610,
+          1616,
+          1621,
+          1615,
+          1364
+        ]
+      }
+    },
+    {
+      "id": 19,
+      "query": "FastAPI में CORS कैसे enable करें?",
+      "hindi": true,
+      "correct_rows_count": 7,
+      "jina": {
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true,
+        "rr": 1.0,
+        "top5": [
+          541,
+          543,
+          39,
+          30,
+          341
+        ]
+      },
+      "bge": {
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true,
+        "rr": 1.0,
+        "top5": [
+          541,
+          86,
+          543,
+          29,
+          337
+        ]
+      }
+    },
+    {
+      "id": 20,
+      "query": "How does Matryoshka-Adaptor produce smaller embedding dimensions?",
+      "hindi": false,
+      "correct_rows_count": 31,
+      "jina": {
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true,
+        "rr": 1.0,
+        "top5": [
+          1853,
+          1865,
+          1878,
+          1873,
+          1877
+        ]
+      },
+      "bge": {
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true,
+        "rr": 1.0,
+        "top5": [
+          1858,
+          1865,
+          1852,
+          1850,
+          1860
+        ]
+      }
+    }
+  ],
+  "both_fail_at_5": [
+    14
+  ]
+}

@@ -1,0 +1,3165 @@
+[
+ {
+  "id": "fastapi-docs/advanced/additional-responses.md",
+  "source": "fastapi-docs",
+  "kind": "markdown",
+  "title": "Additional Responses in OpenAPI",
+  "licence": "MIT",
+  "attribution": "FastAPI documentation, (c) Sebastian Ramirez, MIT licence",
+  "removed_lines": {
+   "code_include": 4
+  },
+  "sections": 6,
+  "split_method": "headings",
+  "words": 972
+ },
+ {
+  "id": "fastapi-docs/advanced/additional-status-codes.md",
+  "source": "fastapi-docs",
+  "kind": "markdown",
+  "title": "Additional Status Codes",
+  "licence": "MIT",
+  "attribution": "FastAPI documentation, (c) Sebastian Ramirez, MIT licence",
+  "removed_lines": {
+   "code_include": 1
+  },
+  "sections": 1,
+  "split_method": "headings",
+  "words": 289
+ },
+ {
+  "id": "fastapi-docs/advanced/advanced-dependencies.md",
+  "source": "fastapi-docs",
+  "kind": "markdown",
+  "title": "Advanced Dependencies",
+  "licence": "MIT",
+  "attribution": "FastAPI documentation, (c) Sebastian Ramirez, MIT licence",
+  "removed_lines": {
+   "code_include": 8
+  },
+  "sections": 14,
+  "split_method": "headings",
+  "words": 1973
+ },
+ {
+  "id": "fastapi-docs/advanced/advanced-python-types.md",
+  "source": "fastapi-docs",
+  "kind": "markdown",
+  "title": "Advanced Python Types",
+  "licence": "MIT",
+  "attribution": "FastAPI documentation, (c) Sebastian Ramirez, MIT licence",
+  "removed_lines": {},
+  "sections": 1,
+  "split_method": "headings",
+  "words": 323
+ },
+ {
+  "id": "fastapi-docs/advanced/async-tests.md",
+  "source": "fastapi-docs",
+  "kind": "markdown",
+  "title": "Async Tests",
+  "licence": "MIT",
+  "attribution": "FastAPI documentation, (c) Sebastian Ramirez, MIT licence",
+  "removed_lines": {
+   "code_include": 4
+  },
+  "sections": 6,
+  "split_method": "headings",
+  "words": 496
+ },
+ {
+  "id": "fastapi-docs/advanced/behind-a-proxy.md",
+  "source": "fastapi-docs",
+  "kind": "markdown",
+  "title": "Behind a Proxy",
+  "licence": "MIT",
+  "attribution": "FastAPI documentation, (c) Sebastian Ramirez, MIT licence",
+  "removed_lines": {
+   "code_include": 5
+  },
+  "sections": 13,
+  "split_method": "headings",
+  "words": 1906
+ },
+ {
+  "id": "fastapi-docs/advanced/custom-response.md",
+  "source": "fastapi-docs",
+  "kind": "markdown",
+  "title": "Custom Response - HTML, Stream, File, others",
+  "licence": "MIT",
+  "attribution": "FastAPI documentation, (c) Sebastian Ramirez, MIT licence",
+  "removed_lines": {
+   "code_include": 14
+  },
+  "sections": 14,
+  "split_method": "headings",
+  "words": 1456
+ },
+ {
+  "id": "fastapi-docs/advanced/dataclasses.md",
+  "source": "fastapi-docs",
+  "kind": "markdown",
+  "title": "Using Dataclasses",
+  "licence": "MIT",
+  "attribution": "FastAPI documentation, (c) Sebastian Ramirez, MIT licence",
+  "removed_lines": {
+   "code_include": 3
+  },
+  "sections": 3,
+  "split_method": "headings",
+  "words": 533
+ },
+ {
+  "id": "fastapi-docs/advanced/events.md",
+  "source": "fastapi-docs",
+  "kind": "markdown",
+  "title": "Lifespan Events",
+  "licence": "MIT",
+  "attribution": "FastAPI documentation, (c) Sebastian Ramirez, MIT licence",
+  "removed_lines": {
+   "code_include": 6
+  },
+  "sections": 10,
+  "split_method": "headings",
+  "words": 1170
+ },
+ {
+  "id": "fastapi-docs/advanced/generate-clients.md",
+  "source": "fastapi-docs",
+  "kind": "markdown",
+  "title": "Generating SDKs",
+  "licence": "MIT",
+  "attribution": "FastAPI documentation, (c) Sebastian Ramirez, MIT licence",
+  "removed_lines": {
+   "code_include": 4
+  },
+  "sections": 14,
+  "split_method": "headings",
+  "words": 1170
+ },
+ {
+  "id": "fastapi-docs/advanced/index.md",
+  "source": "fastapi-docs",
+  "kind": "markdown",
+  "title": "Advanced User Guide",
+  "licence": "MIT",
+  "attribution": "FastAPI documentation, (c) Sebastian Ramirez, MIT licence",
+  "removed_lines": {},
+  "sections": 1,
+  "split_method": "headings",
+  "words": 106
+ },
+ {
+  "id": "fastapi-docs/advanced/json-base64-bytes.md",
+  "source": "fastapi-docs",
+  "kind": "markdown",
+  "title": "JSON with Bytes as Base64",
+  "licence": "MIT",
+  "attribution": "FastAPI documentation, (c) Sebastian Ramirez, MIT licence",
+  "removed_lines": {
+   "code_include": 3
+  },
+  "sections": 3,
+  "split_method": "headings",
+  "words": 324
+ },
+ {
+  "id": "fastapi-docs/advanced/middleware.md",
+  "source": "fastapi-docs",
+  "kind": "markdown",
+  "title": "Advanced Middleware",
+  "licence": "MIT",
+  "attribution": "FastAPI documentation, (c) Sebastian Ramirez, MIT licence",
+  "removed_lines": {
+   "code_include": 3
+  },
+  "sections": 4,
+  "split_method": "headings",
+  "words": 509
+ },
+ {
+  "id": "fastapi-docs/advanced/openapi-callbacks.md",
+  "source": "fastapi-docs",
+  "kind": "markdown",
+  "title": "OpenAPI Callbacks",
+  "licence": "MIT",
+  "attribution": "FastAPI documentation, (c) Sebastian Ramirez, MIT licence",
+  "removed_lines": {
+   "code_include": 4
+  },
+  "sections": 8,
+  "split_method": "headings",
+  "words": 1081
+ },
+ {
+  "id": "fastapi-docs/advanced/openapi-webhooks.md",
+  "source": "fastapi-docs",
+  "kind": "markdown",
+  "title": "OpenAPI Webhooks",
+  "licence": "MIT",
+  "attribution": "FastAPI documentation, (c) Sebastian Ramirez, MIT licence",
+  "removed_lines": {
+   "code_include": 1
+  },
+  "sections": 4,
+  "split_method": "headings",
+  "words": 439
+ },
+ {
+  "id": "fastapi-docs/advanced/opentelemetry.md",
+  "source": "fastapi-docs",
+  "kind": "markdown",
+  "title": "OpenTelemetry",
+  "licence": "MIT",
+  "attribution": "FastAPI documentation, (c) Sebastian Ramirez, MIT licence",
+  "removed_lines": {
+   "code_include": 3
+  },
+  "sections": 10,
+  "split_method": "headings",
+  "words": 1026
+ },
+ {
+  "id": "fastapi-docs/advanced/path-operation-advanced-configuration.md",
+  "source": "fastapi-docs",
+  "kind": "markdown",
+  "title": "Path Operation Advanced Configuration",
+  "licence": "MIT",
+  "attribution": "FastAPI documentation, (c) Sebastian Ramirez, MIT licence",
+  "removed_lines": {
+   "code_include": 8
+  },
+  "sections": 8,
+  "split_method": "headings",
+  "words": 846
+ },
+ {
+  "id": "fastapi-docs/advanced/request-body-limits.md",
+  "source": "fastapi-docs",
+  "kind": "markdown",
+  "title": "Request Body Limits",
+  "licence": "MIT",
+  "attribution": "FastAPI documentation, (c) Sebastian Ramirez, MIT licence",
+  "removed_lines": {
+   "code_include": 2
+  },
+  "sections": 4,
+  "split_method": "headings",
+  "words": 602
+ },
+ {
+  "id": "fastapi-docs/advanced/response-change-status-code.md",
+  "source": "fastapi-docs",
+  "kind": "markdown",
+  "title": "Response - Change Status Code",
+  "licence": "MIT",
+  "attribution": "FastAPI documentation, (c) Sebastian Ramirez, MIT licence",
+  "removed_lines": {
+   "code_include": 1
+  },
+  "sections": 1,
+  "split_method": "headings",
+  "words": 239
+ },
+ {
+  "id": "fastapi-docs/advanced/response-cookies.md",
+  "source": "fastapi-docs",
+  "kind": "markdown",
+  "title": "Response Cookies",
+  "licence": "MIT",
+  "attribution": "FastAPI documentation, (c) Sebastian Ramirez, MIT licence",
+  "removed_lines": {
+   "code_include": 2
+  },
+  "sections": 3,
+  "split_method": "headings",
+  "words": 302
+ },
+ {
+  "id": "fastapi-docs/advanced/response-directly.md",
+  "source": "fastapi-docs",
+  "kind": "markdown",
+  "title": "Return a Response Directly",
+  "licence": "MIT",
+  "attribution": "FastAPI documentation, (c) Sebastian Ramirez, MIT licence",
+  "removed_lines": {
+   "code_include": 3
+  },
+  "sections": 6,
+  "split_method": "headings",
+  "words": 575
+ },
+ {
+  "id": "fastapi-docs/advanced/response-headers.md",
+  "source": "fastapi-docs",
+  "kind": "markdown",
+  "title": "Response Headers",
+  "licence": "MIT",
+  "attribution": "FastAPI documentation, (c) Sebastian Ramirez, MIT licence",
+  "removed_lines": {
+   "code_include": 2
+  },
+  "sections": 1,
+  "split_method": "headings",
+  "words": 280
+ },
+ {
+  "id": "fastapi-docs/advanced/security/http-basic-auth.md",
+  "source": "fastapi-docs",
+  "kind": "markdown",
+  "title": "HTTP Basic Auth",
+  "licence": "MIT",
+  "attribution": "FastAPI documentation, (c) Sebastian Ramirez, MIT licence",
+  "removed_lines": {
+   "code_include": 3
+  },
+  "sections": 5,
+  "split_method": "headings",
+  "words": 717
+ },
+ {
+  "id": "fastapi-docs/advanced/security/index.md",
+  "source": "fastapi-docs",
+  "kind": "markdown",
+  "title": "Advanced Security",
+  "licence": "MIT",
+  "attribution": "FastAPI documentation, (c) Sebastian Ramirez, MIT licence",
+  "removed_lines": {},
+  "sections": 1,
+  "split_method": "headings",
+  "words": 81
+ },
+ {
+  "id": "fastapi-docs/advanced/security/oauth2-scopes.md",
+  "source": "fastapi-docs",
+  "kind": "markdown",
+  "title": "OAuth2 scopes",
+  "licence": "MIT",
+  "attribution": "FastAPI documentation, (c) Sebastian Ramirez, MIT licence",
+  "removed_lines": {
+   "code_include": 8
+  },
+  "sections": 14,
+  "split_method": "headings",
+  "words": 1896
+ },
+ {
+  "id": "fastapi-docs/advanced/settings.md",
+  "source": "fastapi-docs",
+  "kind": "markdown",
+  "title": "Settings and Environment Variables",
+  "licence": "MIT",
+  "attribution": "FastAPI documentation, (c) Sebastian Ramirez, MIT licence",
+  "removed_lines": {
+   "code_include": 10
+  },
+  "sections": 13,
+  "split_method": "headings",
+  "words": 1576
+ },
+ {
+  "id": "fastapi-docs/advanced/stream-data.md",
+  "source": "fastapi-docs",
+  "kind": "markdown",
+  "title": "Stream Data",
+  "licence": "MIT",
+  "attribution": "FastAPI documentation, (c) Sebastian Ramirez, MIT licence",
+  "removed_lines": {
+   "code_include": 9
+  },
+  "sections": 8,
+  "split_method": "headings",
+  "words": 775
+ },
+ {
+  "id": "fastapi-docs/advanced/strict-content-type.md",
+  "source": "fastapi-docs",
+  "kind": "markdown",
+  "title": "Strict Content-Type Checking",
+  "licence": "MIT",
+  "attribution": "FastAPI documentation, (c) Sebastian Ramirez, MIT licence",
+  "removed_lines": {
+   "code_include": 1
+  },
+  "sections": 4,
+  "split_method": "headings",
+  "words": 481
+ },
+ {
+  "id": "fastapi-docs/advanced/sub-applications.md",
+  "source": "fastapi-docs",
+  "kind": "markdown",
+  "title": "Sub Applications - Mounts",
+  "licence": "MIT",
+  "attribution": "FastAPI documentation, (c) Sebastian Ramirez, MIT licence",
+  "removed_lines": {
+   "code_include": 3
+  },
+  "sections": 4,
+  "split_method": "headings",
+  "words": 347
+ },
+ {
+  "id": "fastapi-docs/advanced/templates.md",
+  "source": "fastapi-docs",
+  "kind": "markdown",
+  "title": "Templates",
+  "licence": "MIT",
+  "attribution": "FastAPI documentation, (c) Sebastian Ramirez, MIT licence",
+  "removed_lines": {
+   "front_matter": 1,
+   "code_include": 2
+  },
+  "sections": 6,
+  "split_method": "headings",
+  "words": 572
+ },
+ {
+  "id": "fastapi-docs/advanced/testing-dependencies.md",
+  "source": "fastapi-docs",
+  "kind": "markdown",
+  "title": "Testing Dependencies with Overrides",
+  "licence": "MIT",
+  "attribution": "FastAPI documentation, (c) Sebastian Ramirez, MIT licence",
+  "removed_lines": {
+   "code_include": 1
+  },
+  "sections": 3,
+  "split_method": "headings",
+  "words": 349
+ },
+ {
+  "id": "fastapi-docs/advanced/using-request-directly.md",
+  "source": "fastapi-docs",
+  "kind": "markdown",
+  "title": "Using the Request Directly",
+  "licence": "MIT",
+  "attribution": "FastAPI documentation, (c) Sebastian Ramirez, MIT licence",
+  "removed_lines": {
+   "code_include": 1
+  },
+  "sections": 4,
+  "split_method": "headings",
+  "words": 321
+ },
+ {
+  "id": "fastapi-docs/advanced/websockets.md",
+  "source": "fastapi-docs",
+  "kind": "markdown",
+  "title": "WebSockets",
+  "licence": "MIT",
+  "attribution": "FastAPI documentation, (c) Sebastian Ramirez, MIT licence",
+  "removed_lines": {
+   "code_include": 5
+  },
+  "sections": 7,
+  "split_method": "headings",
+  "words": 663
+ },
+ {
+  "id": "fastapi-docs/advanced/wsgi.md",
+  "source": "fastapi-docs",
+  "kind": "markdown",
+  "title": "Including WSGI - Flask, Django, others",
+  "licence": "MIT",
+  "attribution": "FastAPI documentation, (c) Sebastian Ramirez, MIT licence",
+  "removed_lines": {
+   "code_include": 1
+  },
+  "sections": 1,
+  "split_method": "headings",
+  "words": 193
+ },
+ {
+  "id": "fastapi-docs/ai-development.md",
+  "source": "fastapi-docs",
+  "kind": "markdown",
+  "title": "Develop with AI",
+  "licence": "MIT",
+  "attribution": "FastAPI documentation, (c) Sebastian Ramirez, MIT licence",
+  "removed_lines": {},
+  "sections": 1,
+  "split_method": "headings",
+  "words": 277
+ },
+ {
+  "id": "fastapi-docs/alternatives.md",
+  "source": "fastapi-docs",
+  "kind": "markdown",
+  "title": "Alternatives, Inspiration and Comparisons",
+  "licence": "MIT",
+  "attribution": "FastAPI documentation, (c) Sebastian Ramirez, MIT licence",
+  "removed_lines": {},
+  "sections": 19,
+  "split_method": "headings",
+  "words": 3291
+ },
+ {
+  "id": "fastapi-docs/async.md",
+  "source": "fastapi-docs",
+  "kind": "markdown",
+  "title": "Concurrency and async / await",
+  "licence": "MIT",
+  "attribution": "FastAPI documentation, (c) Sebastian Ramirez, MIT licence",
+  "removed_lines": {},
+  "sections": 19,
+  "split_method": "headings",
+  "words": 3670
+ },
+ {
+  "id": "fastapi-docs/benchmarks.md",
+  "source": "fastapi-docs",
+  "kind": "markdown",
+  "title": "Benchmarks",
+  "licence": "MIT",
+  "attribution": "FastAPI documentation, (c) Sebastian Ramirez, MIT licence",
+  "removed_lines": {},
+  "sections": 2,
+  "split_method": "headings",
+  "words": 518
+ },
+ {
+  "id": "fastapi-docs/deployment/cloud.md",
+  "source": "fastapi-docs",
+  "kind": "markdown",
+  "title": "Deploy FastAPI on Cloud Providers",
+  "licence": "MIT",
+  "attribution": "FastAPI documentation, (c) Sebastian Ramirez, MIT licence",
+  "removed_lines": {},
+  "sections": 1,
+  "split_method": "headings",
+  "words": 131
+ },
+ {
+  "id": "fastapi-docs/deployment/concepts.md",
+  "source": "fastapi-docs",
+  "kind": "markdown",
+  "title": "Deployments Concepts",
+  "licence": "MIT",
+  "attribution": "FastAPI documentation, (c) Sebastian Ramirez, MIT licence",
+  "removed_lines": {},
+  "sections": 26,
+  "split_method": "headings",
+  "words": 3012
+ },
+ {
+  "id": "fastapi-docs/deployment/docker.md",
+  "source": "fastapi-docs",
+  "kind": "markdown",
+  "title": "FastAPI in Containers - Docker",
+  "licence": "MIT",
+  "attribution": "FastAPI documentation, (c) Sebastian Ramirez, MIT licence",
+  "removed_lines": {},
+  "sections": 27,
+  "split_method": "headings",
+  "words": 4106
+ },
+ {
+  "id": "fastapi-docs/deployment/fastapicloud.md",
+  "source": "fastapi-docs",
+  "kind": "markdown",
+  "title": "FastAPI Cloud",
+  "licence": "MIT",
+  "attribution": "FastAPI documentation, (c) Sebastian Ramirez, MIT licence",
+  "removed_lines": {},
+  "sections": 1,
+  "split_method": "headings",
+  "words": 262
+ },
+ {
+  "id": "fastapi-docs/deployment/https.md",
+  "source": "fastapi-docs",
+  "kind": "markdown",
+  "title": "About HTTPS",
+  "licence": "MIT",
+  "attribution": "FastAPI documentation, (c) Sebastian Ramirez, MIT licence",
+  "removed_lines": {},
+  "sections": 13,
+  "split_method": "headings",
+  "words": 2087
+ },
+ {
+  "id": "fastapi-docs/deployment/index.md",
+  "source": "fastapi-docs",
+  "kind": "markdown",
+  "title": "Deployment",
+  "licence": "MIT",
+  "attribution": "FastAPI documentation, (c) Sebastian Ramirez, MIT licence",
+  "removed_lines": {},
+  "sections": 1,
+  "split_method": "headings",
+  "words": 231
+ },
+ {
+  "id": "fastapi-docs/deployment/manually.md",
+  "source": "fastapi-docs",
+  "kind": "markdown",
+  "title": "Run a Server Manually",
+  "licence": "MIT",
+  "attribution": "FastAPI documentation, (c) Sebastian Ramirez, MIT licence",
+  "removed_lines": {},
+  "sections": 6,
+  "split_method": "headings",
+  "words": 773
+ },
+ {
+  "id": "fastapi-docs/deployment/server-workers.md",
+  "source": "fastapi-docs",
+  "kind": "markdown",
+  "title": "Server Workers - Uvicorn with Workers",
+  "licence": "MIT",
+  "attribution": "FastAPI documentation, (c) Sebastian Ramirez, MIT licence",
+  "removed_lines": {},
+  "sections": 5,
+  "split_method": "headings",
+  "words": 868
+ },
+ {
+  "id": "fastapi-docs/deployment/versions.md",
+  "source": "fastapi-docs",
+  "kind": "markdown",
+  "title": "About FastAPI versions",
+  "licence": "MIT",
+  "attribution": "FastAPI documentation, (c) Sebastian Ramirez, MIT licence",
+  "removed_lines": {},
+  "sections": 5,
+  "split_method": "headings",
+  "words": 520
+ },
+ {
+  "id": "fastapi-docs/editor-support.md",
+  "source": "fastapi-docs",
+  "kind": "markdown",
+  "title": "Editor Support",
+  "licence": "MIT",
+  "attribution": "FastAPI documentation, (c) Sebastian Ramirez, MIT licence",
+  "removed_lines": {},
+  "sections": 4,
+  "split_method": "headings",
+  "words": 318
+ },
+ {
+  "id": "fastapi-docs/environment-variables.md",
+  "source": "fastapi-docs",
+  "kind": "markdown",
+  "title": "Environment Variables",
+  "licence": "MIT",
+  "attribution": "FastAPI documentation, (c) Sebastian Ramirez, MIT licence",
+  "removed_lines": {},
+  "sections": 1,
+  "split_method": "headings",
+  "words": 96
+ },
+ {
+  "id": "fastapi-docs/external-links.md",
+  "source": "fastapi-docs",
+  "kind": "markdown",
+  "title": "External Links",
+  "licence": "MIT",
+  "attribution": "FastAPI documentation, (c) Sebastian Ramirez, MIT licence",
+  "removed_lines": {
+   "front_matter": 1
+  },
+  "sections": 1,
+  "split_method": "headings",
+  "words": 117
+ },
+ {
+  "id": "fastapi-docs/fastapi-cli.md",
+  "source": "fastapi-docs",
+  "kind": "markdown",
+  "title": "FastAPI CLI",
+  "licence": "MIT",
+  "attribution": "FastAPI documentation, (c) Sebastian Ramirez, MIT licence",
+  "removed_lines": {},
+  "sections": 5,
+  "split_method": "headings",
+  "words": 751
+ },
+ {
+  "id": "fastapi-docs/fastapi-people.md",
+  "source": "fastapi-docs",
+  "kind": "markdown",
+  "title": "FastAPI People",
+  "licence": "MIT",
+  "attribution": "FastAPI documentation, (c) Sebastian Ramirez, MIT licence",
+  "removed_lines": {
+   "front_matter": 1
+  },
+  "sections": 9,
+  "split_method": "headings",
+  "words": 782
+ },
+ {
+  "id": "fastapi-docs/features.md",
+  "source": "fastapi-docs",
+  "kind": "markdown",
+  "title": "Features",
+  "licence": "MIT",
+  "attribution": "FastAPI documentation, (c) Sebastian Ramirez, MIT licence",
+  "removed_lines": {},
+  "sections": 11,
+  "split_method": "headings",
+  "words": 1197
+ },
+ {
+  "id": "fastapi-docs/help-fastapi.md",
+  "source": "fastapi-docs",
+  "kind": "markdown",
+  "title": "Help",
+  "licence": "MIT",
+  "attribution": "FastAPI documentation, (c) Sebastian Ramirez, MIT licence",
+  "removed_lines": {},
+  "sections": 7,
+  "split_method": "headings",
+  "words": 450
+ },
+ {
+  "id": "fastapi-docs/history-design-future.md",
+  "source": "fastapi-docs",
+  "kind": "markdown",
+  "title": "History, Design and Future",
+  "licence": "MIT",
+  "attribution": "FastAPI documentation, (c) Sebastian Ramirez, MIT licence",
+  "removed_lines": {},
+  "sections": 7,
+  "split_method": "headings",
+  "words": 598
+ },
+ {
+  "id": "fastapi-docs/how-to/authentication-error-status-code.md",
+  "source": "fastapi-docs",
+  "kind": "markdown",
+  "title": "Use Old 403 Authentication Error Status Codes",
+  "licence": "MIT",
+  "attribution": "FastAPI documentation, (c) Sebastian Ramirez, MIT licence",
+  "removed_lines": {
+   "code_include": 1
+  },
+  "sections": 1,
+  "split_method": "headings",
+  "words": 139
+ },
+ {
+  "id": "fastapi-docs/how-to/conditional-openapi.md",
+  "source": "fastapi-docs",
+  "kind": "markdown",
+  "title": "Conditional OpenAPI",
+  "licence": "MIT",
+  "attribution": "FastAPI documentation, (c) Sebastian Ramirez, MIT licence",
+  "removed_lines": {
+   "code_include": 1
+  },
+  "sections": 2,
+  "split_method": "headings",
+  "words": 343
+ },
+ {
+  "id": "fastapi-docs/how-to/configure-swagger-ui.md",
+  "source": "fastapi-docs",
+  "kind": "markdown",
+  "title": "Configure Swagger UI",
+  "licence": "MIT",
+  "attribution": "FastAPI documentation, (c) Sebastian Ramirez, MIT licence",
+  "removed_lines": {
+   "code_include": 4
+  },
+  "sections": 1,
+  "split_method": "headings",
+  "words": 297
+ },
+ {
+  "id": "fastapi-docs/how-to/custom-docs-ui-assets.md",
+  "source": "fastapi-docs",
+  "kind": "markdown",
+  "title": "Custom Docs UI Static Assets (Self-Hosting)",
+  "licence": "MIT",
+  "attribution": "FastAPI documentation, (c) Sebastian Ramirez, MIT licence",
+  "removed_lines": {
+   "code_include": 7
+  },
+  "sections": 11,
+  "split_method": "headings",
+  "words": 1025
+ },
+ {
+  "id": "fastapi-docs/how-to/custom-request-and-route.md",
+  "source": "fastapi-docs",
+  "kind": "markdown",
+  "title": "Custom Request and APIRoute class",
+  "licence": "MIT",
+  "attribution": "FastAPI documentation, (c) Sebastian Ramirez, MIT licence",
+  "removed_lines": {
+   "code_include": 6
+  },
+  "sections": 6,
+  "split_method": "headings",
+  "words": 573
+ },
+ {
+  "id": "fastapi-docs/how-to/extending-openapi.md",
+  "source": "fastapi-docs",
+  "kind": "markdown",
+  "title": "Extending OpenAPI",
+  "licence": "MIT",
+  "attribution": "FastAPI documentation, (c) Sebastian Ramirez, MIT licence",
+  "removed_lines": {
+   "code_include": 5
+  },
+  "sections": 5,
+  "split_method": "headings",
+  "words": 460
+ },
+ {
+  "id": "fastapi-docs/how-to/general.md",
+  "source": "fastapi-docs",
+  "kind": "markdown",
+  "title": "General - How To - Recipes",
+  "licence": "MIT",
+  "attribution": "FastAPI documentation, (c) Sebastian Ramirez, MIT licence",
+  "removed_lines": {},
+  "sections": 6,
+  "split_method": "headings",
+  "words": 328
+ },
+ {
+  "id": "fastapi-docs/how-to/graphql.md",
+  "source": "fastapi-docs",
+  "kind": "markdown",
+  "title": "GraphQL",
+  "licence": "MIT",
+  "attribution": "FastAPI documentation, (c) Sebastian Ramirez, MIT licence",
+  "removed_lines": {
+   "code_include": 1
+  },
+  "sections": 4,
+  "split_method": "headings",
+  "words": 309
+ },
+ {
+  "id": "fastapi-docs/how-to/index.md",
+  "source": "fastapi-docs",
+  "kind": "markdown",
+  "title": "How To - Recipes",
+  "licence": "MIT",
+  "attribution": "FastAPI documentation, (c) Sebastian Ramirez, MIT licence",
+  "removed_lines": {},
+  "sections": 1,
+  "split_method": "headings",
+  "words": 92
+ },
+ {
+  "id": "fastapi-docs/how-to/migrate-from-pydantic-v1-to-pydantic-v2.md",
+  "source": "fastapi-docs",
+  "kind": "markdown",
+  "title": "Migrate from Pydantic v1 to Pydantic v2",
+  "licence": "MIT",
+  "attribution": "FastAPI documentation, (c) Sebastian Ramirez, MIT licence",
+  "removed_lines": {
+   "code_include": 4
+  },
+  "sections": 7,
+  "split_method": "headings",
+  "words": 889
+ },
+ {
+  "id": "fastapi-docs/how-to/separate-openapi-schemas.md",
+  "source": "fastapi-docs",
+  "kind": "markdown",
+  "title": "Separate OpenAPI Schemas for Input and Output or Not",
+  "licence": "MIT",
+  "attribution": "FastAPI documentation, (c) Sebastian Ramirez, MIT licence",
+  "removed_lines": {
+   "code_include": 4
+  },
+  "sections": 7,
+  "split_method": "headings",
+  "words": 618
+ },
+ {
+  "id": "fastapi-docs/index.md",
+  "source": "fastapi-docs",
+  "kind": "markdown",
+  "title": "FastAPI",
+  "licence": "MIT",
+  "attribution": "FastAPI documentation, (c) Sebastian Ramirez, MIT licence",
+  "removed_lines": {
+   "front_matter": 1
+  },
+  "sections": 17,
+  "split_method": "headings",
+  "words": 2584
+ },
+ {
+  "id": "fastapi-docs/management.md",
+  "source": "fastapi-docs",
+  "kind": "markdown",
+  "title": "Repository Management",
+  "licence": "MIT",
+  "attribution": "FastAPI documentation, (c) Sebastian Ramirez, MIT licence",
+  "removed_lines": {},
+  "sections": 1,
+  "split_method": "headings",
+  "words": 82
+ },
+ {
+  "id": "fastapi-docs/project-generation.md",
+  "source": "fastapi-docs",
+  "kind": "markdown",
+  "title": "Full Stack FastAPI Template",
+  "licence": "MIT",
+  "attribution": "FastAPI documentation, (c) Sebastian Ramirez, MIT licence",
+  "removed_lines": {},
+  "sections": 1,
+  "split_method": "headings",
+  "words": 246
+ },
+ {
+  "id": "fastapi-docs/python-types.md",
+  "source": "fastapi-docs",
+  "kind": "markdown",
+  "title": "Python Types Intro",
+  "licence": "MIT",
+  "attribution": "FastAPI documentation, (c) Sebastian Ramirez, MIT licence",
+  "removed_lines": {
+   "code_include": 13
+  },
+  "sections": 12,
+  "split_method": "headings",
+  "words": 1607
+ },
+ {
+  "id": "fastapi-docs/reference/dependencies.md",
+  "source": "fastapi-docs",
+  "kind": "markdown",
+  "title": "Dependencies - `Depends()` and `Security()`",
+  "licence": "MIT",
+  "attribution": "FastAPI documentation, (c) Sebastian Ramirez, MIT licence",
+  "removed_lines": {
+   "directive": 2
+  },
+  "sections": 1,
+  "split_method": "headings",
+  "words": 88
+ },
+ {
+  "id": "fastapi-docs/reference/exceptions.md",
+  "source": "fastapi-docs",
+  "kind": "markdown",
+  "title": "Exceptions - `HTTPException` and `WebSocketException`",
+  "licence": "MIT",
+  "attribution": "FastAPI documentation, (c) Sebastian Ramirez, MIT licence",
+  "removed_lines": {
+   "directive": 2
+  },
+  "sections": 1,
+  "split_method": "headings",
+  "words": 83
+ },
+ {
+  "id": "fastapi-docs/reference/fastapi.md",
+  "source": "fastapi-docs",
+  "kind": "markdown",
+  "title": "`FastAPI` class",
+  "licence": "MIT",
+  "attribution": "FastAPI documentation, (c) Sebastian Ramirez, MIT licence",
+  "removed_lines": {
+   "directive": 1
+  },
+  "sections": 1,
+  "split_method": "headings",
+  "words": 73
+ },
+ {
+  "id": "fastapi-docs/reference/middleware.md",
+  "source": "fastapi-docs",
+  "kind": "markdown",
+  "title": "Middleware",
+  "licence": "MIT",
+  "attribution": "FastAPI documentation, (c) Sebastian Ramirez, MIT licence",
+  "removed_lines": {
+   "directive": 4
+  },
+  "sections": 1,
+  "split_method": "headings",
+  "words": 69
+ },
+ {
+  "id": "fastapi-docs/reference/parameters.md",
+  "source": "fastapi-docs",
+  "kind": "markdown",
+  "title": "Request Parameters",
+  "licence": "MIT",
+  "attribution": "FastAPI documentation, (c) Sebastian Ramirez, MIT licence",
+  "removed_lines": {
+   "directive": 7
+  },
+  "sections": 1,
+  "split_method": "headings",
+  "words": 72
+ },
+ {
+  "id": "fastapi-docs/reference/request.md",
+  "source": "fastapi-docs",
+  "kind": "markdown",
+  "title": "`Request` class",
+  "licence": "MIT",
+  "attribution": "FastAPI documentation, (c) Sebastian Ramirez, MIT licence",
+  "removed_lines": {
+   "directive": 1
+  },
+  "sections": 1,
+  "split_method": "headings",
+  "words": 91
+ },
+ {
+  "id": "fastapi-docs/reference/response.md",
+  "source": "fastapi-docs",
+  "kind": "markdown",
+  "title": "`Response` class",
+  "licence": "MIT",
+  "attribution": "FastAPI documentation, (c) Sebastian Ramirez, MIT licence",
+  "removed_lines": {
+   "directive": 1
+  },
+  "sections": 1,
+  "split_method": "headings",
+  "words": 78
+ },
+ {
+  "id": "fastapi-docs/reference/responses.md",
+  "source": "fastapi-docs",
+  "kind": "markdown",
+  "title": "Custom Response Classes - File, HTML, Redirect, Streaming, etc.",
+  "licence": "MIT",
+  "attribution": "FastAPI documentation, (c) Sebastian Ramirez, MIT licence",
+  "removed_lines": {
+   "directive": 9
+  },
+  "sections": 3,
+  "split_method": "headings",
+  "words": 395
+ },
+ {
+  "id": "fastapi-docs/reference/security/index.md",
+  "source": "fastapi-docs",
+  "kind": "markdown",
+  "title": "Security Tools",
+  "licence": "MIT",
+  "attribution": "FastAPI documentation, (c) Sebastian Ramirez, MIT licence",
+  "removed_lines": {
+   "directive": 15
+  },
+  "sections": 1,
+  "split_method": "headings",
+  "words": 141
+ },
+ {
+  "id": "fastapi-docs/reference/sse.md",
+  "source": "fastapi-docs",
+  "kind": "markdown",
+  "title": "Server-Sent Events - `EventSourceResponse` and `ServerSentEvent`",
+  "licence": "MIT",
+  "attribution": "FastAPI documentation, (c) Sebastian Ramirez, MIT licence",
+  "removed_lines": {
+   "directive": 2
+  },
+  "sections": 1,
+  "split_method": "headings",
+  "words": 70
+ },
+ {
+  "id": "fastapi-docs/reference/status.md",
+  "source": "fastapi-docs",
+  "kind": "markdown",
+  "title": "Status Codes",
+  "licence": "MIT",
+  "attribution": "FastAPI documentation, (c) Sebastian Ramirez, MIT licence",
+  "removed_lines": {
+   "directive": 1
+  },
+  "sections": 1,
+  "split_method": "headings",
+  "words": 107
+ },
+ {
+  "id": "fastapi-docs/reference/websockets.md",
+  "source": "fastapi-docs",
+  "kind": "markdown",
+  "title": "WebSockets",
+  "licence": "MIT",
+  "attribution": "FastAPI documentation, (c) Sebastian Ramirez, MIT licence",
+  "removed_lines": {
+   "directive": 3
+  },
+  "sections": 1,
+  "split_method": "headings",
+  "words": 219
+ },
+ {
+  "id": "fastapi-docs/translations.md",
+  "source": "fastapi-docs",
+  "kind": "markdown",
+  "title": "Translations",
+  "licence": "MIT",
+  "attribution": "FastAPI documentation, (c) Sebastian Ramirez, MIT licence",
+  "removed_lines": {},
+  "sections": 1,
+  "split_method": "headings",
+  "words": 277
+ },
+ {
+  "id": "fastapi-docs/tutorial/background-tasks.md",
+  "source": "fastapi-docs",
+  "kind": "markdown",
+  "title": "Background Tasks",
+  "licence": "MIT",
+  "attribution": "FastAPI documentation, (c) Sebastian Ramirez, MIT licence",
+  "removed_lines": {
+   "code_include": 4
+  },
+  "sections": 6,
+  "split_method": "headings",
+  "words": 666
+ },
+ {
+  "id": "fastapi-docs/tutorial/bigger-applications.md",
+  "source": "fastapi-docs",
+  "kind": "markdown",
+  "title": "Bigger Applications - Multiple Files",
+  "licence": "MIT",
+  "attribution": "FastAPI documentation, (c) Sebastian Ramirez, MIT licence",
+  "removed_lines": {
+   "code_include": 13
+  },
+  "sections": 19,
+  "split_method": "headings",
+  "words": 2681
+ },
+ {
+  "id": "fastapi-docs/tutorial/body-fields.md",
+  "source": "fastapi-docs",
+  "kind": "markdown",
+  "title": "Body - Fields",
+  "licence": "MIT",
+  "attribution": "FastAPI documentation, (c) Sebastian Ramirez, MIT licence",
+  "removed_lines": {
+   "code_include": 2
+  },
+  "sections": 3,
+  "split_method": "headings",
+  "words": 325
+ },
+ {
+  "id": "fastapi-docs/tutorial/body-multiple-params.md",
+  "source": "fastapi-docs",
+  "kind": "markdown",
+  "title": "Body - Multiple Parameters",
+  "licence": "MIT",
+  "attribution": "FastAPI documentation, (c) Sebastian Ramirez, MIT licence",
+  "removed_lines": {
+   "code_include": 5
+  },
+  "sections": 6,
+  "split_method": "headings",
+  "words": 689
+ },
+ {
+  "id": "fastapi-docs/tutorial/body-nested-models.md",
+  "source": "fastapi-docs",
+  "kind": "markdown",
+  "title": "Body - Nested Models",
+  "licence": "MIT",
+  "attribution": "FastAPI documentation, (c) Sebastian Ramirez, MIT licence",
+  "removed_lines": {
+   "code_include": 10
+  },
+  "sections": 11,
+  "split_method": "headings",
+  "words": 901
+ },
+ {
+  "id": "fastapi-docs/tutorial/body-updates.md",
+  "source": "fastapi-docs",
+  "kind": "markdown",
+  "title": "Body - Updates",
+  "licence": "MIT",
+  "attribution": "FastAPI documentation, (c) Sebastian Ramirez, MIT licence",
+  "removed_lines": {
+   "code_include": 4
+  },
+  "sections": 5,
+  "split_method": "headings",
+  "words": 560
+ },
+ {
+  "id": "fastapi-docs/tutorial/body.md",
+  "source": "fastapi-docs",
+  "kind": "markdown",
+  "title": "Request Body",
+  "licence": "MIT",
+  "attribution": "FastAPI documentation, (c) Sebastian Ramirez, MIT licence",
+  "removed_lines": {
+   "code_include": 6
+  },
+  "sections": 7,
+  "split_method": "headings",
+  "words": 942
+ },
+ {
+  "id": "fastapi-docs/tutorial/cookie-param-models.md",
+  "source": "fastapi-docs",
+  "kind": "markdown",
+  "title": "Cookie Parameter Models",
+  "licence": "MIT",
+  "attribution": "FastAPI documentation, (c) Sebastian Ramirez, MIT licence",
+  "removed_lines": {
+   "code_include": 3
+  },
+  "sections": 6,
+  "split_method": "headings",
+  "words": 564
+ },
+ {
+  "id": "fastapi-docs/tutorial/cookie-params.md",
+  "source": "fastapi-docs",
+  "kind": "markdown",
+  "title": "Cookie Parameters",
+  "licence": "MIT",
+  "attribution": "FastAPI documentation, (c) Sebastian Ramirez, MIT licence",
+  "removed_lines": {
+   "code_include": 2
+  },
+  "sections": 1,
+  "split_method": "headings",
+  "words": 217
+ },
+ {
+  "id": "fastapi-docs/tutorial/cors.md",
+  "source": "fastapi-docs",
+  "kind": "markdown",
+  "title": "CORS (Cross-Origin Resource Sharing)",
+  "licence": "MIT",
+  "attribution": "FastAPI documentation, (c) Sebastian Ramirez, MIT licence",
+  "removed_lines": {
+   "code_include": 1
+  },
+  "sections": 7,
+  "split_method": "headings",
+  "words": 699
+ },
+ {
+  "id": "fastapi-docs/tutorial/debugging.md",
+  "source": "fastapi-docs",
+  "kind": "markdown",
+  "title": "Debugging",
+  "licence": "MIT",
+  "attribution": "FastAPI documentation, (c) Sebastian Ramirez, MIT licence",
+  "removed_lines": {
+   "code_include": 1
+  },
+  "sections": 2,
+  "split_method": "headings",
+  "words": 346
+ },
+ {
+  "id": "fastapi-docs/tutorial/dependencies/classes-as-dependencies.md",
+  "source": "fastapi-docs",
+  "kind": "markdown",
+  "title": "Classes as Dependencies",
+  "licence": "MIT",
+  "attribution": "FastAPI documentation, (c) Sebastian Ramirez, MIT licence",
+  "removed_lines": {
+   "code_include": 7
+  },
+  "sections": 5,
+  "split_method": "headings",
+  "words": 909
+ },
+ {
+  "id": "fastapi-docs/tutorial/dependencies/dependencies-in-path-operation-decorators.md",
+  "source": "fastapi-docs",
+  "kind": "markdown",
+  "title": "Dependencies in path operation decorators",
+  "licence": "MIT",
+  "attribution": "FastAPI documentation, (c) Sebastian Ramirez, MIT licence",
+  "removed_lines": {
+   "code_include": 4
+  },
+  "sections": 5,
+  "split_method": "headings",
+  "words": 353
+ },
+ {
+  "id": "fastapi-docs/tutorial/dependencies/dependencies-with-yield.md",
+  "source": "fastapi-docs",
+  "kind": "markdown",
+  "title": "Dependencies with yield",
+  "licence": "MIT",
+  "attribution": "FastAPI documentation, (c) Sebastian Ramirez, MIT licence",
+  "removed_lines": {
+   "code_include": 11
+  },
+  "sections": 13,
+  "split_method": "headings",
+  "words": 1661
+ },
+ {
+  "id": "fastapi-docs/tutorial/dependencies/global-dependencies.md",
+  "source": "fastapi-docs",
+  "kind": "markdown",
+  "title": "Global Dependencies",
+  "licence": "MIT",
+  "attribution": "FastAPI documentation, (c) Sebastian Ramirez, MIT licence",
+  "removed_lines": {
+   "code_include": 1
+  },
+  "sections": 1,
+  "split_method": "headings",
+  "words": 125
+ },
+ {
+  "id": "fastapi-docs/tutorial/dependencies/index.md",
+  "source": "fastapi-docs",
+  "kind": "markdown",
+  "title": "Dependencies",
+  "licence": "MIT",
+  "attribution": "FastAPI documentation, (c) Sebastian Ramirez, MIT licence",
+  "removed_lines": {
+   "code_include": 4
+  },
+  "sections": 11,
+  "split_method": "headings",
+  "words": 1343
+ },
+ {
+  "id": "fastapi-docs/tutorial/dependencies/sub-dependencies.md",
+  "source": "fastapi-docs",
+  "kind": "markdown",
+  "title": "Sub-dependencies",
+  "licence": "MIT",
+  "attribution": "FastAPI documentation, (c) Sebastian Ramirez, MIT licence",
+  "removed_lines": {
+   "code_include": 3
+  },
+  "sections": 5,
+  "split_method": "headings",
+  "words": 499
+ },
+ {
+  "id": "fastapi-docs/tutorial/encoder.md",
+  "source": "fastapi-docs",
+  "kind": "markdown",
+  "title": "JSON Compatible Encoder",
+  "licence": "MIT",
+  "attribution": "FastAPI documentation, (c) Sebastian Ramirez, MIT licence",
+  "removed_lines": {
+   "code_include": 1
+  },
+  "sections": 1,
+  "split_method": "headings",
+  "words": 224
+ },
+ {
+  "id": "fastapi-docs/tutorial/extra-data-types.md",
+  "source": "fastapi-docs",
+  "kind": "markdown",
+  "title": "Extra Data Types",
+  "licence": "MIT",
+  "attribution": "FastAPI documentation, (c) Sebastian Ramirez, MIT licence",
+  "removed_lines": {
+   "code_include": 2
+  },
+  "sections": 2,
+  "split_method": "headings",
+  "words": 372
+ },
+ {
+  "id": "fastapi-docs/tutorial/extra-models.md",
+  "source": "fastapi-docs",
+  "kind": "markdown",
+  "title": "Extra Models",
+  "licence": "MIT",
+  "attribution": "FastAPI documentation, (c) Sebastian Ramirez, MIT licence",
+  "removed_lines": {
+   "code_include": 5
+  },
+  "sections": 7,
+  "split_method": "headings",
+  "words": 866
+ },
+ {
+  "id": "fastapi-docs/tutorial/first-steps.md",
+  "source": "fastapi-docs",
+  "kind": "markdown",
+  "title": "First Steps",
+  "licence": "MIT",
+  "attribution": "FastAPI documentation, (c) Sebastian Ramirez, MIT licence",
+  "removed_lines": {
+   "code_include": 7
+  },
+  "sections": 12,
+  "split_method": "headings",
+  "words": 1662
+ },
+ {
+  "id": "fastapi-docs/tutorial/frontend.md",
+  "source": "fastapi-docs",
+  "kind": "markdown",
+  "title": "Frontend",
+  "licence": "MIT",
+  "attribution": "FastAPI documentation, (c) Sebastian Ramirez, MIT licence",
+  "removed_lines": {
+   "code_include": 7
+  },
+  "sections": 9,
+  "split_method": "headings",
+  "words": 848
+ },
+ {
+  "id": "fastapi-docs/tutorial/handling-errors.md",
+  "source": "fastapi-docs",
+  "kind": "markdown",
+  "title": "Handling Errors",
+  "licence": "MIT",
+  "attribution": "FastAPI documentation, (c) Sebastian Ramirez, MIT licence",
+  "removed_lines": {
+   "code_include": 8
+  },
+  "sections": 10,
+  "split_method": "headings",
+  "words": 1223
+ },
+ {
+  "id": "fastapi-docs/tutorial/header-param-models.md",
+  "source": "fastapi-docs",
+  "kind": "markdown",
+  "title": "Header Parameter Models",
+  "licence": "MIT",
+  "attribution": "FastAPI documentation, (c) Sebastian Ramirez, MIT licence",
+  "removed_lines": {
+   "code_include": 4
+  },
+  "sections": 6,
+  "split_method": "headings",
+  "words": 516
+ },
+ {
+  "id": "fastapi-docs/tutorial/header-params.md",
+  "source": "fastapi-docs",
+  "kind": "markdown",
+  "title": "Header Parameters",
+  "licence": "MIT",
+  "attribution": "FastAPI documentation, (c) Sebastian Ramirez, MIT licence",
+  "removed_lines": {
+   "code_include": 4
+  },
+  "sections": 3,
+  "split_method": "headings",
+  "words": 400
+ },
+ {
+  "id": "fastapi-docs/tutorial/index.md",
+  "source": "fastapi-docs",
+  "kind": "markdown",
+  "title": "Tutorial - User Guide",
+  "licence": "MIT",
+  "attribution": "FastAPI documentation, (c) Sebastian Ramirez, MIT licence",
+  "removed_lines": {},
+  "sections": 5,
+  "split_method": "headings",
+  "words": 877
+ },
+ {
+  "id": "fastapi-docs/tutorial/metadata.md",
+  "source": "fastapi-docs",
+  "kind": "markdown",
+  "title": "Metadata and Docs URLs",
+  "licence": "MIT",
+  "attribution": "FastAPI documentation, (c) Sebastian Ramirez, MIT licence",
+  "removed_lines": {
+   "code_include": 6
+  },
+  "sections": 7,
+  "split_method": "headings",
+  "words": 734
+ },
+ {
+  "id": "fastapi-docs/tutorial/middleware.md",
+  "source": "fastapi-docs",
+  "kind": "markdown",
+  "title": "Middleware",
+  "licence": "MIT",
+  "attribution": "FastAPI documentation, (c) Sebastian Ramirez, MIT licence",
+  "removed_lines": {
+   "code_include": 2
+  },
+  "sections": 4,
+  "split_method": "headings",
+  "words": 516
+ },
+ {
+  "id": "fastapi-docs/tutorial/path-operation-configuration.md",
+  "source": "fastapi-docs",
+  "kind": "markdown",
+  "title": "Path Operation Configuration",
+  "licence": "MIT",
+  "attribution": "FastAPI documentation, (c) Sebastian Ramirez, MIT licence",
+  "removed_lines": {
+   "code_include": 7
+  },
+  "sections": 6,
+  "split_method": "headings",
+  "words": 455
+ },
+ {
+  "id": "fastapi-docs/tutorial/path-params-numeric-validations.md",
+  "source": "fastapi-docs",
+  "kind": "markdown",
+  "title": "Path Parameters and Numeric Validations",
+  "licence": "MIT",
+  "attribution": "FastAPI documentation, (c) Sebastian Ramirez, MIT licence",
+  "removed_lines": {
+   "code_include": 9
+  },
+  "sections": 7,
+  "split_method": "headings",
+  "words": 816
+ },
+ {
+  "id": "fastapi-docs/tutorial/path-params.md",
+  "source": "fastapi-docs",
+  "kind": "markdown",
+  "title": "Path Parameters",
+  "licence": "MIT",
+  "attribution": "FastAPI documentation, (c) Sebastian Ramirez, MIT licence",
+  "removed_lines": {
+   "code_include": 10
+  },
+  "sections": 14,
+  "split_method": "headings",
+  "words": 1117
+ },
+ {
+  "id": "fastapi-docs/tutorial/query-param-models.md",
+  "source": "fastapi-docs",
+  "kind": "markdown",
+  "title": "Query Parameter Models",
+  "licence": "MIT",
+  "attribution": "FastAPI documentation, (c) Sebastian Ramirez, MIT licence",
+  "removed_lines": {
+   "code_include": 4
+  },
+  "sections": 5,
+  "split_method": "headings",
+  "words": 537
+ },
+ {
+  "id": "fastapi-docs/tutorial/query-params-str-validations.md",
+  "source": "fastapi-docs",
+  "kind": "markdown",
+  "title": "Query Parameters and String Validations",
+  "licence": "MIT",
+  "attribution": "FastAPI documentation, (c) Sebastian Ramirez, MIT licence",
+  "removed_lines": {
+   "code_include": 20
+  },
+  "sections": 19,
+  "split_method": "headings",
+  "words": 2256
+ },
+ {
+  "id": "fastapi-docs/tutorial/query-params.md",
+  "source": "fastapi-docs",
+  "kind": "markdown",
+  "title": "Query Parameters",
+  "licence": "MIT",
+  "attribution": "FastAPI documentation, (c) Sebastian Ramirez, MIT licence",
+  "removed_lines": {
+   "code_include": 6
+  },
+  "sections": 6,
+  "split_method": "headings",
+  "words": 657
+ },
+ {
+  "id": "fastapi-docs/tutorial/request-files.md",
+  "source": "fastapi-docs",
+  "kind": "markdown",
+  "title": "Request Files",
+  "licence": "MIT",
+  "attribution": "FastAPI documentation, (c) Sebastian Ramirez, MIT licence",
+  "removed_lines": {
+   "code_include": 7
+  },
+  "sections": 8,
+  "split_method": "headings",
+  "words": 912
+ },
+ {
+  "id": "fastapi-docs/tutorial/request-form-models.md",
+  "source": "fastapi-docs",
+  "kind": "markdown",
+  "title": "Form Models",
+  "licence": "MIT",
+  "attribution": "FastAPI documentation, (c) Sebastian Ramirez, MIT licence",
+  "removed_lines": {
+   "code_include": 7
+  },
+  "sections": 7,
+  "split_method": "headings",
+  "words": 581
+ },
+ {
+  "id": "fastapi-docs/tutorial/request-forms-and-files.md",
+  "source": "fastapi-docs",
+  "kind": "markdown",
+  "title": "Request Forms and Files",
+  "licence": "MIT",
+  "attribution": "FastAPI documentation, (c) Sebastian Ramirez, MIT licence",
+  "removed_lines": {
+   "code_include": 2
+  },
+  "sections": 1,
+  "split_method": "headings",
+  "words": 173
+ },
+ {
+  "id": "fastapi-docs/tutorial/request-forms.md",
+  "source": "fastapi-docs",
+  "kind": "markdown",
+  "title": "Form Data",
+  "licence": "MIT",
+  "attribution": "FastAPI documentation, (c) Sebastian Ramirez, MIT licence",
+  "removed_lines": {
+   "code_include": 3
+  },
+  "sections": 4,
+  "split_method": "headings",
+  "words": 396
+ },
+ {
+  "id": "fastapi-docs/tutorial/response-model.md",
+  "source": "fastapi-docs",
+  "kind": "markdown",
+  "title": "Response Model - Return Type",
+  "licence": "MIT",
+  "attribution": "FastAPI documentation, (c) Sebastian Ramirez, MIT licence",
+  "removed_lines": {
+   "code_include": 16
+  },
+  "sections": 16,
+  "split_method": "headings",
+  "words": 2228
+ },
+ {
+  "id": "fastapi-docs/tutorial/response-status-code.md",
+  "source": "fastapi-docs",
+  "kind": "markdown",
+  "title": "Response Status Code",
+  "licence": "MIT",
+  "attribution": "FastAPI documentation, (c) Sebastian Ramirez, MIT licence",
+  "removed_lines": {
+   "code_include": 3
+  },
+  "sections": 3,
+  "split_method": "headings",
+  "words": 563
+ },
+ {
+  "id": "fastapi-docs/tutorial/schema-extra-example.md",
+  "source": "fastapi-docs",
+  "kind": "markdown",
+  "title": "Declare Request Example Data",
+  "licence": "MIT",
+  "attribution": "FastAPI documentation, (c) Sebastian Ramirez, MIT licence",
+  "removed_lines": {
+   "code_include": 5
+  },
+  "sections": 10,
+  "split_method": "headings",
+  "words": 1216
+ },
+ {
+  "id": "fastapi-docs/tutorial/security/first-steps.md",
+  "source": "fastapi-docs",
+  "kind": "markdown",
+  "title": "Security - First Steps",
+  "licence": "MIT",
+  "attribution": "FastAPI documentation, (c) Sebastian Ramirez, MIT licence",
+  "removed_lines": {
+   "code_include": 3
+  },
+  "sections": 7,
+  "split_method": "headings",
+  "words": 1280
+ },
+ {
+  "id": "fastapi-docs/tutorial/security/get-current-user.md",
+  "source": "fastapi-docs",
+  "kind": "markdown",
+  "title": "Get Current User",
+  "licence": "MIT",
+  "attribution": "FastAPI documentation, (c) Sebastian Ramirez, MIT licence",
+  "removed_lines": {
+   "code_include": 6
+  },
+  "sections": 6,
+  "split_method": "headings",
+  "words": 591
+ },
+ {
+  "id": "fastapi-docs/tutorial/security/index.md",
+  "source": "fastapi-docs",
+  "kind": "markdown",
+  "title": "Security",
+  "licence": "MIT",
+  "attribution": "FastAPI documentation, (c) Sebastian Ramirez, MIT licence",
+  "removed_lines": {},
+  "sections": 7,
+  "split_method": "headings",
+  "words": 669
+ },
+ {
+  "id": "fastapi-docs/tutorial/security/oauth2-jwt.md",
+  "source": "fastapi-docs",
+  "kind": "markdown",
+  "title": "OAuth2 with Password (and hashing), Bearer with JWT tokens",
+  "licence": "MIT",
+  "attribution": "FastAPI documentation, (c) Sebastian Ramirez, MIT licence",
+  "removed_lines": {
+   "code_include": 4
+  },
+  "sections": 13,
+  "split_method": "headings",
+  "words": 1590
+ },
+ {
+  "id": "fastapi-docs/tutorial/security/simple-oauth2.md",
+  "source": "fastapi-docs",
+  "kind": "markdown",
+  "title": "Simple OAuth2 with Password and Bearer",
+  "licence": "MIT",
+  "attribution": "FastAPI documentation, (c) Sebastian Ramirez, MIT licence",
+  "removed_lines": {
+   "code_include": 5
+  },
+  "sections": 10,
+  "split_method": "headings",
+  "words": 1349
+ },
+ {
+  "id": "fastapi-docs/tutorial/server-sent-events.md",
+  "source": "fastapi-docs",
+  "kind": "markdown",
+  "title": "Server-Sent Events (SSE)",
+  "licence": "MIT",
+  "attribution": "FastAPI documentation, (c) Sebastian Ramirez, MIT licence",
+  "removed_lines": {
+   "code_include": 8
+  },
+  "sections": 8,
+  "split_method": "headings",
+  "words": 565
+ },
+ {
+  "id": "fastapi-docs/tutorial/sql-databases.md",
+  "source": "fastapi-docs",
+  "kind": "markdown",
+  "title": "SQL (Relational) Databases",
+  "licence": "MIT",
+  "attribution": "FastAPI documentation, (c) Sebastian Ramirez, MIT licence",
+  "removed_lines": {
+   "code_include": 19
+  },
+  "sections": 16,
+  "split_method": "headings",
+  "words": 2122
+ },
+ {
+  "id": "fastapi-docs/tutorial/static-files.md",
+  "source": "fastapi-docs",
+  "kind": "markdown",
+  "title": "Static Files",
+  "licence": "MIT",
+  "attribution": "FastAPI documentation, (c) Sebastian Ramirez, MIT licence",
+  "removed_lines": {
+   "code_include": 1
+  },
+  "sections": 1,
+  "split_method": "headings",
+  "words": 245
+ },
+ {
+  "id": "fastapi-docs/tutorial/stream-json-lines.md",
+  "source": "fastapi-docs",
+  "kind": "markdown",
+  "title": "Stream JSON Lines",
+  "licence": "MIT",
+  "attribution": "FastAPI documentation, (c) Sebastian Ramirez, MIT licence",
+  "removed_lines": {
+   "code_include": 4
+  },
+  "sections": 6,
+  "split_method": "headings",
+  "words": 623
+ },
+ {
+  "id": "fastapi-docs/tutorial/testing.md",
+  "source": "fastapi-docs",
+  "kind": "markdown",
+  "title": "Testing",
+  "licence": "MIT",
+  "attribution": "FastAPI documentation, (c) Sebastian Ramirez, MIT licence",
+  "removed_lines": {
+   "code_include": 5
+  },
+  "sections": 7,
+  "split_method": "headings",
+  "words": 745
+ },
+ {
+  "id": "fastapi-docs/virtual-environments.md",
+  "source": "fastapi-docs",
+  "kind": "markdown",
+  "title": "Virtual Environments",
+  "licence": "MIT",
+  "attribution": "FastAPI documentation, (c) Sebastian Ramirez, MIT licence",
+  "removed_lines": {},
+  "sections": 1,
+  "split_method": "headings",
+  "words": 138
+ },
+ {
+  "id": "pydantic-docs/api/base_model.md",
+  "source": "pydantic-docs",
+  "kind": "markdown",
+  "title": "Api/Base Model",
+  "licence": "MIT",
+  "attribution": "Pydantic documentation, (c) Pydantic Services Inc., MIT licence",
+  "removed_lines": {
+   "directive": 2
+  },
+  "sections": 1,
+  "split_method": "headings",
+  "words": 75
+ },
+ {
+  "id": "pydantic-docs/api/standard_library_types.md",
+  "source": "pydantic-docs",
+  "kind": "markdown",
+  "title": "Api/Standard Library Types",
+  "licence": "MIT",
+  "attribution": "Pydantic documentation, (c) Pydantic Services Inc., MIT licence",
+  "removed_lines": {
+   "front_matter": 1
+  },
+  "sections": 36,
+  "split_method": "headings",
+  "words": 6716
+ },
+ {
+  "id": "pydantic-docs/concepts/alias.md",
+  "source": "pydantic-docs",
+  "kind": "markdown",
+  "title": "Concepts/Alias",
+  "licence": "MIT",
+  "attribution": "Pydantic documentation, (c) Pydantic Services Inc., MIT licence",
+  "removed_lines": {},
+  "sections": 9,
+  "split_method": "headings",
+  "words": 1507
+ },
+ {
+  "id": "pydantic-docs/concepts/config.md",
+  "source": "pydantic-docs",
+  "kind": "markdown",
+  "title": "Concepts/Config",
+  "licence": "MIT",
+  "attribution": "Pydantic documentation, (c) Pydantic Services Inc., MIT licence",
+  "removed_lines": {},
+  "sections": 7,
+  "split_method": "headings",
+  "words": 715
+ },
+ {
+  "id": "pydantic-docs/concepts/conversion_table.md",
+  "source": "pydantic-docs",
+  "kind": "markdown",
+  "title": "Concepts/Conversion Table",
+  "licence": "MIT",
+  "attribution": "Pydantic documentation, (c) Pydantic Services Inc., MIT licence",
+  "removed_lines": {},
+  "sections": 1,
+  "split_method": "headings",
+  "words": 63
+ },
+ {
+  "id": "pydantic-docs/concepts/dataclasses.md",
+  "source": "pydantic-docs",
+  "kind": "markdown",
+  "title": "Option 1 -- using the decorator argument:",
+  "licence": "MIT",
+  "attribution": "Pydantic documentation, (c) Pydantic Services Inc., MIT licence",
+  "removed_lines": {},
+  "sections": 7,
+  "split_method": "headings",
+  "words": 1374
+ },
+ {
+  "id": "pydantic-docs/concepts/experimental.md",
+  "source": "pydantic-docs",
+  "kind": "markdown",
+  "title": "Experimental Features",
+  "licence": "MIT",
+  "attribution": "Pydantic documentation, (c) Pydantic Services Inc., MIT licence",
+  "removed_lines": {},
+  "sections": 9,
+  "split_method": "headings",
+  "words": 2533
+ },
+ {
+  "id": "pydantic-docs/concepts/fields.md",
+  "source": "pydantic-docs",
+  "kind": "markdown",
+  "title": "Concepts/Fields",
+  "licence": "MIT",
+  "attribution": "Pydantic documentation, (c) Pydantic Services Inc., MIT licence",
+  "removed_lines": {},
+  "sections": 20,
+  "split_method": "headings",
+  "words": 3178
+ },
+ {
+  "id": "pydantic-docs/concepts/forward_annotations.md",
+  "source": "pydantic-docs",
+  "kind": "markdown",
+  "title": "Concepts/Forward Annotations",
+  "licence": "MIT",
+  "attribution": "Pydantic documentation, (c) Pydantic Services Inc., MIT licence",
+  "removed_lines": {},
+  "sections": 4,
+  "split_method": "headings",
+  "words": 549
+ },
+ {
+  "id": "pydantic-docs/concepts/json.md",
+  "source": "pydantic-docs",
+  "kind": "markdown",
+  "title": "JSON",
+  "licence": "MIT",
+  "attribution": "Pydantic documentation, (c) Pydantic Services Inc., MIT licence",
+  "removed_lines": {},
+  "sections": 3,
+  "split_method": "headings",
+  "words": 1010
+ },
+ {
+  "id": "pydantic-docs/concepts/json_schema.md",
+  "source": "pydantic-docs",
+  "kind": "markdown",
+  "title": "Concepts/Json Schema",
+  "licence": "MIT",
+  "attribution": "Pydantic documentation, (c) Pydantic Services Inc., MIT licence",
+  "removed_lines": {},
+  "sections": 17,
+  "split_method": "headings",
+  "words": 3829
+ },
+ {
+  "id": "pydantic-docs/concepts/models.md",
+  "source": "pydantic-docs",
+  "kind": "markdown",
+  "title": "normal copy gives the same object reference for bar:",
+  "licence": "MIT",
+  "attribution": "Pydantic documentation, (c) Pydantic Services Inc., MIT licence",
+  "removed_lines": {},
+  "sections": 27,
+  "split_method": "headings",
+  "words": 7144
+ },
+ {
+  "id": "pydantic-docs/concepts/performance.md",
+  "source": "pydantic-docs",
+  "kind": "markdown",
+  "title": "Performance tips",
+  "licence": "MIT",
+  "attribution": "Pydantic documentation, (c) Pydantic Services Inc., MIT licence",
+  "removed_lines": {},
+  "sections": 10,
+  "split_method": "headings",
+  "words": 807
+ },
+ {
+  "id": "pydantic-docs/concepts/pydantic_settings.md",
+  "source": "pydantic-docs",
+  "kind": "markdown",
+  "title": "Settings Management",
+  "licence": "MIT",
+  "attribution": "Pydantic documentation, (c) Pydantic Services Inc., MIT licence",
+  "removed_lines": {
+   "front_matter": 1
+  },
+  "sections": 1,
+  "split_method": "headings",
+  "words": 66
+ },
+ {
+  "id": "pydantic-docs/concepts/serialization.md",
+  "source": "pydantic-docs",
+  "kind": "markdown",
+  "title": "returns a dictionary:",
+  "licence": "MIT",
+  "attribution": "Pydantic documentation, (c) Pydantic Services Inc., MIT licence",
+  "removed_lines": {},
+  "sections": 19,
+  "split_method": "headings",
+  "words": 3586
+ },
+ {
+  "id": "pydantic-docs/concepts/strict_mode.md",
+  "source": "pydantic-docs",
+  "kind": "markdown",
+  "title": "Concepts/Strict Mode",
+  "licence": "MIT",
+  "attribution": "Pydantic documentation, (c) Pydantic Services Inc., MIT licence",
+  "removed_lines": {},
+  "sections": 5,
+  "split_method": "headings",
+  "words": 682
+ },
+ {
+  "id": "pydantic-docs/concepts/type_adapter.md",
+  "source": "pydantic-docs",
+  "kind": "markdown",
+  "title": "`item_data` could come from an API call, eg., via something like:",
+  "licence": "MIT",
+  "attribution": "Pydantic documentation, (c) Pydantic Services Inc., MIT licence",
+  "removed_lines": {},
+  "sections": 3,
+  "split_method": "headings",
+  "words": 609
+ },
+ {
+  "id": "pydantic-docs/concepts/types.md",
+  "source": "pydantic-docs",
+  "kind": "markdown",
+  "title": "We now create an `Annotated` wrapper that we'll use as the annotation for fields on `BaseModel`s, etc.",
+  "licence": "MIT",
+  "attribution": "Pydantic documentation, (c) Pydantic Services Inc., MIT licence",
+  "removed_lines": {
+   "directive": 1
+  },
+  "sections": 8,
+  "split_method": "headings",
+  "words": 3407
+ },
+ {
+  "id": "pydantic-docs/concepts/unions.md",
+  "source": "pydantic-docs",
+  "kind": "markdown",
+  "title": "Errors are quite verbose with a normal union:",
+  "licence": "MIT",
+  "attribution": "Pydantic documentation, (c) Pydantic Services Inc., MIT licence",
+  "removed_lines": {},
+  "sections": 8,
+  "split_method": "headings",
+  "words": 2718
+ },
+ {
+  "id": "pydantic-docs/concepts/validation_decorator.md",
+  "source": "pydantic-docs",
+  "kind": "markdown",
+  "title": "ignore-above",
+  "licence": "MIT",
+  "attribution": "Pydantic documentation, (c) Pydantic Services Inc., MIT licence",
+  "removed_lines": {},
+  "sections": 11,
+  "split_method": "headings",
+  "words": 1407
+ },
+ {
+  "id": "pydantic-docs/concepts/validators.md",
+  "source": "pydantic-docs",
+  "kind": "markdown",
+  "title": "Concepts/Validators",
+  "licence": "MIT",
+  "attribution": "Pydantic documentation, (c) Pydantic Services Inc., MIT licence",
+  "removed_lines": {},
+  "sections": 11,
+  "split_method": "headings",
+  "words": 3137
+ },
+ {
+  "id": "pydantic-docs/contributing.md",
+  "source": "pydantic-docs",
+  "kind": "markdown",
+  "title": "Clone your fork and cd into the repo directory",
+  "licence": "MIT",
+  "attribution": "Pydantic documentation, (c) Pydantic Services Inc., MIT licence",
+  "removed_lines": {},
+  "sections": 14,
+  "split_method": "headings",
+  "words": 1858
+ },
+ {
+  "id": "pydantic-docs/enterprise-support.md",
+  "source": "pydantic-docs",
+  "kind": "markdown",
+  "title": "Enterprise Support",
+  "licence": "MIT",
+  "attribution": "Pydantic documentation, (c) Pydantic Services Inc., MIT licence",
+  "removed_lines": {
+   "front_matter": 1
+  },
+  "sections": 3,
+  "split_method": "headings",
+  "words": 433
+ },
+ {
+  "id": "pydantic-docs/errors/errors.md",
+  "source": "pydantic-docs",
+  "kind": "markdown",
+  "title": "Errors/Errors",
+  "licence": "MIT",
+  "attribution": "Pydantic documentation, (c) Pydantic Services Inc., MIT licence",
+  "removed_lines": {},
+  "sections": 2,
+  "split_method": "headings",
+  "words": 972
+ },
+ {
+  "id": "pydantic-docs/errors/troubleshooting.md",
+  "source": "pydantic-docs",
+  "kind": "markdown",
+  "title": "Troubleshooting Validation Errors with Logfire",
+  "licence": "MIT",
+  "attribution": "Pydantic documentation, (c) Pydantic Services Inc., MIT licence",
+  "removed_lines": {},
+  "sections": 6,
+  "split_method": "headings",
+  "words": 827
+ },
+ {
+  "id": "pydantic-docs/errors/usage_errors.md",
+  "source": "pydantic-docs",
+  "kind": "markdown",
+  "title": "this works, though",
+  "licence": "MIT",
+  "attribution": "Pydantic documentation, (c) Pydantic Services Inc., MIT licence",
+  "removed_lines": {},
+  "sections": 44,
+  "split_method": "headings",
+  "words": 3555
+ },
+ {
+  "id": "pydantic-docs/errors/validation_errors.md",
+  "source": "pydantic-docs",
+  "kind": "markdown",
+  "title": "from Python",
+  "licence": "MIT",
+  "attribution": "Pydantic documentation, (c) Pydantic Services Inc., MIT licence",
+  "removed_lines": {},
+  "sections": 97,
+  "split_method": "headings",
+  "words": 5551
+ },
+ {
+  "id": "pydantic-docs/examples/custom_validators.md",
+  "source": "pydantic-docs",
+  "kind": "markdown",
+  "title": "Examples/Custom Validators",
+  "licence": "MIT",
+  "attribution": "Pydantic documentation, (c) Pydantic Services Inc., MIT licence",
+  "removed_lines": {},
+  "sections": 2,
+  "split_method": "headings",
+  "words": 1104
+ },
+ {
+  "id": "pydantic-docs/examples/cyclic_references.md",
+  "source": "pydantic-docs",
+  "kind": "markdown",
+  "title": "Create data with cyclic references representing the graph 1 -> 2 -> 3 -> 1",
+  "licence": "MIT",
+  "attribution": "Pydantic documentation, (c) Pydantic Services Inc., MIT licence",
+  "removed_lines": {},
+  "sections": 1,
+  "split_method": "headings",
+  "words": 457
+ },
+ {
+  "id": "pydantic-docs/examples/dynamic_models.md",
+  "source": "pydantic-docs",
+  "kind": "markdown",
+  "title": "Examples/Dynamic Models",
+  "licence": "MIT",
+  "attribution": "Pydantic documentation, (c) Pydantic Services Inc., MIT licence",
+  "removed_lines": {},
+  "sections": 1,
+  "split_method": "headings",
+  "words": 568
+ },
+ {
+  "id": "pydantic-docs/examples/files.md",
+  "source": "pydantic-docs",
+  "kind": "markdown",
+  "title": "Examples/Files",
+  "licence": "MIT",
+  "attribution": "Pydantic documentation, (c) Pydantic Services Inc., MIT licence",
+  "removed_lines": {},
+  "sections": 8,
+  "split_method": "headings",
+  "words": 1033
+ },
+ {
+  "id": "pydantic-docs/examples/orms.md",
+  "source": "pydantic-docs",
+  "kind": "markdown",
+  "title": "Examples/Orms",
+  "licence": "MIT",
+  "attribution": "Pydantic documentation, (c) Pydantic Services Inc., MIT licence",
+  "removed_lines": {},
+  "sections": 1,
+  "split_method": "headings",
+  "words": 292
+ },
+ {
+  "id": "pydantic-docs/examples/pydantic_ai.md",
+  "source": "pydantic-docs",
+  "kind": "markdown",
+  "title": "Examples/Pydantic Ai",
+  "licence": "MIT",
+  "attribution": "Pydantic documentation, (c) Pydantic Services Inc., MIT licence",
+  "removed_lines": {},
+  "sections": 1,
+  "split_method": "headings",
+  "words": 203
+ },
+ {
+  "id": "pydantic-docs/examples/queues.md",
+  "source": "pydantic-docs",
+  "kind": "markdown",
+  "title": "Examples/Queues",
+  "licence": "MIT",
+  "attribution": "Pydantic documentation, (c) Pydantic Services Inc., MIT licence",
+  "removed_lines": {},
+  "sections": 3,
+  "split_method": "headings",
+  "words": 684
+ },
+ {
+  "id": "pydantic-docs/examples/requests.md",
+  "source": "pydantic-docs",
+  "kind": "markdown",
+  "title": "Examples/Requests",
+  "licence": "MIT",
+  "attribution": "Pydantic documentation, (c) Pydantic Services Inc., MIT licence",
+  "removed_lines": {},
+  "sections": 1,
+  "split_method": "headings",
+  "words": 271
+ },
+ {
+  "id": "pydantic-docs/help_with_pydantic.md",
+  "source": "pydantic-docs",
+  "kind": "markdown",
+  "title": "Getting help with Pydantic",
+  "licence": "MIT",
+  "attribution": "Pydantic documentation, (c) Pydantic Services Inc., MIT licence",
+  "removed_lines": {},
+  "sections": 1,
+  "split_method": "headings",
+  "words": 140
+ },
+ {
+  "id": "pydantic-docs/index.md",
+  "source": "pydantic-docs",
+  "kind": "markdown",
+  "title": "Pydantic Validation",
+  "licence": "MIT",
+  "attribution": "Pydantic documentation, (c) Pydantic Services Inc., MIT licence",
+  "removed_lines": {},
+  "sections": 4,
+  "split_method": "headings",
+  "words": 859
+ },
+ {
+  "id": "pydantic-docs/install.md",
+  "source": "pydantic-docs",
+  "kind": "markdown",
+  "title": "Install",
+  "licence": "MIT",
+  "attribution": "Pydantic documentation, (c) Pydantic Services Inc., MIT licence",
+  "removed_lines": {},
+  "sections": 1,
+  "split_method": "headings",
+  "words": 230
+ },
+ {
+  "id": "pydantic-docs/integrations/aws_lambda.md",
+  "source": "pydantic-docs",
+  "kind": "markdown",
+  "title": "Integrations/Aws Lambda",
+  "licence": "MIT",
+  "attribution": "Pydantic documentation, (c) Pydantic Services Inc., MIT licence",
+  "removed_lines": {},
+  "sections": 5,
+  "split_method": "headings",
+  "words": 964
+ },
+ {
+  "id": "pydantic-docs/integrations/datamodel_code_generator.md",
+  "source": "pydantic-docs",
+  "kind": "markdown",
+  "title": "Code Generation with datamodel-code-generator",
+  "licence": "MIT",
+  "attribution": "Pydantic documentation, (c) Pydantic Services Inc., MIT licence",
+  "removed_lines": {},
+  "sections": 3,
+  "split_method": "headings",
+  "words": 391
+ },
+ {
+  "id": "pydantic-docs/integrations/devtools.md",
+  "source": "pydantic-docs",
+  "kind": "markdown",
+  "title": "Integrations/Devtools",
+  "licence": "MIT",
+  "attribution": "Pydantic documentation, (c) Pydantic Services Inc., MIT licence",
+  "removed_lines": {},
+  "sections": 1,
+  "split_method": "headings",
+  "words": 193
+ },
+ {
+  "id": "pydantic-docs/integrations/documentation.md",
+  "source": "pydantic-docs",
+  "kind": "markdown",
+  "title": "Integrations/Documentation",
+  "licence": "MIT",
+  "attribution": "Pydantic documentation, (c) Pydantic Services Inc., MIT licence",
+  "removed_lines": {},
+  "sections": 1,
+  "split_method": "headings",
+  "words": 122
+ },
+ {
+  "id": "pydantic-docs/integrations/hypothesis.md",
+  "source": "pydantic-docs",
+  "kind": "markdown",
+  "title": "Integrations/Hypothesis",
+  "licence": "MIT",
+  "attribution": "Pydantic documentation, (c) Pydantic Services Inc., MIT licence",
+  "removed_lines": {},
+  "sections": 1,
+  "split_method": "headings",
+  "words": 88
+ },
+ {
+  "id": "pydantic-docs/integrations/llms.md",
+  "source": "pydantic-docs",
+  "kind": "markdown",
+  "title": "Integrations/Llms",
+  "licence": "MIT",
+  "attribution": "Pydantic documentation, (c) Pydantic Services Inc., MIT licence",
+  "removed_lines": {},
+  "sections": 1,
+  "split_method": "headings",
+  "words": 159
+ },
+ {
+  "id": "pydantic-docs/integrations/logfire.md",
+  "source": "pydantic-docs",
+  "kind": "markdown",
+  "title": "Pydantic Logfire",
+  "licence": "MIT",
+  "attribution": "Pydantic documentation, (c) Pydantic Services Inc., MIT licence",
+  "removed_lines": {},
+  "sections": 6,
+  "split_method": "headings",
+  "words": 628
+ },
+ {
+  "id": "pydantic-docs/integrations/mypy.md",
+  "source": "pydantic-docs",
+  "kind": "markdown",
+  "title": "Integrations/Mypy",
+  "licence": "MIT",
+  "attribution": "Pydantic documentation, (c) Pydantic Services Inc., MIT licence",
+  "removed_lines": {},
+  "sections": 10,
+  "split_method": "headings",
+  "words": 862
+ },
+ {
+  "id": "pydantic-docs/integrations/pycharm.md",
+  "source": "pydantic-docs",
+  "kind": "markdown",
+  "title": "Integrations/Pycharm",
+  "licence": "MIT",
+  "attribution": "Pydantic documentation, (c) Pydantic Services Inc., MIT licence",
+  "removed_lines": {},
+  "sections": 1,
+  "split_method": "headings",
+  "words": 106
+ },
+ {
+  "id": "pydantic-docs/integrations/pyrefly.md",
+  "source": "pydantic-docs",
+  "kind": "markdown",
+  "title": "Integrations/Pyrefly",
+  "licence": "MIT",
+  "attribution": "Pydantic documentation, (c) Pydantic Services Inc., MIT licence",
+  "removed_lines": {},
+  "sections": 1,
+  "split_method": "headings",
+  "words": 294
+ },
+ {
+  "id": "pydantic-docs/integrations/visual_studio_code.md",
+  "source": "pydantic-docs",
+  "kind": "markdown",
+  "title": "type: ignore",
+  "licence": "MIT",
+  "attribution": "Pydantic documentation, (c) Pydantic Services Inc., MIT licence",
+  "removed_lines": {},
+  "sections": 8,
+  "split_method": "headings",
+  "words": 1568
+ },
+ {
+  "id": "pydantic-docs/internals/architecture.md",
+  "source": "pydantic-docs",
+  "kind": "markdown",
+  "title": "Internals/Architecture",
+  "licence": "MIT",
+  "attribution": "Pydantic documentation, (c) Pydantic Services Inc., MIT licence",
+  "removed_lines": {},
+  "sections": 7,
+  "split_method": "headings",
+  "words": 1189
+ },
+ {
+  "id": "pydantic-docs/internals/resolving_annotations.md",
+  "source": "pydantic-docs",
+  "kind": "markdown",
+  "title": "module1.py:",
+  "licence": "MIT",
+  "attribution": "Pydantic documentation, (c) Pydantic Services Inc., MIT licence",
+  "removed_lines": {},
+  "sections": 5,
+  "split_method": "headings",
+  "words": 1451
+ },
+ {
+  "id": "pydantic-docs/migration.md",
+  "source": "pydantic-docs",
+  "kind": "markdown",
+  "title": "V1",
+  "licence": "MIT",
+  "attribution": "Pydantic documentation, (c) Pydantic Services Inc., MIT licence",
+  "removed_lines": {
+   "front_matter": 1
+  },
+  "sections": 24,
+  "split_method": "headings",
+  "words": 5943
+ },
+ {
+  "id": "pydantic-docs/pydantic_people.md",
+  "source": "pydantic-docs",
+  "kind": "markdown",
+  "title": "Pydantic People",
+  "licence": "MIT",
+  "attribution": "Pydantic documentation, (c) Pydantic Services Inc., MIT licence",
+  "removed_lines": {},
+  "sections": 1,
+  "split_method": "headings",
+  "words": 209
+ },
+ {
+  "id": "pydantic-docs/version-policy.md",
+  "source": "pydantic-docs",
+  "kind": "markdown",
+  "title": "Version Policy",
+  "licence": "MIT",
+  "attribution": "Pydantic documentation, (c) Pydantic Services Inc., MIT licence",
+  "removed_lines": {},
+  "sections": 7,
+  "split_method": "headings",
+  "words": 825
+ },
+ {
+  "id": "pydantic-docs/why.md",
+  "source": "pydantic-docs",
+  "kind": "markdown",
+  "title": "Why use Pydantic Validation?",
+  "licence": "MIT",
+  "attribution": "Pydantic documentation, (c) Pydantic Services Inc., MIT licence",
+  "removed_lines": {},
+  "sections": 10,
+  "split_method": "headings",
+  "words": 1579
+ },
+ {
+  "id": "openstax-chemistry-2e/chapter-1-essential-ideas",
+  "source": "openstax-chemistry-2e",
+  "kind": "pdf",
+  "title": "Chapter 1 Essential Ideas",
+  "pages": [
+   23,
+   72
+  ],
+  "licence": "CC BY-NC-SA 4.0",
+  "attribution": "Chemistry 2e, OpenStax. Download for free at https://openstax.org/details/books/chemistry-2e",
+  "sections": 24,
+  "split_method": "outline",
+  "words": 19521
+ },
+ {
+  "id": "openstax-chemistry-2e/chapter-2-atoms-molecules-and-ions",
+  "source": "openstax-chemistry-2e",
+  "kind": "pdf",
+  "title": "Chapter 2 Atoms, Molecules, and Ions",
+  "pages": [
+   73,
+   128
+  ],
+  "licence": "CC BY-NC-SA 4.0",
+  "attribution": "Chemistry 2e, OpenStax. Download for free at https://openstax.org/details/books/chemistry-2e",
+  "sections": 24,
+  "split_method": "outline",
+  "words": 21522
+ },
+ {
+  "id": "openstax-chemistry-2e/chapter-3-composition-of-substances-and-solutions",
+  "source": "openstax-chemistry-2e",
+  "kind": "pdf",
+  "title": "Chapter 3 Composition of Substances and Solutions",
+  "pages": [
+   129,
+   168
+  ],
+  "licence": "CC BY-NC-SA 4.0",
+  "attribution": "Chemistry 2e, OpenStax. Download for free at https://openstax.org/details/books/chemistry-2e",
+  "sections": 18,
+  "split_method": "outline",
+  "words": 13437
+ },
+ {
+  "id": "openstax-chemistry-2e/chapter-4-stoichiometry-of-chemical-reactions",
+  "source": "openstax-chemistry-2e",
+  "kind": "pdf",
+  "title": "Chapter 4 Stoichiometry of Chemical Reactions",
+  "pages": [
+   169,
+   218
+  ],
+  "licence": "CC BY-NC-SA 4.0",
+  "attribution": "Chemistry 2e, OpenStax. Download for free at https://openstax.org/details/books/chemistry-2e",
+  "sections": 21,
+  "split_method": "outline",
+  "words": 17314
+ },
+ {
+  "id": "openstax-chemistry-2e/chapter-5-thermochemistry",
+  "source": "openstax-chemistry-2e",
+  "kind": "pdf",
+  "title": "Chapter 5 Thermochemistry",
+  "pages": [
+   219,
+   262
+  ],
+  "licence": "CC BY-NC-SA 4.0",
+  "attribution": "Chemistry 2e, OpenStax. Download for free at https://openstax.org/details/books/chemistry-2e",
+  "sections": 20,
+  "split_method": "outline",
+  "words": 17768
+ },
+ {
+  "id": "openstax-chemistry-2e/chapter-6-electronic-structure-and-periodic-properties-of-el",
+  "source": "openstax-chemistry-2e",
+  "kind": "pdf",
+  "title": "Chapter 6 Electronic Structure and Periodic Properties of Elements",
+  "pages": [
+   263,
+   320
+  ],
+  "licence": "CC BY-NC-SA 4.0",
+  "attribution": "Chemistry 2e, OpenStax. Download for free at https://openstax.org/details/books/chemistry-2e",
+  "sections": 25,
+  "split_method": "outline",
+  "words": 23739
+ },
+ {
+  "id": "openstax-chemistry-2e/chapter-7-chemical-bonding-and-molecular-geometry",
+  "source": "openstax-chemistry-2e",
+  "kind": "pdf",
+  "title": "Chapter 7 Chemical Bonding and Molecular Geometry",
+  "pages": [
+   321,
+   380
+  ],
+  "licence": "CC BY-NC-SA 4.0",
+  "attribution": "Chemistry 2e, OpenStax. Download for free at https://openstax.org/details/books/chemistry-2e",
+  "sections": 26,
+  "split_method": "outline",
+  "words": 21936
+ },
+ {
+  "id": "openstax-chemistry-2e/chapter-8-advanced-theories-of-covalent-bonding",
+  "source": "openstax-chemistry-2e",
+  "kind": "pdf",
+  "title": "Chapter 8 Advanced Theories of Covalent Bonding",
+  "pages": [
+   381,
+   418
+  ],
+  "licence": "CC BY-NC-SA 4.0",
+  "attribution": "Chemistry 2e, OpenStax. Download for free at https://openstax.org/details/books/chemistry-2e",
+  "sections": 17,
+  "split_method": "outline",
+  "words": 14370
+ },
+ {
+  "id": "openstax-chemistry-2e/chapter-9-gases",
+  "source": "openstax-chemistry-2e",
+  "kind": "pdf",
+  "title": "Chapter 9 Gases",
+  "pages": [
+   419,
+   476
+  ],
+  "licence": "CC BY-NC-SA 4.0",
+  "attribution": "Chemistry 2e, OpenStax. Download for free at https://openstax.org/details/books/chemistry-2e",
+  "sections": 25,
+  "split_method": "outline",
+  "words": 21376
+ },
+ {
+  "id": "openstax-chemistry-2e/chapter-10-liquids-and-solids",
+  "source": "openstax-chemistry-2e",
+  "kind": "pdf",
+  "title": "Chapter 10 Liquids and Solids",
+  "pages": [
+   477,
+   546
+  ],
+  "licence": "CC BY-NC-SA 4.0",
+  "attribution": "Chemistry 2e, OpenStax. Download for free at https://openstax.org/details/books/chemistry-2e",
+  "sections": 28,
+  "split_method": "outline",
+  "words": 25619
+ },
+ {
+  "id": "openstax-chemistry-2e/chapter-11-solutions-and-colloids",
+  "source": "openstax-chemistry-2e",
+  "kind": "pdf",
+  "title": "Chapter 11 Solutions and Colloids",
+  "pages": [
+   547,
+   598
+  ],
+  "licence": "CC BY-NC-SA 4.0",
+  "attribution": "Chemistry 2e, OpenStax. Download for free at https://openstax.org/details/books/chemistry-2e",
+  "sections": 21,
+  "split_method": "outline",
+  "words": 17558
+ },
+ {
+  "id": "openstax-chemistry-2e/chapter-12-kinetics",
+  "source": "openstax-chemistry-2e",
+  "kind": "pdf",
+  "title": "Chapter 12 Kinetics",
+  "pages": [
+   599,
+   656
+  ],
+  "licence": "CC BY-NC-SA 4.0",
+  "attribution": "Chemistry 2e, OpenStax. Download for free at https://openstax.org/details/books/chemistry-2e",
+  "sections": 22,
+  "split_method": "outline",
+  "words": 18235
+ },
+ {
+  "id": "openstax-chemistry-2e/chapter-13-fundamental-equilibrium-concepts",
+  "source": "openstax-chemistry-2e",
+  "kind": "pdf",
+  "title": "Chapter 13 Fundamental Equilibrium Concepts",
+  "pages": [
+   657,
+   692
+  ],
+  "licence": "CC BY-NC-SA 4.0",
+  "attribution": "Chemistry 2e, OpenStax. Download for free at https://openstax.org/details/books/chemistry-2e",
+  "sections": 16,
+  "split_method": "outline",
+  "words": 11140
+ },
+ {
+  "id": "openstax-chemistry-2e/chapter-14-acid-base-equilibria",
+  "source": "openstax-chemistry-2e",
+  "kind": "pdf",
+  "title": "Chapter 14 Acid-Base Equilibria",
+  "pages": [
+   693,
+   746
+  ],
+  "licence": "CC BY-NC-SA 4.0",
+  "attribution": "Chemistry 2e, OpenStax. Download for free at https://openstax.org/details/books/chemistry-2e",
+  "sections": 23,
+  "split_method": "outline",
+  "words": 17394
+ },
+ {
+  "id": "openstax-chemistry-2e/chapter-15-equilibria-of-other-reaction-classes",
+  "source": "openstax-chemistry-2e",
+  "kind": "pdf",
+  "title": "Chapter 15 Equilibria of Other Reaction Classes",
+  "pages": [
+   747,
+   780
+  ],
+  "licence": "CC BY-NC-SA 4.0",
+  "attribution": "Chemistry 2e, OpenStax. Download for free at https://openstax.org/details/books/chemistry-2e",
+  "sections": 14,
+  "split_method": "outline",
+  "words": 10971
+ },
+ {
+  "id": "openstax-chemistry-2e/chapter-16-thermodynamics",
+  "source": "openstax-chemistry-2e",
+  "kind": "pdf",
+  "title": "Chapter 16 Thermodynamics",
+  "pages": [
+   781,
+   814
+  ],
+  "licence": "CC BY-NC-SA 4.0",
+  "attribution": "Chemistry 2e, OpenStax. Download for free at https://openstax.org/details/books/chemistry-2e",
+  "sections": 16,
+  "split_method": "outline",
+  "words": 11361
+ },
+ {
+  "id": "openstax-chemistry-2e/chapter-17-electrochemistry",
+  "source": "openstax-chemistry-2e",
+  "kind": "pdf",
+  "title": "Chapter 17 Electrochemistry",
+  "pages": [
+   815,
+   852
+  ],
+  "licence": "CC BY-NC-SA 4.0",
+  "attribution": "Chemistry 2e, OpenStax. Download for free at https://openstax.org/details/books/chemistry-2e",
+  "sections": 14,
+  "split_method": "outline",
+  "words": 12007
+ },
+ {
+  "id": "openstax-chemistry-2e/chapter-18-representative-metals-metalloids-and-nonmetals",
+  "source": "openstax-chemistry-2e",
+  "kind": "pdf",
+  "title": "Chapter 18 Representative Metals, Metalloids, and Nonmetals",
+  "pages": [
+   853,
+   930
+  ],
+  "licence": "CC BY-NC-SA 4.0",
+  "attribution": "Chemistry 2e, OpenStax. Download for free at https://openstax.org/details/books/chemistry-2e",
+  "sections": 36,
+  "split_method": "outline",
+  "words": 32163
+ },
+ {
+  "id": "openstax-chemistry-2e/chapter-19-transition-metals-and-coordination-chemistry",
+  "source": "openstax-chemistry-2e",
+  "kind": "pdf",
+  "title": "Chapter 19 Transition Metals and Coordination Chemistry",
+  "pages": [
+   931,
+   972
+  ],
+  "licence": "CC BY-NC-SA 4.0",
+  "attribution": "Chemistry 2e, OpenStax. Download for free at https://openstax.org/details/books/chemistry-2e",
+  "sections": 19,
+  "split_method": "outline",
+  "words": 15999
+ },
+ {
+  "id": "openstax-chemistry-2e/chapter-20-organic-chemistry",
+  "source": "openstax-chemistry-2e",
+  "kind": "pdf",
+  "title": "Chapter 20 Organic Chemistry",
+  "pages": [
+   973,
+   1016
+  ],
+  "licence": "CC BY-NC-SA 4.0",
+  "attribution": "Chemistry 2e, OpenStax. Download for free at https://openstax.org/details/books/chemistry-2e",
+  "sections": 17,
+  "split_method": "outline",
+  "words": 13506
+ },
+ {
+  "id": "openstax-chemistry-2e/chapter-21-nuclear-chemistry",
+  "source": "openstax-chemistry-2e",
+  "kind": "pdf",
+  "title": "Chapter 21 Nuclear Chemistry",
+  "pages": [
+   1017,
+   1070
+  ],
+  "licence": "CC BY-NC-SA 4.0",
+  "attribution": "Chemistry 2e, OpenStax. Download for free at https://openstax.org/details/books/chemistry-2e",
+  "sections": 22,
+  "split_method": "outline",
+  "words": 20154
+ },
+ {
+  "id": "openstax-chemistry-2e/appendix-a-the-periodic-table",
+  "source": "openstax-chemistry-2e",
+  "kind": "pdf",
+  "title": "Appendix A The Periodic Table",
+  "pages": [
+   1071,
+   1072
+  ],
+  "licence": "CC BY-NC-SA 4.0",
+  "attribution": "Chemistry 2e, OpenStax. Download for free at https://openstax.org/details/books/chemistry-2e",
+  "sections": 1,
+  "split_method": "pages",
+  "words": 24
+ },
+ {
+  "id": "openstax-chemistry-2e/appendix-b-essential-mathematics",
+  "source": "openstax-chemistry-2e",
+  "kind": "pdf",
+  "title": "Appendix B Essential Mathematics",
+  "pages": [
+   1073,
+   1080
+  ],
+  "licence": "CC BY-NC-SA 4.0",
+  "attribution": "Chemistry 2e, OpenStax. Download for free at https://openstax.org/details/books/chemistry-2e",
+  "sections": 5,
+  "split_method": "outline",
+  "words": 1420
+ },
+ {
+  "id": "openstax-chemistry-2e/appendix-c-units-and-conversion-factors",
+  "source": "openstax-chemistry-2e",
+  "kind": "pdf",
+  "title": "Appendix C Units and Conversion Factors",
+  "pages": [
+   1081,
+   1084
+  ],
+  "licence": "CC BY-NC-SA 4.0",
+  "attribution": "Chemistry 2e, OpenStax. Download for free at https://openstax.org/details/books/chemistry-2e",
+  "sections": 2,
+  "split_method": "pages",
+  "words": 501
+ },
+ {
+  "id": "openstax-chemistry-2e/appendix-d-fundamental-physical-constants",
+  "source": "openstax-chemistry-2e",
+  "kind": "pdf",
+  "title": "Appendix D Fundamental Physical Constants",
+  "pages": [
+   1085,
+   1086
+  ],
+  "licence": "CC BY-NC-SA 4.0",
+  "attribution": "Chemistry 2e, OpenStax. Download for free at https://openstax.org/details/books/chemistry-2e",
+  "sections": 1,
+  "split_method": "pages",
+  "words": 162
+ },
+ {
+  "id": "openstax-chemistry-2e/appendix-e-water-properties",
+  "source": "openstax-chemistry-2e",
+  "kind": "pdf",
+  "title": "Appendix E Water Properties",
+  "pages": [
+   1087,
+   1092
+  ],
+  "licence": "CC BY-NC-SA 4.0",
+  "attribution": "Chemistry 2e, OpenStax. Download for free at https://openstax.org/details/books/chemistry-2e",
+  "sections": 3,
+  "split_method": "pages",
+  "words": 359
+ },
+ {
+  "id": "openstax-chemistry-2e/appendix-f-composition-of-commercial-acids-and-bases",
+  "source": "openstax-chemistry-2e",
+  "kind": "pdf",
+  "title": "Appendix F Composition of Commercial Acids and Bases",
+  "pages": [
+   1093,
+   1094
+  ],
+  "licence": "CC BY-NC-SA 4.0",
+  "attribution": "Chemistry 2e, OpenStax. Download for free at https://openstax.org/details/books/chemistry-2e",
+  "sections": 1,
+  "split_method": "pages",
+  "words": 184
+ },
+ {
+  "id": "openstax-chemistry-2e/appendix-g-standard-thermodynamic-properties-for-selected-su",
+  "source": "openstax-chemistry-2e",
+  "kind": "pdf",
+  "title": "Appendix G Standard Thermodynamic Properties for Selected Substances",
+  "pages": [
+   1095,
+   1112
+  ],
+  "licence": "CC BY-NC-SA 4.0",
+  "attribution": "Chemistry 2e, OpenStax. Download for free at https://openstax.org/details/books/chemistry-2e",
+  "sections": 9,
+  "split_method": "pages",
+  "words": 1904
+ },
+ {
+  "id": "openstax-chemistry-2e/appendix-h-ionization-constants-of-weak-acids",
+  "source": "openstax-chemistry-2e",
+  "kind": "pdf",
+  "title": "Appendix H Ionization Constants of Weak Acids",
+  "pages": [
+   1113,
+   1116
+  ],
+  "licence": "CC BY-NC-SA 4.0",
+  "attribution": "Chemistry 2e, OpenStax. Download for free at https://openstax.org/details/books/chemistry-2e",
+  "sections": 2,
+  "split_method": "pages",
+  "words": 202
+ },
+ {
+  "id": "openstax-chemistry-2e/appendix-i-ionization-constants-of-weak-bases",
+  "source": "openstax-chemistry-2e",
+  "kind": "pdf",
+  "title": "Appendix I Ionization Constants of Weak Bases",
+  "pages": [
+   1117,
+   1118
+  ],
+  "licence": "CC BY-NC-SA 4.0",
+  "attribution": "Chemistry 2e, OpenStax. Download for free at https://openstax.org/details/books/chemistry-2e",
+  "sections": 1,
+  "split_method": "pages",
+  "words": 58
+ },
+ {
+  "id": "openstax-chemistry-2e/appendix-j-solubility-products",
+  "source": "openstax-chemistry-2e",
+  "kind": "pdf",
+  "title": "Appendix J Solubility Products",
+  "pages": [
+   1119,
+   1124
+  ],
+  "licence": "CC BY-NC-SA 4.0",
+  "attribution": "Chemistry 2e, OpenStax. Download for free at https://openstax.org/details/books/chemistry-2e",
+  "sections": 3,
+  "split_method": "pages",
+  "words": 403
+ },
+ {
+  "id": "openstax-chemistry-2e/appendix-k-formation-constants-for-complex-ions",
+  "source": "openstax-chemistry-2e",
+  "kind": "pdf",
+  "title": "Appendix K Formation Constants for Complex Ions",
+  "pages": [
+   1125,
+   1126
+  ],
+  "licence": "CC BY-NC-SA 4.0",
+  "attribution": "Chemistry 2e, OpenStax. Download for free at https://openstax.org/details/books/chemistry-2e",
+  "sections": 1,
+  "split_method": "pages",
+  "words": 87
+ },
+ {
+  "id": "openstax-chemistry-2e/appendix-l-standard-electrode-half-cell-potentials",
+  "source": "openstax-chemistry-2e",
+  "kind": "pdf",
+  "title": "Appendix L Standard Electrode (Half-Cell) Potentials",
+  "pages": [
+   1127,
+   1132
+  ],
+  "licence": "CC BY-NC-SA 4.0",
+  "attribution": "Chemistry 2e, OpenStax. Download for free at https://openstax.org/details/books/chemistry-2e",
+  "sections": 3,
+  "split_method": "pages",
+  "words": 231
+ },
+ {
+  "id": "openstax-chemistry-2e/appendix-m-half-lives-for-several-radioactive-isotopes",
+  "source": "openstax-chemistry-2e",
+  "kind": "pdf",
+  "title": "Appendix M Half-Lives for Several Radioactive Isotopes",
+  "pages": [
+   1133,
+   1134
+  ],
+  "licence": "CC BY-NC-SA 4.0",
+  "attribution": "Chemistry 2e, OpenStax. Download for free at https://openstax.org/details/books/chemistry-2e",
+  "sections": 1,
+  "split_method": "pages",
+  "words": 236
+ },
+ {
+  "id": "arxiv-papers/2204.13679",
+  "source": "arxiv-papers",
+  "kind": "pdf",
+  "title": "Curriculum Learning for Dense Retrieval Distillation",
+  "pages": [
+   1,
+   5
+  ],
+  "licence": "CC BY 4.0",
+  "attribution": "Hansi Zeng et al., \"Curriculum Learning for Dense Retrieval Distillation\", arXiv:2204.13679",
+  "sections": 7,
+  "split_method": "outline",
+  "words": 3658
+ },
+ {
+  "id": "arxiv-papers/2212.10528",
+  "source": "arxiv-papers",
+  "kind": "pdf",
+  "title": "HYRR: Hybrid Infused Reranking for Passage Retrieval",
+  "pages": [
+   1,
+   11
+  ],
+  "licence": "CC BY 4.0",
+  "attribution": "Jing Lu et al., \"HYRR: Hybrid Infused Reranking for Passage Retrieval\", arXiv:2212.10528",
+  "sections": 6,
+  "split_method": "pages",
+  "words": 6951
+ },
+ {
+  "id": "arxiv-papers/2309.12871",
+  "source": "arxiv-papers",
+  "kind": "pdf",
+  "title": "AnglE-optimized Text Embeddings",
+  "pages": [
+   1,
+   14
+  ],
+  "licence": "CC BY 4.0",
+  "attribution": "Xianming Li et al., \"AnglE-optimized Text Embeddings\", arXiv:2309.12871",
+  "sections": 17,
+  "split_method": "outline",
+  "words": 7178
+ },
+ {
+  "id": "arxiv-papers/2407.20243",
+  "source": "arxiv-papers",
+  "kind": "pdf",
+  "title": "Matryoshka-Adaptor: Unsupervised and Supervised Tuning for Smaller Embedding Dimensions",
+  "pages": [
+   1,
+   19
+  ],
+  "licence": "CC BY 4.0",
+  "attribution": "Jinsung Yoon et al., \"Matryoshka-Adaptor: Unsupervised and Supervised Tuning for Smaller Embedding Dimensions\", arXiv:2407.20243",
+  "sections": 31,
+  "split_method": "outline",
+  "words": 7975
+ },
+ {
+  "id": "arxiv-papers/2411.17299",
+  "source": "arxiv-papers",
+  "kind": "pdf",
+  "title": "2D Matryoshka Training for Information Retrieval",
+  "pages": [
+   1,
+   21
+  ],
+  "licence": "CC BY 4.0",
+  "attribution": "Shuai Wang et al., \"2D Matryoshka Training for Information Retrieval\", arXiv:2411.17299",
+  "sections": 19,
+  "split_method": "outline",
+  "words": 5801
+ },
+ {
+  "id": "arxiv-papers/2504.08748",
+  "source": "arxiv-papers",
+  "kind": "pdf",
+  "title": "A Survey of Multimodal Retrieval-Augmented Generation",
+  "pages": [
+   1,
+   80
+  ],
+  "licence": "CC BY 4.0",
+  "attribution": "Lang Mei et al., \"A Survey of Multimodal Retrieval-Augmented Generation\", arXiv:2504.08748",
+  "sections": 46,
+  "split_method": "outline",
+  "words": 31422
+ },
+ {
+  "id": "arxiv-papers/2506.02527",
+  "source": "arxiv-papers",
+  "kind": "pdf",
+  "title": "Multilingual Information Retrieval with a Monolingual Knowledge Base",
+  "pages": [
+   1,
+   8
+  ],
+  "licence": "CC BY 4.0",
+  "attribution": "Yingying Zhuang et al., \"Multilingual Information Retrieval with a Monolingual Knowledge Base\", arXiv:2506.02527",
+  "sections": 11,
+  "split_method": "outline",
+  "words": 3861
+ },
+ {
+  "id": "arxiv-papers/2601.05264",
+  "source": "arxiv-papers",
+  "kind": "pdf",
+  "title": "Engineering the RAG Stack: A Comprehensive Review of the Architecture and Trust Frameworks for Retrieval-Augmented Generation Systems",
+  "pages": [
+   1,
+   86
+  ],
+  "licence": "CC BY 4.0",
+  "attribution": "Dean Wampler et al., \"Engineering the RAG Stack: A Comprehensive Review of the Architecture and Trust Frameworks for Retrieval-Augmented Generation Systems\", arXiv:2601.05264",
+  "sections": 106,
+  "split_method": "outline",
+  "words": 18063
+ },
+ {
+  "id": "arxiv-papers/2605.13521",
+  "source": "arxiv-papers",
+  "kind": "pdf",
+  "title": "Granite Embedding Multilingual R2 Models",
+  "pages": [
+   1,
+   20
+  ],
+  "licence": "CC BY 4.0",
+  "attribution": "Parul Awasthy et al., \"Granite Embedding Multilingual R2 Models\", arXiv:2605.13521",
+  "sections": 29,
+  "split_method": "outline",
+  "words": 9117
+ },
+ {
+  "id": "arxiv-papers/2607.24767",
+  "source": "arxiv-papers",
+  "kind": "pdf",
+  "title": "The Effect of Text Chunk Size on Retrieval-Augmented Generation Performance",
+  "pages": [
+   1,
+   10
+  ],
+  "licence": "CC0 1.0",
+  "attribution": "German Garrido-Lestache Belinchon et al., \"The Effect of Text Chunk Size on Retrieval-Augmented Generation Performance\", arXiv:2607.24767",
+  "sections": 5,
+  "split_method": "pages",
+  "words": 1706
+ }
+]

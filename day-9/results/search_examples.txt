@@ -1,0 +1,40 @@
+$ python scripts/search.py "How do I define a path parameter in FastAPI?" --k 5 --model jina
+Embedding query with Jina (jina-embeddings-v3, retrieval.query) …
+Query : 'How do I define a path parameter in FastAPI?'
+Model : jina  |  embed 615 ms  |  search 0.7 ms
+  #1  score=0.7603  [fastapi-docs]  Query Parameters > Multiple path and query parameters
+  #2  score=0.7543  [fastapi-docs]  Path Parameters and Numeric Validations
+  #3  score=0.6954  [fastapi-docs]  Path Parameters > Path parameters containing paths
+  #4  score=0.6832  [fastapi-docs]  Bigger Applications - Multiple Files > The main `FastAPI` > Include a *path operation*
+  #5  score=0.6804  [fastapi-docs]  Using the Request Directly > Use the `Request` object directly
+
+$ python scripts/search.py "How do I define a path parameter in FastAPI?" --k 5 --model bge
+Embedding query with BGE-M3 (local) …
+Query : 'How do I define a path parameter in FastAPI?'
+Model : bge  |  embed 9450 ms  |  search 0.5 ms
+  #1  score=0.6988  [fastapi-docs]  Request Body > Declare it as a parameter
+  #2  score=0.6977  [fastapi-docs]  Query Parameters > Multiple path and query parameters
+  #3  score=0.6830  [fastapi-docs]  Sub Applications - Mounts > Mounting a **FastAPI** application > Technical Details: `root_path`
+  #4  score=0.6806  [fastapi-docs]  Declare Request Example Data > `examples` in JSON Schema - OpenAPI > Using the `openapi_examples` Parameter
+  #5  score=0.6743  [fastapi-docs]  Path Operation Configuration > Response description
+
+$ python scripts/search.py "FastAPI ke saath background tasks kaise chalate hain?" --k 5 --model jina
+Embedding query with Jina (jina-embeddings-v3, retrieval.query) …
+Query : 'FastAPI ke saath background tasks kaise chalate hain?'
+Model : jina  |  embed 582 ms  |  search 0.7 ms
+  #1  score=0.7795  [fastapi-docs]  Background Tasks > Caveat
+  #2  score=0.7391  [fastapi-docs]  Background Tasks > Technical Details
+  #3  score=0.6984  [fastapi-docs]  Background Tasks > Dependency Injection
+  #4  score=0.6515  [fastapi-docs]  Advanced Dependencies > Dependencies with `yield`, `HTTPException`, `except` and Background Tasks > Background Tasks and Dependencies with `yield`, Technical Details
+  #5  score=0.6444  [fastapi-docs]  Background Tasks > Using `BackgroundTasks`
+
+$ python scripts/search.py "FastAPI ke saath background tasks kaise chalate hain?" --k 5 --model bge
+Embedding query with BGE-M3 (local) …
+Query : 'FastAPI ke saath background tasks kaise chalate hain?'
+Model : bge  |  embed 9309 ms  |  search 0.5 ms
+  #1  score=0.7178  [fastapi-docs]  Background Tasks > Using `BackgroundTasks`
+  #2  score=0.7023  [fastapi-docs]  Background Tasks > Caveat
+  #3  score=0.6979  [fastapi-docs]  Background Tasks > Technical Details
+  #4  score=0.6943  [fastapi-docs]  Background Tasks > Dependency Injection
+  #5  score=0.6743  [fastapi-docs]  FastAPI CLI > `fastapi run`
+

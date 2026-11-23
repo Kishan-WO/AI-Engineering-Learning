@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1,
+    "query": "How do I define a path parameter in FastAPI?",
+    "correct_source": "fastapi-docs",
+    "correct_title": "Path Parameters",
+    "notes": "English, FastAPI tutorial"
+  },
+  {
+    "id": 2,
+    "query": "How do I validate request body fields with Pydantic?",
+    "correct_source": "fastapi-docs",
+    "correct_title": "Request Body",
+    "notes": "English, FastAPI + Pydantic"
+  },
+  {
+    "id": 3,
+    "query": "What is dependency injection in FastAPI?",
+    "correct_source": "fastapi-docs",
+    "correct_title": "Dependencies",
+    "notes": "English, FastAPI tutorial"
+  },
+  {
+    "id": 4,
+    "query": "How do I return a streaming response from a FastAPI route?",
+    "correct_source": "fastapi-docs",
+    "correct_title": "Custom Response",
+    "notes": "English, FastAPI advanced"
+  },
+  {
+    "id": 5,
+    "query": "How do I write an async endpoint in FastAPI?",
+    "correct_source": "fastapi-docs",
+    "correct_title": "Async and Await",
+    "notes": "English, FastAPI async"
+  },
+  {
+    "id": 6,
+    "query": "How do I add middleware to a FastAPI application?",
+    "correct_source": "fastapi-docs",
+    "correct_title": "Middleware",
+    "notes": "English, FastAPI tutorial"
+  },
+  {
+    "id": 7,
+    "query": "How does Pydantic handle field validation errors?",
+    "correct_source": "pydantic-docs",
+    "correct_title": "Validation Errors",
+    "notes": "English, Pydantic errors"
+  },
+  {
+    "id": 8,
+    "query": "What is a Pydantic BaseModel and how do I use it?",
+    "correct_source": "pydantic-docs",
+    "correct_title": "Models",
+    "notes": "English, Pydantic concepts"
+  },
+  {
+    "id": 9,
+    "query": "How do I use computed fields in Pydantic v2?",
+    "correct_source": "pydantic-docs",
+    "correct_title": "Computed Fields",
+    "notes": "English, Pydantic v2 feature"
+  },
+  {
+    "id": 10,
+    "query": "How do I configure Pydantic settings from environment variables?",
+    "correct_source": "pydantic-docs",
+    "correct_title": "pydantic-settings",
+    "notes": "English, Pydantic settings"
+  },
+  {
+    "id": 11,
+    "query": "What is retrieval-augmented generation and why does it reduce hallucination?",
+    "correct_source": "arxiv-papers",
+    "correct_title": "Retrieval-Augmented Generation",
+    "notes": "English, RAG paper"
+  },
+  {
+    "id": 12,
+    "query": "How do vector embeddings represent semantic meaning?",
+    "correct_source": "corpus/data/embeddings",
+    "correct_title": "What are embeddings",
+    "notes": "English, embeddings concept"
+  },
+  {
+    "id": 13,
+    "query": "What is HNSW and how does approximate nearest neighbour search work?",
+    "correct_source": "arxiv-papers",
+    "correct_title": "HNSW",
+    "notes": "English, vector index paper"
+  },
+  {
+    "id": 14,
+    "query": "How does cosine similarity compare to dot product for vector search?",
+    "correct_source": "arxiv-papers",
+    "correct_title": "Similarity metrics",
+    "notes": "English, similarity metrics"
+  },
+  {
+    "id": 15,
+    "query": "FastAPI mein OAuth2 password bearer kaise use karte hain?",
+    "correct_source": "fastapi-docs",
+    "correct_title": "Security - OAuth2",
+    "notes": "Hinglish, FastAPI security"
+  },
+  {
+    "id": 16,
+    "query": "Pydantic model mein optional field kaise banate hain?",
+    "correct_source": "pydantic-docs",
+    "correct_title": "Fields",
+    "notes": "Hinglish, Pydantic fields"
+  },
+  {
+    "id": 17,
+    "query": "FastAPI ke saath background tasks kaise chalate hain?",
+    "correct_source": "fastapi-docs",
+    "correct_title": "Background Tasks",
+    "notes": "Hinglish, FastAPI background tasks"
+  },
+  {
+    "id": 18,
+    "query": "embedding model aur chat model mein kya antar hai?",
+    "correct_source": "arxiv-papers",
+    "correct_title": "Embedding models",
+    "notes": "Hinglish, embedding vs chat model"
+  },
+  {
+    "id": 19,
+    "query": "FastAPI में CORS कैसे enable करें?",
+    "correct_source": "fastapi-docs",
+    "correct_title": "CORS",
+    "notes": "Hindi, FastAPI CORS"
+  },
+  {
+    "id": 20,
+    "query": "What is the attention mechanism in transformer models?",
+    "correct_source": "arxiv-papers",
+    "correct_title": "Attention Is All You Need",
+    "notes": "English, transformer paper — expected to be hard"
+  }
+]

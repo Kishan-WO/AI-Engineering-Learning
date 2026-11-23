@@ -313,6 +313,9 @@ def load() -> None:
         src = sources[sid]
         for path in sorted((DATA / sid).rglob("*.md")):
             rel = path.relative_to(DATA / sid).as_posix()
+            if path.name.startswith("_"):  # e.g. FastAPI's _llm-test.md, a test file for its translation tool
+                skipped.append({"doc": f"{sid}/{rel}", "reason": "internal file (the name starts with an underscore), not documentation"})
+                continue
             text, removed = clean_markdown(path.read_text(encoding="utf-8"))
             first_h1 = next((HEADING.match(l).group(2) for l in text.split("\n") if HEADING.match(l) and l.startswith("# ")), None)
             title = first_h1 or rel.removesuffix(".md").replace("-", " ").replace("_", " ").title()
