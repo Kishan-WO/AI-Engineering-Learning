@@ -29,35 +29,36 @@ They follow the plan's "Learn" sections, in order:
 | `7.use-cases.md` | Use cases | semantic search, classification, clustering, deduplication, recommendation, anomaly detection |
 
 ## Notes (`Notes/`)
-Worked explanations that go with the learning notes, and the notes of the tasks:
+Numbered in reading order: the big picture first, then each task with the notes that belong to it.
 | Note | Goes with | What it covers |
 |---|---|---|
-| `topk-argsort-vs-argpartition.md` | `learning/1.numpy-essentials.md`, section 6 | the top-k step with a worked example: why the minus sign, `argsort` against `argpartition`, sorting only the `k` winners, cost, and the two things to watch |
-| `recall-at-k-and-mrr.md` | `learning/5.choosing-a-model.md`, sections 4 and 5 | how to score a search system: recall@k (hit rate against share found), MRR with a worked example, what to report, and the chunk against document question |
-| `renormalising-after-truncation.md` | `learning/6.dimensions.md`, section 4 | why a truncated vector has length below 1, a 2-document example where the plain dot product ranks wrongly, and the two lines that fix it |
-| `rag-architecture-and-embeddings.md` | the whole day | how the vectors reach a chat model (they do not, only the retrieved text does), the full RAG architecture with its parts and the days that build them, why a vector only matches vectors from the same embedding model, and what to re-embed when something changes |
-| `task-1-load-the-corpus.md` | task 1 | what the loader does, the real counts (234 documents, 2,097 sections), the rules and why, and what the numbers showed |
-| `task-2-embed-the-corpus.md` | task 2 | why Jina, how the batching and pacing work, the real run (116 batches, 1,270,018 tokens, 235 s of API time), and what the trial run found |
-| `task-3-numpy-search.md` | task 3 | the NumPy-only `search(query, k)`, real example output for both models, and timings |
-| `task-4-the-20-queries.md` | task 4 | the 20 queries with their correct documents, the rule for a hit, and what was wrong with the first labels |
-| `task-5-jina-vs-bge-m3-benchmark.md` | task 5 and the model comparison | recall@1, @3, @5, MRR, Hindi results, latency and cost for both models, and why the first run was wrong |
-| `task-7-near-duplicates.md` | task 7 | the threshold, the bug in the first version, the 15 pairs at 0.97 and how the count changes with the threshold |
-| `task-6-queries-where-both-models-fail.md` | task 6 | three queries where Jina and BGE-M3 both fail (Q14, Q07, Q16), what each returned and why |
-| `chunk-sizing-and-splitting.md` | `scripts/load_corpus.py` | why long sections (>1500 words) are split, `PART_WORDS = 1000` target sizing, and sentence boundary detection |
-| `embedding-batching-and-rate-limits.md` | `scripts/embed_jina.py` | dual-ceiling batching (`BATCH_TEXTS = 32`, `BATCH_TOKENS = 12_000`), rate-limit math, and HTTP timeout prevention |
+| `01-rag-architecture-and-embeddings.md` | the whole day | how the vectors reach a chat model (they do not, only the retrieved text does), the full RAG architecture with its parts and the days that build them, why a vector only matches vectors from the same embedding model, and what to re-embed when something changes |
+| `02-renormalising-after-truncation.md` | `learning/6.dimensions.md`, section 4 | why a truncated vector has length below 1, a 2-document example where the plain dot product ranks wrongly, and the two lines that fix it |
+| `03-task-1-load-the-corpus.md` | task 1 | what the loader does, the real counts (234 documents, 2,097 sections), the rules and why, and what the numbers showed |
+| `04-chunk-sizing-and-splitting.md` | `scripts/load_corpus.py` | why long sections (>1500 words) are split, `PART_WORDS = 1000` target sizing, and sentence boundary detection |
+| `05-task-2-embed-the-corpus.md` | task 2 | why Jina, how the batching and pacing work, the real run (116 batches, 1,270,018 tokens, 235 s of API time), and what the trial run found |
+| `06-embedding-batching-and-rate-limits.md` | `scripts/embed_jina.py` | dual-ceiling batching (`BATCH_TEXTS = 32`, `BATCH_TOKENS = 12_000`), rate-limit math, and HTTP timeout prevention |
+| `07-embed_jina_notes.md` | `scripts/embed_jina.py` | a walk through the main loop (set up, resume from disk, call the API, save at once, combine and check), how the `Pacer` works, and what the `.npy` and `.json` files hold |
+| `08-task-3-numpy-search.md` | task 3 | the NumPy-only `search(query, k)`, real example output for both models, and timings |
+| `09-topk-argsort-vs-argpartition.md` | `learning/1.numpy-essentials.md`, section 6 | the top-k step with a worked example: why the minus sign, `argsort` against `argpartition`, sorting only the `k` winners, cost, and the two things to watch |
+| `10-task-4-the-20-queries.md` | task 4 | the 20 queries with their correct documents, the rule for a hit, and what was wrong with the first labels |
+| `11-recall-at-k-and-mrr.md` | `learning/5.choosing-a-model.md`, sections 4 and 5 | how to score a search system: recall@k (hit rate against share found), MRR with a worked example, what to report, and the chunk against document question |
+| `12-task-5-jina-vs-bge-m3-benchmark.md` | task 5 and the model comparison | recall@1, @3, @5, MRR, Hindi results, latency and cost for both models, and why the first run was wrong |
+| `13-task-6-queries-where-both-models-fail.md` | task 6 | three queries where Jina and BGE-M3 both fail (Q14, Q07, Q16), what each returned and why |
+| `14-task-7-near-duplicates.md` | task 7 | the threshold, the bug in the first version, the 15 pairs at 0.97 and how the count changes with the threshold |
 
 ## Tasks (from the plan)
 | Task | What |
 |---|---|
 | Corpus | Choose the course corpus now: 200+ documents, some PDFs with tables, some Markdown, a licence that allows use. It is used until Day 21 |
-| **1** (done) | Load 200+ corpus documents (split long ones by heading for now). **Done:** 234 documents, 2,097 sections (`Notes/task-1-load-the-corpus.md`) |
-| **2** (done) | Embed them with one API model in batches; store the vectors as `.npy` plus a metadata JSON. **Done:** Jina v3, 2,097 sections, 1,270,018 tokens (`Notes/task-2-embed-the-corpus.md`) |
-| **3** (done) | Write `search(query, k)` with only NumPy: normalise, matrix multiply, `argpartition`. **Done:** `scripts/search.py` (`Notes/task-3-numpy-search.md`) |
-| **4** (done) | Write 20 real queries with the known correct document for each. **Done:** `scripts/queries.json` (`Notes/task-4-the-20-queries.md`) |
-| **5** | Benchmark two embedding models (one API, one open via `sentence-transformers`) on recall@5, latency and cost; include 5 Hindi or Hinglish queries. **Done:** Jina recall@5 95%, BGE-M3 90% (`Notes/task-5-jina-vs-bge-m3-benchmark.md`) |
-| **6** (done) | Find 3 queries where both models fail and explain why. **Done:** Q14, Q07, Q16 (`Notes/task-6-queries-where-both-models-fail.md`) |
-| **7** (done) | Detect near-duplicate documents with a similarity threshold. **Done:** 15 pairs at 0.97 (`Notes/task-7-near-duplicates.md`) |
-| Notes (done) | The embedding-model comparison note: `Notes/task-5-jina-vs-bge-m3-benchmark.md` |
+| **1** (done) | Load 200+ corpus documents (split long ones by heading for now). **Done:** 234 documents, 2,097 sections (`Notes/03-task-1-load-the-corpus.md`) |
+| **2** (done) | Embed them with one API model in batches; store the vectors as `.npy` plus a metadata JSON. **Done:** Jina v3, 2,097 sections, 1,270,018 tokens (`Notes/05-task-2-embed-the-corpus.md`) |
+| **3** (done) | Write `search(query, k)` with only NumPy: normalise, matrix multiply, `argpartition`. **Done:** `scripts/search.py` (`Notes/08-task-3-numpy-search.md`) |
+| **4** (done) | Write 20 real queries with the known correct document for each. **Done:** `scripts/queries.json` (`Notes/10-task-4-the-20-queries.md`) |
+| **5** | Benchmark two embedding models (one API, one open via `sentence-transformers`) on recall@5, latency and cost; include 5 Hindi or Hinglish queries. **Done:** Jina recall@5 95%, BGE-M3 90% (`Notes/12-task-5-jina-vs-bge-m3-benchmark.md`) |
+| **6** (done) | Find 3 queries where both models fail and explain why. **Done:** Q14, Q07, Q16 (`Notes/13-task-6-queries-where-both-models-fail.md`) |
+| **7** (done) | Detect near-duplicate documents with a similarity threshold. **Done:** 15 pairs at 0.97 (`Notes/14-task-7-near-duplicates.md`) |
+| Notes (done) | The embedding-model comparison note: `Notes/12-task-5-jina-vs-bge-m3-benchmark.md` |
 
 ## What earlier days already give me
 - **A service to build into:** `ai-service` (FastAPI, async SQLAlchemy, auth with tenants, `/documents` upload for `.txt`, `.md` and `.pdf`, a stored `content_hash`, a Docker Postgres on port 5433). Day 9 itself is a NumPy exercise in scripts, and the search endpoint on a vector database is Day 10.
