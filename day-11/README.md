@@ -2,14 +2,14 @@
 
 **Build target (from the plan):** an idempotent ingestion pipeline with three chunking strategies.
 
-Today starts with the learning notes (written first, as on earlier days). The build and the results come after.
+The learning notes were written first, as on earlier days, and the build came after. The code, the build log and the measured results are in the `ai-service` repository, branch `day-11` (see its `READING-ORDER.md`).
 
 ## Layout
 ```
 day-11/
   README.md      this index
   learning/      the concept notes (written first)
-  Notes/         what was built and the measured results (after the build)
+  Notes/         explanations that go with the learning notes
 ```
 
 ## Learning notes (`learning/`)
@@ -27,17 +27,19 @@ Explanations that go with the learning notes, numbered in reading order:
 |---|---|---|
 | `01-idempotent-ingestion-explained.md` | `learning/4.ingestion-engineering.md`, sections 2 and 3 | the three hashes (file, chunk id, pipeline version), what "re-ingest does nothing" means in code, and how a re-ingest after a chunker change replaces old chunks without a gap |
 
-## Tasks (from the plan, not started)
-| Task | What |
-|---|---|
-| **1** | `POST /ingest` (file or URL) enqueues a worker job: parse, clean, chunk, embed, upsert. A status endpoint |
-| **2** | Three chunkers: fixed-token with overlap, recursive, Markdown/structure-aware |
-| **3** | Contextual headers (document title + section path) on each chunk, as an option |
-| **4** | Parse 5 difficult PDFs (tables, two columns, a scanned page); record what broke |
-| **5** | Break it on purpose: split a table over two chunks, ask a question that needs both halves, show that retrieval returns only half |
-| **6** | Re-ingest the whole corpus and prove zero duplicate chunks |
-| Notes | A parsing failure catalogue |
-| Done when | I can re-run ingestion on the whole corpus and the `chunks` table does not change |
+## Tasks (from the plan, done)
+The details, commands and outputs are in `ai-service`, `notes/day-11/README.md`.
+
+| Task | What | Result |
+|---|---|---|
+| **1** | `POST /ingest` (file or URL) enqueues a worker job: parse, clean, chunk, embed, upsert. A status endpoint | done, with ARQ as the queue. A real download from the internet through a link is **not tested** |
+| **2** | Three chunkers: fixed-token with overlap, recursive, Markdown/structure-aware | done: of 28 Markdown tables, 14 were not whole in any chunk with fixed-size, and 4 with each of the other two |
+| **3** | Contextual headers (document title + section path) on each chunk, as an option | done, off by default; the effect on search is **not measured** |
+| **4** | Parse 5 difficult PDFs (tables, two columns, a scanned page); record what broke | done: 4 papers and a scan I made from a page, not a real scan. The failures are recorded, not fixed |
+| **5** | Break it on purpose: split a table over two chunks, ask a question that needs both halves, show that retrieval returns only half | done, with a caveat: with 5 results search found **none** of either table; in the first 10 (looked at afterwards) it had 5 of 7 and 8 of 22 rows. The splits came from the normal chunk size |
+| **6** | Re-ingest the whole corpus and prove zero duplicate chunks | done: 234 documents, 4,683 chunks, no duplicates |
+| Notes | A parsing failure catalogue | done: `ai-service`, `notes/day-11/parsing-failure-catalogue.md` |
+| Done when | I can re-run ingestion on the whole corpus and the `chunks` table does not change | met: the second run wrote 0 chunks and the table was identical |
 
 ## What earlier days already give me
 - **A service with tenants, users and documents:** `ai-service` has `documents` with a `content_hash` (SHA-256 of the file bytes) and a unique `(tenant_id, content_hash)`, JWT login that gives every request a tenant, and an upload route (`.txt`, `.md`, `.pdf`, up to 20 MB). The route already extracts PDF text with `pypdf` inside the request, stores **only the extracted text** (not the file), and answers a duplicate with an error that carries the existing document's id.
@@ -49,6 +51,8 @@ Explanations that go with the learning notes, numbered in reading order:
 - **A measuring habit:** every result gets a number and its limit. For chunking the real test comes on Day 12 (10 questions against all three chunkers) and Day 14 (the golden set).
 
 ## Where the build stands before Day 11 (checked 2026-11-25)
+This is how it looked **before** the Day 11 build. The results are in the task table above.
+
 | Item | State | What it means today |
 |---|---|---|
 | Day 10 tasks 1 to 3 | built in `ai-service` on branch `day-10`, **not committed yet** | the Day 11 branch has to start from this work |
