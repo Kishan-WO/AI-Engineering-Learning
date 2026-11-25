@@ -23,6 +23,12 @@ They follow the plan's "Learn" sections, in order:
 | `5.metadata-filtering.md` | Metadata filtering | pre-filtering against post-filtering, why post-filtering can return too few results, pgvector iterative scans and Qdrant payload indexes |
 | `6.multi-tenancy.md` | Multi-tenancy | tenant column plus filter, collection per tenant, payload partitioning, and why isolation must be inside the query |
 
+## Notes (`Notes/`)
+Explanations that go with the learning notes, numbered in reading order:
+| Note | Goes with | What it covers |
+|---|---|---|
+| `01-pgvector-syntax-and-index-build-explained.md` | `learning/3.indexes-hnsw-and-ivfflat.md`, sections 3 and 5 | the pgvector SQL line by line (extension, `vector(1024)`, the HNSW index and its operator class, `ef_search`, the distance query), distance against similarity, the dimension limit, and why an HNSW build is slow and how much memory it needs |
+
 ## Tasks (from the plan, not started)
 | Task | What |
 |---|---|
