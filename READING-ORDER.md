@@ -1,6 +1,6 @@
 # Reading order: what was done each day, and in which order to read it
 
-This repository holds my learning notes, the practice code and the measured results of the course, one folder per day. The service itself (`ai-service`, Days 3 to 8) is in a separate repository: Days 5 to 8 here hold the concept notes and the result notes, and the code is in `ai-service` on the branch `day-N`.
+This repository holds my learning notes, the practice code and the measured results of the course, one folder per day. The service itself (`ai-service`: Days 3 to 8, 10 and 11) is in a separate repository, and its code is on the branch `day-N`. Days 5 to 8 here hold the concept notes and the result notes; for Days 10 and 11 the result notes are in `ai-service` too.
 
 Every day folder follows the same shape, so a day can be read the same way each time:
 1. `README.md`: the build target, the tasks and what each one gave.
@@ -42,8 +42,11 @@ Read in this order:
 5. `scripts/` in task order: `load_corpus.py`, `embed_jina.py`, `search.py`, `queries.json`, `benchmark.py`, `detect_near_duplicates.py`.
 6. `results/`: `benchmark_results.json`, `near_duplicates_jina_0.97.json`, the two `*_meta.json` files, `search_examples.txt`, and `sample_vector/` (one real vector in four formats, with their sizes).
 
-## Day 10: vector databases (`day-10/`), learning notes so far
-Read in this order: `README.md` (the tasks), then `learning/1.why-a-vector-database.md` to `6.multi-tenancy.md`. The build (pgvector, Qdrant, `POST /search`, the isolation test) is not in this repository yet.
+## Day 10: vector databases (`day-10/`)
+Read in this order: `README.md` (the tasks and what each one gave); `learning/1.why-a-vector-database.md` to `6.multi-tenancy.md`; then `Notes/01-pgvector-syntax-and-index-build-explained.md` (it goes with learning note 3). The build (pgvector, Qdrant, `POST /search`, the isolation test) and its results are in `ai-service`, branch `day-10` (`READING-ORDER.md` there).
+
+## Day 11: RAG I, ingestion, parsing and chunking (`day-11/`)
+Read in this order: `README.md` (the tasks and what each one gave); `learning/1.the-rag-pipeline.md` to `4.ingestion-engineering.md`; then `Notes/01-idempotent-ingestion-explained.md` (it goes with learning note 4). The ingestion pipeline, the build log and the parsing failure catalogue are in `ai-service`, branch `day-11` (`READING-ORDER.md` there).
 
 ## How to run the code of a day
 Days 1, 2, 4 and 9 each have a `pyproject.toml`: in that day's folder run `uv sync`, then run the scripts with `.venv/Scripts/python script.py` (Windows). API keys go in a `.env` file in the day's folder (copy `.env.example`); `.env` is ignored by git.
