@@ -2,14 +2,14 @@
 
 **Build target (from the plan):** `POST /search` (semantic, tenant-isolated) on pgvector, ported to Qdrant.
 
-Today starts with the learning notes (written first, as on earlier days). The build and the results come after.
+The learning notes were written first, as on earlier days, and the build came after. The code, the build log and the measured results are in the `ai-service` repository, branch `day-10` (see its `READING-ORDER.md`).
 
 ## Layout
 ```
 day-10/
   README.md      this index
   learning/      the concept notes (written first)
-  Notes/         what was built and the measured results (after the build)
+  Notes/         explanations that go with the learning notes
 ```
 
 ## Learning notes (`learning/`)
@@ -29,18 +29,20 @@ Explanations that go with the learning notes, numbered in reading order:
 |---|---|---|
 | `01-pgvector-syntax-and-index-build-explained.md` | `learning/3.indexes-hnsw-and-ivfflat.md`, sections 3 and 5 | the pgvector SQL line by line (extension, `vector(1024)`, the HNSW index and its operator class, `ef_search`, the distance query), distance against similarity, the dimension limit, and why an HNSW build is slow and how much memory it needs |
 
-## Tasks (from the plan, not started)
-| Task | What |
-|---|---|
-| **1** | Add a `chunks` table with a vector column and an HNSW index (pgvector); store chunk text, document id, tenant id, metadata and the embedding model name |
-| **2** | Embed and upsert the corpus with a script (it moves to a background worker on Day 11) |
-| **3** | `POST /search`: embed the query, search with the tenant filter, return chunks with scores. No LLM yet |
-| **4** | Measure recall@5 against yesterday's 20 queries; compare HNSW with exact search; tune `ef_search` |
-| **5** | Port the same index to Qdrant behind a `VectorStore` protocol; switch by config |
-| **6** | Isolation test: a query from tenant 2 can never return tenant 1 chunks, including when tenant 2 has zero documents |
-| **7** | Delete a document and prove its vectors disappear |
-| Notes | A pgvector against Qdrant note |
-| Done when | I can find a document using words that never appear in it |
+## Tasks (from the plan, done)
+The details, commands and outputs are in `ai-service`, `notes/day-10/README.md`.
+
+| Task | What | Result |
+|---|---|---|
+| **1** | Add a `chunks` table with a vector column and an HNSW index (pgvector); store chunk text, document id, tenant id, metadata and the embedding model name | done |
+| **2** | Embed and upsert the corpus with a script (it moves to a background worker on Day 11) | done: the script loaded the 2,097 Day 9 sections with the vectors saved on Day 9, so nothing was embedded again |
+| **3** | `POST /search`: embed the query, search with the tenant filter, return chunks with scores. No LLM yet | done |
+| **4** | Measure recall@5 against yesterday's 20 queries; compare HNSW with exact search; tune `ef_search` | done: exact search got 19 of 20; HNSW at `ef_search` 40 returned the same 100 top-5 chunks; at 5 it lost 7 of them; the app uses 100 |
+| **5** | Port the same index to Qdrant behind a `VectorStore` protocol; switch by config | done: chosen by `VECTOR_STORE`, default `pgvector` |
+| **6** | Isolation test: a query from tenant 2 can never return tenant 1 chunks, including when tenant 2 has zero documents | done |
+| **7** | Delete a document and prove its vectors disappear | done |
+| Notes | A pgvector against Qdrant note | done: `ai-service`, `notes/day-10/pgvector-vs-qdrant.md` |
+| Done when | I can find a document using words that never appear in it | met: a Hindi question found the CORS page without using any word from it |
 
 ## What earlier days already give me
 - **A service with tenants and documents:** `ai-service` already has `tenants`, `users`, `documents` (with a `content_hash`), JWT login that gives every request a tenant, async SQLAlchemy and Alembic migrations. The `chunks` table, its tenant column and its foreign key to `documents` fit straight into it.
